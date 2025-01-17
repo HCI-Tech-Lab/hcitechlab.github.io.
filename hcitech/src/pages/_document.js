@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import Image from 'next/image';
 
 export default function Document() {
   return (
@@ -11,6 +12,25 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <footer className="py-4 bg-black">
+          <div className = "container">
+            <div className = "row">
+              <div class="col-lg-6 px-4"> 
+                <h5 className="m-0 text-left text-white" style= {{fontSize:"medium"}} ><b>HCI Tech Lab</b></h5> 
+                <h5 className="m-0 text-left" style= {{color: "lightgray", fontSize:"small"}}>
+                  KAIST, N5, Room 2346<br />
+                  291 Daehak-ro, Yuseong-gu, Daejeon (34141) <br />
+                  Republic of Korea
+                </h5> 
+              </div>
+
+              <div className="col-lg-6 text-keft">
+                <Image alt="footer" src="/CT_New_Logo_White.png" width = {5000} height={500} style={{ height: '50px' , width: "auto"}}/>
+              </div>
+
+            </div>
+          </div>
+        </footer>
       </body>
     </Html>
   );

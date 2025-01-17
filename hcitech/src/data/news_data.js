@@ -295,4 +295,228 @@ export const news = [
         content: "Jina, Kyungeun, Nicha participated in IEEE VR conference held in Shanghai to present posters!",
         images: ["/img/Lab/2303/IEEEVR_JK.jpg", "/img/Lab/2303/IEEEVR_KJ.jpg", "/img/Lab/2303/IEEEVR_Nicha.jpg"]
     },
+    {
+        icon: "",
+        title: "Venture Research Program",
+        date: "Mar 20 2023",
+        content: "Jina & Min-yung's Venture Research Proposal on 'Interaction improvement using sensing technology' was selected!",
+        images: []
+    },
+    {
+        icon: "/img/icon/project.png",
+        title: "New Research Project",
+        date: "Mar 17 2023",
+        content: "Outstanding Young Scientist Grants (NRF) on 'A wearable multimodal sensing framework for adaptive interaction in extended reality' selected.",
+        images: []
+    },
+    {
+        icon: "/img/icon/speaker.png",
+        title: "Recruiting Graduate Students",
+        date: "Mar 10 2023",
+        content: "We have positions for M.S. & Ph.D for Spring 2023. Please register for information session for Graduate School of Culture Technology.",
+        images: []
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Graduate Students & Intern",
+        date: "Mar 6 2023",
+        content: "Welcome our new Ph.D. student Seo Young Oh (Co-advising), and spring intern Hyunyoung Han!",
+        images: []
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Graduate Students",
+        date: "Feb 27 2023",
+        content: "Welcome our new MS students Dong Kyu, Min-yung, Hyung Il, Soyeong, and Junghoon!",
+        images: []
+    },
+    {
+        icon: "/img/icon/graduation.png",
+        title: "Graduation",
+        date: "Feb 17 2023",
+        content: "Minjae successfully defended his M.S. Thesis & graduated.",
+        images: ["/img/Lab/2302_1/G1.png"]
+    },
+    {
+        icon: "",
+        title: "HCI Korea 2023",
+        date: "Feb 3 2023",
+        content: "Our lab participated in HCI Korea 2023!",
+        images: ["/img/Lab/2302/HCIKorea2023.png"]
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "VR 2023 Posters",
+        date: "Jan 30 2023",
+        content: <div>Three posters will be presented at <Link href="https://ieeevr.org/2023/" target="_blank">VR 2023</Link>. <Link href="News/VR2023.html" target="_blank">Read more</Link>.</div>,
+        images: []
+    },
+    {
+        icon: "",
+        title: "HaptX Training!",
+        date: "Jan 20 2023",
+        content: "Our team had HaptX Gloves tutorial training provided by HaptX HQ.",
+        images: ["/img/Lab/2301/230120_HaptX2.JPG"]
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Winter Research Kickoff Meeting",
+        date: "Jan 9 2023",
+        content: "Welcome our new winter interns (Dongkyu, Hyung Il, Soyeong, Min-yung, Kun-woo).",
+        images: ["/img/Lab/2212/230110_Lab_Meeting.jpg"]
+    },
+    {
+        icon: "/img/icon/speaker.png",
+        title: "Winter 2023 Undergraduate Research Internship",
+        date: "Dec 7 2022",
+        content: "We are looking for research interns for 2023 Winter. Internship Application deadline is Dec 19th.",
+        images: []
+    },
+    {
+        icon: "/img/icon/award.png",
+        title: "VRST Best In-Person Poster/Demo Award",
+        date: "Dec 1 2022",
+        content: <div>Our <Link href="https://dl.acm.org/doi/abs/10.1145/3562939.3565672" target="_blank">Exploring Vibration Intensity Map Of Hand Postures</Link> poster wins the Best In-Person Poster/Demo Award Voted by Attendees at VRST 2022!</div>,
+        images: ["/img/Lab/2212/Award_Certificate.png", "/img/Lab/2212/YS_Award1.jpg"]
+    },
+    {
+        icon: "/img/icon/speaker.png",
+        title: "Recruiting Graduate Students",
+        date: "Sep 15 2022",
+        content: <div>We have positions for M.S. & Ph.D for Spring 2023. Please check <Link href="recruiting_graduate.html" target="_blank">Open Positions</Link> & <Link href="https://meta.kaist.ac.kr" target="_blank">KAIST Metaverse program</Link>.</div>,
+        images: []
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "VRST 2022 Posters",
+        date: "Sep 7 2022",
+        content: <div>Youjin's work on vibration intensity map based on hand posture in collaboration with Technische Universität Dresden & Zofia's work (URP) on finger-worn haptic actuator will be presented at <Link href="https://vrst.acm.org/vrst2022/" target="_blank">VRST2022</Link>.</div>,
+        images: []
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "ISMAR 2022 Posters",
+        date: "Aug 22 2022",
+        content: <div>Three poster papers from <Link href="https://hcitech.org/course/CTP445_Spring2022.html" target="_blank">CTP445</Link> class will be presented at <Link href="https://ismar2022.org/" target="_blank">ISMAR2022</Link>.</div>,
+        images: []
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Graduate Students",
+        date: "Aug 29 2022",
+        content: "Welcome our new MS students Kyungjin and Kyungeun!",
+        images: []
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "SIGGRAPH 2022 Emerging Technologies",
+        date: "Jul 4 2022",
+        content: <div>Our SIGGRAPH 2022 Emerging Technologies paper <Link href="https://s2022.siggraph.org/presentation/?id=gensub_329&sess=sess220" target="_blank">Sense of Embodiment Inducement for People With Reduced Lower-body Mobility and Sensations With Partial-visuomotor Stimulation</Link> in collaboration with LAVA Lab & Visual Cognition Lab is highlighted on <Link href="https://blog.siggraph.org/2022/06/researchers-make-sense-of-embodiment-available-to-all.html/" target="_blank">SIGGRAPH Blog</Link>!</div>,
+        images: []
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "ECCV 2022",
+        date: "Jul 4 2022",
+        content: <div>Sound-Guided Semantic Video Generation in collaboration with Computer Vision Lab is accepted to <Link href="https://eccv2022.ecva.net/" target="_blank">ECCV2022</Link>!</div>,
+        images: []
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Summer Interns",
+        date: "June 24 2022",
+        content: "Welcome summer interns Dong Kyu, Min-yung, and Jungmin.",
+        images: ["/img/Lab/220624_Meeting.jpg"]
+    },
+    {
+        icon: "/img/icon/project.png",
+        title: "New Research Projects",
+        date: "June 1 2022",
+        content: "Research projects supported by Korea Creative Content Agency (KOCCA) & National Research Foundation of Korea (NRF).",
+        images: []
+    },
+    {
+        icon: "/img/icon/speaker.png",
+        title: "Undergraduate Research Internship",
+        date: "May 2022",
+        content: "We are looking for research interns for 2022 Summer.",
+        images: []
+    },
+    {
+        icon: "",
+        title: "Lab Meeting & Lunch Gathering",
+        date: "Apr 29 2022",
+        content: "Kicked off regular research meeting!",
+        images: ["/img/Lab/220429_Lab Meeting.jpg", "/img/Lab/220429_Lunch.jpg"]
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Graduate Student",
+        date: "Mar 2 2022",
+        content: "Welcome our new MS student Youjin!",
+        images: []
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "CVPR 2022",
+        date: "Mar 2 2022",
+        content: <div>Sound-Guided Semantic Image Manipulation in collaboration with Computer Vision Lab is accepted to <Link href="https://cvpr2022.thecvf.com/" target="_blank">CVPR2022</Link>!</div>,
+        images: []
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Winter Interns",
+        date: "Jan 17 2022",
+        content: "Welcome KAIST undergraduate interns Nicha, Yoonseo, and Haebin.",
+        images: []
+    },
+    {
+        icon: "",
+        title: "First Lab Meeting",
+        date: "Jan 13 2022",
+        content: "First Lab Meeting including Graduate Students & Undergraduate Interns.",
+        images: ["/img/Lab/211201_Group.jpg"]
+    },
+    {
+        icon: "",
+        title: "Lab Opening!",
+        date: "Jan 3 2022",
+        content: "Officially opened the lab area. Work-in-progress setting up the lab with members.",
+        images: []
+    },
+    {
+        icon: "",
+        title: "URP Individual Research Selected",
+        date: "Dec 21 2021",
+        content: "Individual Research Proposal by Zofia has been accepted. This is exploratory research to enable <i>Novel Haptic Interface</i>.",
+        images: []
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Graduate Students",
+        date: "Dec 13 2021",
+        content: "Welcome our new MS student Minjae and Interns Zofia and Kyungeun.",
+        images: []
+    },
+    {
+        icon: "/img/icon/project.png",
+        title: "New Research Project",
+        date: "Dec 1 2021",
+        content: "<b>Development of Open XR platform for high immersive collaboration</b> supported by National Research Council of Science and Technology (NST) for 6 years.",
+        images: []
+    },
+    {
+        icon: "/img/icon/Welcome.jpg",
+        title: "Graduate Student",
+        date: "Nov 4 2021",
+        content: "Welcome our new MS student Jina!",
+        images: []
+    },
+    {
+        icon: "",
+        title: "Lab Website Open!",
+        date: "Sep 27 2021",
+        content: "Beta version website is open. The website will be actively updated.",
+        images: []
+    }
 ];

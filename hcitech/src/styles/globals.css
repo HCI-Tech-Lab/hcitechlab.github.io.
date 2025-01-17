@@ -95,36 +95,46 @@ h6 {
   position: relative;
 }
 
-div.title {
+.title {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-div.title_news {
+.title_news {
   font-weight: bold;
   font-size: 15px;
 }
 
-div.date {
+.date {
   font-size: 11px;
   font-style: italic;
   margin-bottom: 2px;
 }
 
-div.context {
+.context {
   font-family: 'Inter', sans-serif;
   margin-bottom: 10px;
   font-size: 16px;
 }
 
-div.context_news {
+.context_news {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 13px;
 }
 
-div.news_item{
+.news-item {
+  flex: 0 0 auto;
+  width: 50%;
+  margin-bottom:50px;
+
+  border-left: 3px solid #000080;
+  left: 3%;
+  position: relative;
+}
+
+.news_item{
   max-width: 100%;
   margin-bottom: 5px;
 
@@ -146,4 +156,42 @@ a {
   max-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.publication-link{
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  font-size: 12px;
+  font-weight: normal;
+  white-space: normal !important;
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  line-height: 1;
+  text-align: center;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.publication-link:hover {
+  color: #17a2b8; 
+  background-color: #fff; 
+  border-color: #17a2b8; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.research_item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }

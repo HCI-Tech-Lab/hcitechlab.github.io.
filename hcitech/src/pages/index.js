@@ -2,7 +2,10 @@ import Carousel from "@/components/carousel";
 import Image from 'next/image';
 import Link from 'next/link';
 import {news} from '../data/news_data';
+import { research } from "@/data/research_data";
 
+
+// MainBody
 
 export default function Home() {
   return (
@@ -10,13 +13,22 @@ export default function Home() {
       <Carousel />
       <div className = "container">
         <div className = "row">
+
           <WelcomeCard />
+
           <NewsCard />
+
+          <ResearchHighlights />
+
+          <HighlightedPublicatons />
+
         </div>
       </div>
     </div>
   );
 }
+
+//WelcomeCard
 
 const WelcomeCard = () => {
   return (
@@ -46,6 +58,8 @@ const WelcomeCard = () => {
   );
 }
 
+//NewsCard
+
 const NewsCard = () => {
   return (
     <div className="col-md-6 mb-3">
@@ -55,17 +69,40 @@ const NewsCard = () => {
           <div className="scroll-box" style={{ height: '600px' }}>
             <div className="scroll">
               <div className="row news_item mt-4">
-                {
-                  news.map((news, _) => (
-                    <div className="news-item1">
-                      <div className = "title_news"><Image alt = "icon" src = {news["icon"]} width = {news["tall"] ? 41.88 : 25} height = {news["tall"] ? 35 : 25}/>&nbsp; {news["title"]}</div>
-                      <div className="date"> {news["date"]}</div>
-                      <div className="context_news mb-3">{news["content"]}</div>
-                      {
-                        news["images"].map((src, _) => (
-                          <Image alt="news_image" src={src} width = {5000} height={150} style={{ width: 'auto', marginRight: '4px' }} />
-                        ))
-                      }
+              {
+                news
+                  .filter((newsItem) => {
+                    const oneYearAgo = new Date();
+                    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+
+                    const newsDate = new Date(newsItem.date);
+                    return newsDate >= oneYearAgo && newsDate <= new Date();
+                  })
+                  .map((newsItem, _) => (
+                    <div className="news-item1" key={_}>
+                      <div className="title_news">
+                        {newsItem["icon"] === "" ? null : (
+                          <Image
+                            alt="icon"
+                            src={newsItem["icon"]}
+                            width={newsItem["tall"] ? 41.88 : 25}
+                            height={newsItem["tall"] ? 35 : 25}
+                          />
+                        )}
+                        &nbsp; {newsItem["title"]}
+                      </div>
+                      <div className="date"> {newsItem["date"]}</div>
+                      <div className="context_news mb-3">{newsItem["content"]}</div>
+                      {newsItem["images"].map((src, index) => (
+                        <Image
+                          key={index}
+                          alt="news_image"
+                          src={src}
+                          width={5000}
+                          height={150}
+                          style={{ width: 'auto', marginRight: '4px' }}
+                        />
+                      ))}
                     </div>
                   ))
                 }
@@ -75,6 +112,66 @@ const NewsCard = () => {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+
+//ResearchHighlights
+
+const ResearchHighlights = () => {
+  return (
+    <div className = "container">
+      <div className="col-lg-12 mb-3">
+        <div className="card h-100">
+          <div className="card-body">
+            <h2 className="card-title">Research Highlights</h2>
+            <Image alt="..." src="/img/Research_Highlight_2024.jpg" width = {5000} height={500} className = "w-100 d-block mx-auto" style={{ height: 'auto'}}/>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+//HighlightedPublications
+
+const HighlightedPublicatons = () => {
+  return (
+    <div className = "container">
+      <div className = "row">
+        <div class="col-lg-12 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 className="card-title">Highlighted Publications</h2>
+              {
+                  research.map((item, _) => (
+                    item["highligt"] == false ? null : (
+                      <div className = "row research_item">
+                        <div className = "col-md-3">
+                            <video  class="img-fluid" autoPlay loop muted playsInline poster={item["poster"]}>
+                              <source type="video/mp4" src={item['demo']} />
+                            </video>
+                        </div>
+                        <div class="col-md-9">
+                            <h4><b>{item['title']}</b></h4>
+                            <h6><b>AUTHORS</b> {item['authors']}</h6>
+                            <h6><b>IN {item['journal'] ? "" : "PROCEEDINGS"}</b> <Link className="link-success" href={item['conferenceLink']} target="_blank"> {item['conference']}</Link></h6>
+                            {item['doi'] == "" ? null : <Link className="publication-link"  href={item['doi']} target="_blank">DOI</Link>}
+                            {item['video'] == "" ? null : <Link className="publication-link"  href={item['video']} target="_blank">VIDEO</Link>}
+                            {item['pdf'] == "" ? null : <Link className="publication-link"  href={item['pdf']} target="_blank">PDF</Link>}
+                            {item['presentation'] == "" ? null : <Link className="publication-link"  href={item['presentation']} target="_blank">PRESENTATION</Link>}
+                            {item['media'] == "" ? null : <Link className="publication-link"  href={item['media']} target="_blank">MEDIA</Link>}
+                        </div>
+                      </div>
+                    )
+                  ))
+                }
+            </div>
+          </div>
+        </div>
+      </div>
+        
     </div>
   );
 }

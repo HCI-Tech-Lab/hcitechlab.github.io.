@@ -15,7 +15,7 @@ export default function Document() {
         <footer className="py-4 bg-black">
           <div className = "container">
             <div className = "row">
-              <div class="col-lg-6 px-4"> 
+              <div className="col-lg-6 px-4"> 
                 <h5 className="m-0 text-left text-white" style= {{fontSize:"medium"}} ><b>HCI Tech Lab</b></h5> 
                 <h5 className="m-0 text-left" style= {{color: "lightgray", fontSize:"small"}}>
                   KAIST, N5, Room 2346<br />

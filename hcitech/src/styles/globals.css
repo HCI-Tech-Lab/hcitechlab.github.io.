@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 nav.navbar {
   font-family: Helvetica;
   font-size: 17px;
@@ -8,12 +12,17 @@ nav.navbar {
 }
 
 .nav-link {
-  color: rgb(30, 30, 30) !important;
+  color: rgb(30, 30, 30);
+}
+
+.active {
+  color: #1260de !important;
 }
 
 .nav-link:hover {
   color: #0046b8 !important;
 }
+
 
 .carousel-container {
   margin-top: 2rem;
@@ -84,6 +93,7 @@ h6 {
   font-size: 12px;
   font-weight: normal;
 }
+
 
 .news-item1 {
   flex: 0 0 auto;
@@ -182,6 +192,13 @@ a {
 .publication-link:hover {
   color: #17a2b8; 
   background-color: #fff; 
+  border-color: #17a2b8; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.badge:hover {
+  color: #17a2b8; 
+  background-color: #fff !important; 
   border-color: #17a2b8; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }

@@ -42,9 +42,9 @@ const WelcomeCard = () => {
               <p> We envision natural user interactions that overcome physical, mental, and social barriers. To achieve this, we will focus on</p>
               <br />
               <ul>
-                  <li><b>Embedding Interactive Technologies</b></li>
-                  <li><b>Advancing Interaction Techniques</b></li>
-                  <li><b>Authoring User Interface & Experience</b></li>
+                  <li key="embedding"><b>Embedding Interactive Technologies</b></li>
+                  <li key="advancing"><b>Advancing Interaction Techniques</b></li>
+                  <li key="authoring"><b>Authoring User Interface & Experience</b></li>
               </ul>
             </h5>
             <br />
@@ -140,16 +140,16 @@ const HighlightedPublicatons = () => {
   return (
     <div className = "container">
       <div className = "row">
-        <div class="col-lg-12 mb-3">
-          <div class="card h-100">
-            <div class="card-body">
+        <div className="col-lg-12 mb-3">
+          <div className="card h-100">
+            <div className="card-body">
               <h2 className="card-title">Highlighted Publications</h2>
               {
                   research.map((item, _) => (
                     item["highligt"] == false ? null : (
                       <div className = "row research_item">
                         <div className = "col-md-3">
-                            <video  class="img-fluid" autoPlay loop muted playsInline poster={item["poster"]}>
+                            <video  className="img-fluid" autoPlay loop muted playsInline poster={item["poster"]}>
                               <source type="video/mp4" src={item['demo']} />
                             </video>
                         </div>

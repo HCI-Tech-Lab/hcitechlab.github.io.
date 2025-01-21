@@ -27,11 +27,13 @@ export default function Home() {
 
           <div className = "col-md-6 mb-3">
             <div className="card h-100">
-              <div className="card-body d-flex justify-content-center align-items-center">
+              <div className="card-body">
+              <h2 className="card-title">HCI Tech Youtube </h2>
               <iframe
                 id="inlineFrameExample"
                 title="Inline Frame Example"
                 style={{ width: "100%", height: "70%", border: "none" }}
+                className = "mt-4"
                 src="https://www.youtube.com/embed?v=o1ZpTgbIe6E&list=PLsnyS9wZul9aMbtTRLQ0rNsmXzq_SZF3x&autoplay=1&mute=1">
               </iframe>
               </div>

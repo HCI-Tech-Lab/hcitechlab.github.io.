@@ -10,13 +10,33 @@ import { research } from "@/data/research_data";
 export default function Home() {
   return (
     <div>
-      <Carousel />
       <div className = "container">
         <div className = "row">
 
           <WelcomeCard />
 
+          <div className = "col-md-7 mb-3">
+            <div className="card h-100">
+              <div className="card-body">
+                <Carousel />
+              </div>
+            </div>
+          </div>
+
           <NewsCard />
+
+          <div className = "col-md-6 mb-3">
+            <div className="card h-100">
+              <div className="card-body d-flex justify-content-center align-items-center">
+              <iframe
+                id="inlineFrameExample"
+                title="Inline Frame Example"
+                style={{ width: "100%", height: "70%", border: "none" }}
+                src="https://www.youtube.com/embed?v=o1ZpTgbIe6E&list=PLsnyS9wZul9aMbtTRLQ0rNsmXzq_SZF3x&autoplay=1&mute=1">
+              </iframe>
+              </div>
+            </div>
+          </div>
 
           <ResearchHighlights />
 
@@ -32,26 +52,26 @@ export default function Home() {
 
 const WelcomeCard = () => {
   return (
-    <div className="col-md-6 mb-3">
+    <div className="col-md-5 mb-3">
       <div className="card h-100">
         <div className="card-body">
-            <h1>Welcome to HCI Tech Lab!</h1>
-            <h5>
+            <h2>Welcome to HCI Tech Lab!</h2>
+            <h4>
               <p> We are a multidisciplinary research group working on physical computing, natural user interface, and socially acceptable interactions. Our research focuses on enabling novel interactions for Extended Reality (XR) through sensing/haptic feedback technology and wearable interface with the aid of applied machine learning while supporting intelligent authoring systems.</p>
-              <br />
+              
               <p> We envision natural user interactions that overcome physical, mental, and social barriers. To achieve this, we will focus on</p>
-              <br />
+              
               <ul>
                   <li key="embedding"><b>Embedding Interactive Technologies</b></li>
                   <li key="advancing"><b>Advancing Interaction Techniques</b></li>
                   <li key="authoring"><b>Authoring User Interface & Experience</b></li>
               </ul>
-            </h5>
+            </h4>
+            
+            <Link class="btn btn-primary" href="https://www.youtube.com/@HCI_Tech" target="_blank"><b>HCI Tech Youtube</b></Link>
             <br />
-            <a class="btn btn-primary" href="https://www.youtube.com/@HCI_Tech" target="_blank"><b>HCI Tech Youtube</b></a>
             <br />
-            <br />
-            <a class="btn btn-dark" href="https://youtu.be/BndS5KMmBHA" target="_blank"><b>Learn More about HCI Tech Lab through this video (Korean)</b></a>
+            <Link class="btn btn-dark" href="https://youtu.be/BndS5KMmBHA" target="_blank"><b>Learn More about HCI Tech Lab through this video (Korean)</b></Link>
         </div>
       </div>
     </div>
@@ -66,7 +86,7 @@ const NewsCard = () => {
       <div className="card h-100">
         <div className="card-body">
           <h2 className="card-title">News </h2>
-          <div className="scroll-box" style={{ height: '600px' }}>
+          <div className="scroll-box" style={{ height: '400px' }}>
             <div className="scroll">
               <div className="row news_item mt-4">
               {

@@ -1,4 +1,4 @@
-const images = ["/C00.jpg", "/C10.jpg", "/C6.jpg", "/C7.jpg", "/C8.jpg"];
+const images = ["/C00.jpg", "/C10-new.png", "/C6.jpg", "/C7.jpg", "/C8.jpg"];
 
 const Carousel = () => {
 

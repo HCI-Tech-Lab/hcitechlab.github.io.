@@ -145,15 +145,15 @@ const HighlightedPublicatons = () => {
             <div className="card-body">
               <h2 className="card-title">Highlighted Publications</h2>
               {
-                  research.map((item, _) => (
+                  research.map((item, index) => (
                     item["highligt"] == false ? null : (
-                      <div className = "row research_item">
+                      <div key = {index} className = "row research_item">
                         <div className = "col-md-3">
                             <video  className="img-fluid" autoPlay loop muted playsInline poster={item["poster"]}>
                               <source type="video/mp4" src={item['demo']} />
                             </video>
                         </div>
-                        <div class="col-md-9">
+                        <div className="col-md-9">
                             <h4><b>{item['title']}</b></h4>
                             <h6><b>AUTHORS</b> {item['authors']}</h6>
                             <h6><b>IN {item['journal'] ? "" : "PROCEEDINGS"}</b> <Link className="link-success" href={item['conferenceLink']} target="_blank"> {item['conference']}</Link></h6>

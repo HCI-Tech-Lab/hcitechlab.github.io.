@@ -6,7 +6,7 @@ export default function Courses() {
     return (
       <SectionContainer>
         <h2 className="card-title">Courses</h2>
-        <div className = "row news_item">
+        <div className = "row courses_item">
           {
             courses.map((course, _) => (
               <div className = "news-item">

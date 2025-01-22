@@ -146,10 +146,10 @@ const InternAlumni = () => {
       {
         internAlumni.map(
           (member, index) => (
-            <p key = {index} class="alumni">
+            <p key = {index} className="alumni">
               {member['nameLink'] == '#' ? member['name'] + " " : <Link href={member['nameLink']} target="_blank">{member['name']} </Link>} 
-              <span class="type">{member['title']} </span>
-              <span class="period">{member['period']} </span>
+              <span className="type">{member['title']} </span>
+              <span className="period">{member['period']} </span>
               <span className = "type">{member['current']}</span>
             </p>
           )

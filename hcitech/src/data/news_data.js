@@ -488,7 +488,7 @@ export const news = [
         icon: "",
         title: "URP Individual Research Selected",
         date: "Dec 21 2021",
-        content: "Individual Research Proposal by Zofia has been accepted. This is exploratory research to enable <i>Novel Haptic Interface</i>.",
+        content: <div>Individual Research Proposal by Zofia has been accepted. This is exploratory research to enable <i>Novel Haptic Interface</i>.</div>,
         images: []
     },
     {
@@ -502,7 +502,7 @@ export const news = [
         icon: "/img/icon/project.png",
         title: "New Research Project",
         date: "Dec 1 2021",
-        content: "<b>Development of Open XR platform for high immersive collaboration</b> supported by National Research Council of Science and Technology (NST) for 6 years.",
+        content: <div><strong>Development of Open XR platform for high immersive collaboration</strong> supported by National Research Council of Science and Technology (NST) for 6 years.</div>,
         images: []
     },
     {

@@ -15,7 +15,7 @@ export default function Home() {
 
           <WelcomeCard />
 
-          <div className = "col-md-7 mb-3">
+          <div className = "col-md-6 mb-3">
             <div className="card h-100">
               <div className="card-body">
                 <Carousel />
@@ -54,7 +54,7 @@ export default function Home() {
 
 const WelcomeCard = () => {
   return (
-    <div className="col-md-5 mb-3">
+    <div className="col-md-6 mb-3">
       <div className="card h-100">
         <div className="card-body">
             <h2>Welcome to HCI Tech Lab!</h2>

@@ -7,12 +7,7 @@ const Carousel = () => {
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <ol className="carousel-indicators">
                 {images.map((_, index) => (
-                <li
-                    key={index}
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to={index}
-                    className={index === 0 ? "active" : ""}
-                ></li>
+                <li key={index} data-bs-target="#carouselExampleIndicators" data-bs-slide-to={index} className={index === 0 ? "active" : ""}></li>
                 ))}
             </ol>
             <div className="carousel-inner">

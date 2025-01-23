@@ -84,7 +84,7 @@ const Interns = () => {
         interns.map(
           (member, index) => (
             <>
-              <div key = {index} className = "col-lg-3 col-3" style={{textAlign: "center", paddingBottom: "20px"}}>
+              <div className = "col-lg-3 col-3" style={{textAlign: "center", paddingBottom: "20px"}}>
                 <img class="img-fluid img-thumbnail img-people" src={member['img']}/>
               </div>
               <div class="col-lg-3 col-3">

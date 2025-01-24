@@ -453,6 +453,23 @@ export const research_temp = {
     ],
     "2019": [
         {
+            poster: "/research/Hapsense/Hapsense.png",
+            demo: "/research/Hapsense/Hapsense.mp4",
+            title: "HapSense: A Soft Haptic I/O Device with Uninterrupted Dual Functionalities of Force Sensing and Vibrotactile Actuation",
+            authors: "Sang Ho Yoon, Woo Suk Lee, Shantanu Thakurdesai, Di Sun, Flávio P. Ribeiro, James D. Holbery",
+            status: "",
+            conference: "ACM UIST 2019",
+            conferenceLink: "https://uist.acm.org/uist2019",
+            award: "",
+            website: "",
+            doi: "https://dl.acm.org/doi/10.1145/3332165.3347888",
+            video: "https://youtu.be/VpoEI6o3vMA",
+            pdf: "/research/Hapsense/Hapsense.pdf",
+            presentation: "https://youtu.be/O3i3IaMdbXg",
+            media: "",
+            highligt: true,
+        },
+        {
             poster: "/research/MultiSoft/MultiSoft.jpg",
             demo: "/research/MultiSoft/MultiSoft.mp4",
             title: "MultiSoft: Soft Sensor Enabling Real-Time Multimodal Sensing with Contact Localization and Deformation Classification",
@@ -505,7 +522,7 @@ export const research_temp = {
             pdf: "/research/iSoft/iSoft.pdf",
             presentation: "https://youtu.be/_YupB3qLikQ",
             media: "https://www.youtube.com/watch?v=7fNbM-lrX-E",
-            highligt: false,
+            highligt: true,
         },
         {
             poster: "/research/BikeGesture/BikeGesture.jpg",
@@ -558,7 +575,7 @@ export const research_temp = {
             pdf: "/research/TRing/TRing.pd",
             presentation: "https://youtu.be/ruhxaCrznWs",
             media: "",
-            highligt: false,
+            highligt: true,
         },
         {
             poster: "/research/TMotion/TMotion.jpg",

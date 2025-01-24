@@ -25,14 +25,12 @@ export default function Home() {
 
           <NewsCard />
 
-          <div className = "col-md-6 mb-3">
+          <div className = "container mb-3">
             <div className="card h-100">
-              <div className="card-body">
+              <div className="card-body text-center">
               <h2 className="card-title">HCI Tech Youtube </h2>
               <iframe
-                id="inlineFrameExample"
-                title="Inline Frame Example"
-                style={{ width: "100%", height: "70%", border: "none" }}
+                style={{ width: "100%", height: "500px", border: "none" }}
                 className = "mt-4"
                 src="https://www.youtube.com/embed?v=o1ZpTgbIe6E&list=PLsnyS9wZul9aMbtTRLQ0rNsmXzq_SZF3x&autoplay=1&mute=1">
               </iframe>
@@ -40,7 +38,9 @@ export default function Home() {
             </div>
           </div>
 
-          <ResearchHighlights />
+          
+
+          {/* <ResearchHighlights /> */}
 
           <HighlightedPublicatons />
 
@@ -84,7 +84,7 @@ const WelcomeCard = () => {
 
 const NewsCard = () => {
   return (
-    <div className="col-md-6 mb-3">
+    <div className = "container mb-3">
       <div className="card h-100">
         <div className="card-body">
           <h2 className="card-title">News </h2>
@@ -96,12 +96,12 @@ const NewsCard = () => {
                   .filter((newsItem) => {
                     const oneYearAgo = new Date();
                     oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
-
+  
                     const newsDate = new Date(newsItem.date);
                     return newsDate >= oneYearAgo && newsDate <= new Date();
                   })
                   .map((newsItem, _) => (
-                    <div className="news-item1" key={_}>
+                    <div className="news-item" key={_}>
                       <div className="title_news">
                         {newsItem["icon"] === "" ? null : (
                           <Image

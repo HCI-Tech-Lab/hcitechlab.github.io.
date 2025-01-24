@@ -221,8 +221,18 @@ img.img-title {
 }
 
 img.img-people{
-  width: 150px;
-  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+img.img-people-hidden{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: 0.3s ease;
 }
 
 @media (min-width: 992px) {
@@ -289,4 +299,24 @@ span.type{
 .figure-caption {
   font-size: 0.875em;
   color: #6c757d;
+}
+
+
+.contact-box i {
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #0072FF;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.contact-box i:hover {
+  background-color: #FFF;
+  color: #0072FF;
+  cursor:pointer;
 }

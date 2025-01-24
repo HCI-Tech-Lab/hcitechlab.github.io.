@@ -1,6 +1,7 @@
 import SectionContainer from "@/components/section_container";
 import Link from "next/link";
 import {gradStudents, interns, gradAlumni, internAlumni} from "@/data/members_data";
+import MemberImage from "@/components/member_image";
 
 export default function Team() {
     return (
@@ -25,15 +26,21 @@ const ProfessorCard = () => {
   return (
     <div className = "row">
         <h2 className="card-title">Faculty</h2>
-        <div className="col-lg-3 col-6" style={{textAlign: "center", paddingBottom: "20px"}}>
-            <img className="img-fluid img-thumbnail img-people" src="./img/Member/Sang.jpg"/>
+        <div className="col-lg-3 col-6" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
+          <MemberImage originalImage = "/img/Member/Sang.jpg" hoverImage = "/main_icon.png" />
         </div>
         <div className="col-lg-6 col-6" style={{textAlign: "left", paddingBottom: "20px"}}>
-            <b><a href="https://sanghoy.com/" target="_blank">Sang Ho Yoon</a></b><br/>
+            <b><a href="https://sanghoy.com/" target="_blank">Sang Ho Yoon</a></b>
             <br/>Assistant Professor @ <Link href="https://ct.kaist.ac.kr/boards/view/faculty_board/119" target="_blank">Graduate School of Culture Technology</Link>
             <br/>Joint Professor @ <Link href="https://cs.kaist.ac.kr/people/view?idx=626&kind=faculty&menu=160" target="_blank">School of Computing</Link> & <Link href="https://meta.kaist.ac.kr/" target="_blank">Graduate School of Metaverse</Link>
             <br/>Member of <Link href="https://hci.kaist.ac.kr/" target="_blank">KAIST HCI Group</Link><br/>
-            Office: N5 3F #2327<br/>
+            Office: N5 3F #2327<br/><br/>
+            <div className = "contact-box">
+              <i className = "bi bi-house-door-fill" onClick={() => console.log("hello")} />
+              <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
+              <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
+              <i className = "bi bi-github" onClick={() => console.log("hello")} />
+            </div>
         </div>
         <div class="col-lg-3 col-6" style={{textAlign: "center", paddingBottom: "20px"}}>
         </div>
@@ -51,14 +58,21 @@ const GradStudents = () => {
         gradStudents.map(
           (member, index) => (
             <>
-              <div key = {index} className = "col-lg-3 col-3" style={{textAlign: "center", paddingBottom: "20px"}}>
-                <img class="img-fluid img-thumbnail img-people" src={member['img']}/>
+              <div key = {index} className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
+                <MemberImage originalImage = {member['img']} hoverImage = "/main_icon.png" />
               </div>
               <div class="col-lg-3 col-3">
-                  <b>{ member['link'] == '#' ? member['name'] : <Link href={member['link']} target="_blank">{member['name']}</Link> }</b><br/>
-                  {member['title']}<br/>
-                  {member['note']}<br/>
+                <b>{ member['link'] == '#' ? member['name'] : <Link href={member['link']} target="_blank">{member['name']}</Link> }</b><br/>
+                {member['title']}<br/>
+                {member['note']}<br/>
+                <div className = "contact-box">
+                  <i className = "bi bi-house-door-fill" onClick={() => console.log("hello")} />
+                  <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
+                  <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
+                  <i className = "bi bi-github" onClick={() => console.log("hello")} />
+                </div>
               </div>
+              
             </>
           )
         )
@@ -84,8 +98,8 @@ const Interns = () => {
         interns.map(
           (member, index) => (
             <>
-              <div className = "col-lg-3 col-3" style={{textAlign: "center", paddingBottom: "20px"}}>
-                <img class="img-fluid img-thumbnail img-people" src={member['img']}/>
+              <div key = {index} className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
+                <MemberImage originalImage = {member['img']} hoverImage = "/main_icon.png" />
               </div>
               <div class="col-lg-3 col-3">
                   <b> { member['link'] == '#' ? member['name'] : <Link href={member['link']} target="_blank">{member['name']}</Link> }</b><br/>
@@ -105,8 +119,8 @@ const AdministrativeStaff = () => {
   return (
     <div className = "row">
       <h2 className="card-title">Administrative Staff</h2>
-      <div className="col-lg-3 col-6" style={{textAlign: "center", paddingBottom: "20px"}}>
-        <img className="img-fluid img-thumbnail img-people" src="/img/Member/DY.jpeg" />
+      <div className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
+        <MemberImage originalImage = "/img/Member/DY.jpeg" hoverImage = "/main_icon.png" />
       </div>
       <div className="col-lg-3 col-6" style={{textAlign: "left"}}>
         <b>Dasom Yoo</b><br/>

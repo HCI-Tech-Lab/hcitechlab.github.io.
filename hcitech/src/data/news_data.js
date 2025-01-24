@@ -411,14 +411,14 @@ export const news = [
         icon: "/img/icon/paper2.jpg",
         title: "SIGGRAPH 2022 Emerging Technologies",
         date: "Jul 4 2022",
-        content: <div>Our SIGGRAPH 2022 Emerging Technologies paper <Link href="https://s2022.siggraph.org/presentation/?id=gensub_329&sess=sess220" target="_blank">Sense of Embodiment Inducement for People With Reduced Lower-body Mobility and Sensations With Partial-visuomotor Stimulation</Link> in collaboration with LAVA Lab & Visual Cognition Lab is highlighted on <Link href="https://blog.siggraph.org/2022/06/researchers-make-sense-of-embodiment-available-to-all.html/" target="_blank">SIGGRAPH Blog</Link>!</div>,
+        content: <>Our SIGGRAPH 2022 Emerging Technologies paper <Link href="https://s2022.siggraph.org/presentation/?id=gensub_329&sess=sess220" target="_blank">Sense of Embodiment Inducement for People With Reduced Lower-body Mobility and Sensations With Partial-visuomotor Stimulation</Link> in collaboration with LAVA Lab & Visual Cognition Lab is highlighted on <Link href="https://blog.siggraph.org/2022/06/researchers-make-sense-of-embodiment-available-to-all.html/" target="_blank">SIGGRAPH Blog</Link>!</>,
         images: []
     },
     {
         icon: "/img/icon/paper2.jpg",
         title: "ECCV 2022",
         date: "Jul 4 2022",
-        content: <div>Sound-Guided Semantic Video Generation in collaboration with Computer Vision Lab is accepted to <Link href="https://eccv2022.ecva.net/" target="_blank">ECCV2022</Link>!</div>,
+        content: <>Sound-Guided Semantic Video Generation in collaboration with Computer Vision Lab is accepted to <Link href="https://eccv2022.ecva.net/" target="_blank">ECCV2022</Link>!</>,
         images: []
     },
     {
@@ -460,7 +460,7 @@ export const news = [
         icon: "/img/icon/paper2.jpg",
         title: "CVPR 2022",
         date: "Mar 2 2022",
-        content: <div>Sound-Guided Semantic Image Manipulation in collaboration with Computer Vision Lab is accepted to <Link href="https://cvpr2022.thecvf.com/" target="_blank">CVPR2022</Link>!</div>,
+        content: <>Sound-Guided Semantic Image Manipulation in collaboration with Computer Vision Lab is accepted to <Link href="https://cvpr2022.thecvf.com/" target="_blank">CVPR2022</Link>!</>,
         images: []
     },
     {
@@ -488,7 +488,7 @@ export const news = [
         icon: "",
         title: "URP Individual Research Selected",
         date: "Dec 21 2021",
-        content: <div>Individual Research Proposal by Zofia has been accepted. This is exploratory research to enable <i>Novel Haptic Interface</i>.</div>,
+        content: <>Individual Research Proposal by Zofia has been accepted. This is exploratory research to enable <i>Novel Haptic Interface</i>.</>,
         images: []
     },
     {
@@ -502,7 +502,7 @@ export const news = [
         icon: "/img/icon/project.png",
         title: "New Research Project",
         date: "Dec 1 2021",
-        content: <div><strong>Development of Open XR platform for high immersive collaboration</strong> supported by National Research Council of Science and Technology (NST) for 6 years.</div>,
+        content: <><strong>Development of Open XR platform for high immersive collaboration</strong> supported by National Research Council of Science and Technology (NST) for 6 years.</>,
         images: []
     },
     {

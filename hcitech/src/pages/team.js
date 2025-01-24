@@ -30,13 +30,13 @@ const ProfessorCard = () => {
           <MemberImage originalImage = "/img/Member/Sang.jpg" hoverImage = "/main_icon.png" />
         </div>
         <div className="col-lg-6 col-6" style={{textAlign: "left", paddingBottom: "20px"}}>
-            <b><a href="https://sanghoy.com/" target="_blank">Sang Ho Yoon</a></b>
+            <b style={{fontSize: "24px"}}>Sang Ho Yoon</b>
             <br/>Assistant Professor @ <Link href="https://ct.kaist.ac.kr/boards/view/faculty_board/119" target="_blank">Graduate School of Culture Technology</Link>
             <br/>Joint Professor @ <Link href="https://cs.kaist.ac.kr/people/view?idx=626&kind=faculty&menu=160" target="_blank">School of Computing</Link> & <Link href="https://meta.kaist.ac.kr/" target="_blank">Graduate School of Metaverse</Link>
             <br/>Member of <Link href="https://hci.kaist.ac.kr/" target="_blank">KAIST HCI Group</Link><br/>
             Office: N5 3F #2327<br/><br/>
             <div className = "contact-box">
-              <i className = "bi bi-house-door-fill" onClick={() => console.log("hello")} />
+              <Link href="https://sanghoy.com/" target="_blank"><i className = "bi bi-house-door-fill"/></Link>
               <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
               <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
               <i className = "bi bi-github" onClick={() => console.log("hello")} />
@@ -59,14 +59,15 @@ const GradStudents = () => {
           (member, index) => (
             <>
               <div key = {index} className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
-                <MemberImage originalImage = {member['img']} hoverImage = "/main_icon.png" />
+                <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
               </div>
               <div class="col-lg-3 col-3">
-                <b>{ member['link'] == '#' ? member['name'] : <Link href={member['link']} target="_blank">{member['name']}</Link> }</b><br/>
+                <b style={{fontSize: "24px"}}>{member['name']}</b><br/>
                 {member['title']}<br/>
                 {member['note']}<br/>
+                <br/>
                 <div className = "contact-box">
-                  <i className = "bi bi-house-door-fill" onClick={() => console.log("hello")} />
+                  {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
                   <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
                   <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
                   <i className = "bi bi-github" onClick={() => console.log("hello")} />
@@ -99,12 +100,18 @@ const Interns = () => {
           (member, index) => (
             <>
               <div key = {index} className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
-                <MemberImage originalImage = {member['img']} hoverImage = "/main_icon.png" />
+                <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']}/>
               </div>
               <div class="col-lg-3 col-3">
-                  <b> { member['link'] == '#' ? member['name'] : <Link href={member['link']} target="_blank">{member['name']}</Link> }</b><br/>
+                  <b style={{fontSize: "24px"}}>{member['name']}</b><br/>
                   {member['title']}<br/>
                   {member['note']}<br/>
+                  <div className = "contact-box">
+                    {member['link'] == '#' ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
+                    <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
+                    <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
+                    <i className = "bi bi-github" onClick={() => console.log("hello")} />
+                </div>
               </div>
             </>
           )

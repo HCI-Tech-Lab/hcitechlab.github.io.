@@ -4,6 +4,7 @@ import Link from "next/link";
 export const gradStudents = [
     {
       "img": "/img/Member/YS.jpeg",
+      "hoverImg": "/main_icon.png",
       "name": "Youjin Sung",
       "title": "Ph.D. Student",
       "link": "https://www.linkedin.com/in/youjin-sung-7105a1279",
@@ -11,6 +12,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/JK.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Jina Kim",
       "title": "Ph.D. Student",
       "link": "https://sites.google.com/view/jina-kim?usp=sharing",
@@ -18,6 +20,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/SO.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Seo Young Oh",
       "title": "Ph.D. Student",
       "link": "https://sites.google.com/view/jina-kim?usp=sharing",
@@ -25,6 +28,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/KJ.png",
+      "hoverImg": "/main_icon.png",
       "name": "Kyungeun Jung",
       "title": "Ph.D. Student",
       "link": "https://kyungeun.xyz/",
@@ -32,13 +36,15 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/KS.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Kyungjin Seo",
       "title": "Ph.D. Student",
       "link": "https://www.linkedin.com/in/kyungjin-seo-209b98143",
-      "note": <div> (On leave, working@<Link href="https://samsungsgr.com/" target="_blank"> Samsung Global Research</Link> Tech & Experience Team)</div>,
+      "note": <> (On leave, working@<Link href="https://samsungsgr.com/" target="_blank"> Samsung Global Research</Link> Tech & Experience Team)</>,
     },
     {
       "img": "/img/Member/MK.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Min-yung Kim",
       "title": "M.S. Student",
       "link": "https://sites.google.com/view/minyungkim/home",
@@ -46,6 +52,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/DK.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Dong Kyu Kwak",
       "title": "M.S. Student",
       "link": "hhttps://www.linkedin.com/in/kwakdk/",
@@ -53,6 +60,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/SY.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Soyeong Yang",
       "title": "M.S. Student",
       "link": "hwww.soyeongyang.world",
@@ -60,6 +68,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/HL.jpeg",
+      "hoverImg": "/main_icon.png",
       "name": "Hyung Il Yi",
       "title": "M.S. Student",
       "link": "https://www.linkedin.com/in/hyung-il-yi-5875b217b/",
@@ -67,6 +76,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/HH.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Hyunyoung Han",
       "title": "M.S. Student",
       "link": "https://sites.google.com/view/hyhan/home",
@@ -74,6 +84,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/KWS.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Kun-Woo Song",
       "title": "M.S. Student",
       "link": "https://www.linkedin.com/in/kun-woo-song-1557b2112/",
@@ -81,6 +92,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/HJ.png",
+      "hoverImg": "/main_icon.png",
       "name": "Hojeong Lee",
       "title": "M.S. Student",
       "link": "https://www.hojeonglee.site",
@@ -88,6 +100,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/FL.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Fangqing Li",
       "title": "M.S. Student",
       "link": "https://www.linkedin.com/in/fangqing-li-kk1208x",
@@ -95,6 +108,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/HWL.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Hyung Wook Yi",
       "title": "M.S. Student",
       "link": "https://www.linkedin.com/in/hyung-wook-yi-673828178",
@@ -102,6 +116,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/HS.png",
+      "hoverImg": "/main_icon.png",
       "name": "Hanseok Jeong",
       "title": "M.S. Student",
       "link": "https://www.linkedin.com/in/jeong-hanseok-88b385152/",
@@ -109,6 +124,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/YL.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Yubin Lee",
       "title": "M.S. Student",
       "link": "https://www.linkedin.com/in/yubin-lee-1475972b5/",
@@ -116,6 +132,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/CH.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Changhyeon Park",
       "title": "M.S. Student",
       "link": "https://sac7160.github.io/",
@@ -123,6 +140,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/KM.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Kyoungwhan Mheen",
       "title": "M.S. Student",
       "link": "https://kwmheen.github.io/",
@@ -130,6 +148,7 @@ export const gradStudents = [
     },
     {
       "img": "/img/Member/DL.jpg",
+      "hoverImg": "/main_icon.png",
       "name": "Dohui Lee",
       "title": "M.S. Student",
       "link": "http://dohuilee.notion.site",
@@ -140,6 +159,7 @@ export const gradStudents = [
 export const interns = [
   {
     "img": "/img/Member/ME.jpeg",
+    "hoverImg": "/main_icon.png",
     "name": "Murad Eynizada",
     "title": "Undergraduate Intern (KAIST URP)",
     "link": "https://www.linkedin.com/in/murad-eynizada/",
@@ -147,6 +167,7 @@ export const interns = [
   },
   {
     "img": "/img/Member/RJK.png",
+    "hoverImg": "/main_icon.png",
     "name": "Rachel Jungmin Kim",
     "title": "Undergraduate Intern",
     "link": "#",
@@ -154,6 +175,7 @@ export const interns = [
   },
   {
     "img": "/img/Member/EK.jpg",
+    "hoverImg": "/main_icon.png",
     "name": "Eun Ho Kim",
     "title": "Undergraduate Intern",
     "link": "#",
@@ -161,6 +183,7 @@ export const interns = [
   },
   {
     "img": "/img/Member/HJ2.jpeg",
+    "hoverImg": "/main_icon.png",
     "name": "Hyunwook Jung",
     "title": "Undergraduate Intern",
     "link": "#",

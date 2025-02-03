@@ -12,7 +12,7 @@ export const news = [
         icon: "/img/icon/speaker.png",
         title: "Winter 2025 Undergraduate Research Internship",
         date: "Nov 12 2024",
-        content: <div>We are looking for research interns (including 1 URP) for 2024 Winter. <Link href="https://hcitech.org/recruiting/recruiting_under_2025.html" target="_blank">Application</Link> deadline is Nov 24th.</div>,
+        content: <div>We are looking for research interns (including 1 URP) for 2024 Winter. <Link href="/recruiting_under">Application</Link> deadline is Nov 24th.</div>,
         images: []
     },
     {

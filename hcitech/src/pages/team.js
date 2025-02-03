@@ -2,6 +2,7 @@ import SectionContainer from "@/components/section_container";
 import Link from "next/link";
 import {gradStudents, interns, gradAlumni, internAlumni} from "@/data/members_data";
 import MemberImage from "@/components/member_image";
+import { Fragment } from "react";
 
 export default function Team() {
     return (
@@ -39,9 +40,9 @@ const ProfessorCard = () => {
               <Link href="https://sanghoy.com/" target="_blank"><i className = "bi bi-house-door-fill"/></Link>
             </div>
         </div>
-        <div class="col-lg-3 col-6" style={{textAlign: "center", paddingBottom: "20px"}}>
+        <div className="col-lg-3 col-6" style={{textAlign: "center", paddingBottom: "20px"}}>
         </div>
-        <div class="col-lg-3 col-6" style={{textAlign: "left", paddingBottom: "20px"}}>
+        <div className="col-lg-3 col-6" style={{textAlign: "left", paddingBottom: "20px"}}>
         </div>
     </div>
   );
@@ -50,15 +51,15 @@ const ProfessorCard = () => {
 const GradStudents = () => {
   return (
     <div className = "row">
-      <h2 class="card-title">Graduate Students</h2>
+      <h2 className="card-title">Graduate Students</h2>
       {
         gradStudents.map(
           (member, index) => (
-            <>
-              <div key = {index} className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
+            <Fragment key = {index}>
+              <div className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
                 <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
               </div>
-              <div class="col-lg-3 col-3">
+              <div className="col-lg-3 col-3">
                 <b style={{fontSize: "24px"}}>{member['name']} </b><br/>
                 {member['title']}<br/>
                 {member['note']}<br/>
@@ -71,7 +72,7 @@ const GradStudents = () => {
                 </div>
               </div>
               
-            </>
+            </Fragment>
           )
         )
       }
@@ -81,7 +82,7 @@ const GradStudents = () => {
             </picture>
       </div>
       <div className="col-lg-3 col-6" style={{textAlign: "left"}}>
-            <br/><br/><br/><b><Link href="./recruiting/recruiting_graduate.html" target="_blank">See Openings</Link></b>
+            <br/><br/><br/><b><Link href="/recruiting_graduate">See Openings</Link></b>
       </div>
     </div>
     
@@ -91,15 +92,15 @@ const GradStudents = () => {
 const Interns = () => {
   return (
     <div className = "row">
-      <h2 class="card-title">Graduate Students</h2>
+      <h2 className="card-title">Graduate Students</h2>
       {
         interns.map(
           (member, index) => (
-            <>
+            <Fragment key = {index}>
               <div key = {index} className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
                 <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']}/>
               </div>
-              <div class="col-lg-3 col-3">
+              <div className="col-lg-3 col-3">
                   <b style={{fontSize: "24px"}}>{member['name']}</b><br/>
                   {member['title']}<br/>
                   {member['note']}<br/>
@@ -110,7 +111,7 @@ const Interns = () => {
                     {member['github'] == "#" ? null : <Link href={member['github']} target="_blank"><i className = "bi bi-github"/></Link>}
                 </div>
               </div>
-            </>
+            </Fragment>
           )
         )
       }
@@ -139,7 +140,7 @@ const AdministrativeStaff = () => {
 const GradAlumni = () => {
   return (
     <div>
-      <h2 class="card-title">Alumni (Graduate Students)</h2>
+      <h2 className="card-title">Alumni (Graduate Students)</h2>
       {
         gradAlumni.map(
           (member, index) => (
@@ -160,7 +161,7 @@ const GradAlumni = () => {
 const InternAlumni = () => {
   return (
     <div>
-      <h2 class="card-title">Alumni (Interns)</h2>
+      <h2 className="card-title">Alumni (Interns)</h2>
       {
         internAlumni.map(
           (member, index) => (

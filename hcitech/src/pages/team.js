@@ -37,9 +37,6 @@ const ProfessorCard = () => {
             Office: N5 3F #2327<br/><br/>
             <div className = "contact-box">
               <Link href="https://sanghoy.com/" target="_blank"><i className = "bi bi-house-door-fill"/></Link>
-              <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
-              <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
-              <i className = "bi bi-github" onClick={() => console.log("hello")} />
             </div>
         </div>
         <div class="col-lg-3 col-6" style={{textAlign: "center", paddingBottom: "20px"}}>
@@ -62,15 +59,15 @@ const GradStudents = () => {
                 <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
               </div>
               <div class="col-lg-3 col-3">
-                <b style={{fontSize: "24px"}}>{member['name']}</b><br/>
+                <b style={{fontSize: "24px"}}>{member['name']} </b><br/>
                 {member['title']}<br/>
                 {member['note']}<br/>
                 <br/>
                 <div className = "contact-box">
                   {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
-                  <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
-                  <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
-                  <i className = "bi bi-github" onClick={() => console.log("hello")} />
+                  {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
+                  {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
+                  {member['github'] == "#" ? null : <Link href={member['github']} target="_blank"><i className = "bi bi-github"/></Link>}
                 </div>
               </div>
               
@@ -107,10 +104,10 @@ const Interns = () => {
                   {member['title']}<br/>
                   {member['note']}<br/>
                   <div className = "contact-box">
-                    {member['link'] == '#' ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
-                    <i className = "bi bi-envelope-fill" onClick={() => console.log("hello")} />
-                    <i className = "bi bi-linkedin" onClick={() => console.log("hello")} />
-                    <i className = "bi bi-github" onClick={() => console.log("hello")} />
+                    {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
+                    {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
+                    {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
+                    {member['github'] == "#" ? null : <Link href={member['github']} target="_blank"><i className = "bi bi-github"/></Link>}
                 </div>
               </div>
             </>

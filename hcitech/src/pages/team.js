@@ -68,7 +68,6 @@ const GradStudents = () => {
                   {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
                   {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
                   {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
-                  {member['github'] == "#" ? null : <Link href={member['github']} target="_blank"><i className = "bi bi-github"/></Link>}
                 </div>
               </div>
               
@@ -108,7 +107,6 @@ const Interns = () => {
                     {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
                     {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
                     {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
-                    {member['github'] == "#" ? null : <Link href={member['github']} target="_blank"><i className = "bi bi-github"/></Link>}
                 </div>
               </div>
             </Fragment>

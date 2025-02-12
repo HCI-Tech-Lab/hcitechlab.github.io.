@@ -10,7 +10,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/youjin-sung-7105a1279",
-      "github": "#",
       "note": "",
     },
     {
@@ -21,7 +20,6 @@ export const gradStudents = [
       "link": "https://sites.google.com/view/jina-kim?usp=sharing",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -32,7 +30,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/ohseo/",
-      "github": "#",
       "note": "(Co-advised by Prof. Woontack Woo)",
     },
     {
@@ -43,7 +40,6 @@ export const gradStudents = [
       "link": "https://kyungeun.xyz/",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -54,7 +50,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/kyungjin-seo-209b98143",
-      "github": "#",
       "note": <> (On leave, working@<Link href="https://samsungsgr.com/" target="_blank"> Samsung Global Research</Link> Tech & Experience Team)</>,
     },
     {
@@ -65,7 +60,6 @@ export const gradStudents = [
       "link": "https://sites.google.com/view/minyungkim/home",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -76,7 +70,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/kwakdk/",
-      "github": "#",
       "note": "",
     },
     {
@@ -87,7 +80,6 @@ export const gradStudents = [
       "link": "https://www.soyeongyang.world",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -98,7 +90,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/hyung-il-yi-5875b217b/",
-      "github": "#",
       "note": "",
     },
     {
@@ -109,7 +100,6 @@ export const gradStudents = [
       "link": "https://sites.google.com/view/hyhan/home",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -120,7 +110,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/kun-woo-song-1557b2112/",
-      "github": "#",
       "note": "",
     },
     {
@@ -131,7 +120,6 @@ export const gradStudents = [
       "link": "https://www.hojeonglee.site",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -142,7 +130,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/fangqing-li-kk1208x",
-      "github": "#",
       "note": "",
     },
     {
@@ -153,7 +140,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/hyung-wook-yi-673828178",
-      "github": "#",
       "note": "",
     },
     {
@@ -164,7 +150,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/jeong-hanseok-88b385152/",
-      "github": "#",
       "note": "",
     },
     {
@@ -175,7 +160,6 @@ export const gradStudents = [
       "link": "#",
       "mail": "#",
       "linkedin": "https://www.linkedin.com/in/yubin-lee-1475972b5/",
-      "github": "#",
       "note": "(Co-advised by Prof. Geehyuk Lee)",
     },
     {
@@ -186,7 +170,6 @@ export const gradStudents = [
       "link": "https://sac7160.github.io/",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -197,7 +180,6 @@ export const gradStudents = [
       "link": "https://kwmheen.github.io/",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
     {
@@ -208,7 +190,6 @@ export const gradStudents = [
       "link": "http://dohuilee.notion.site",
       "mail": "#",
       "linkedin": "#",
-      "github": "#",
       "note": "",
     },
   ];
@@ -222,7 +203,6 @@ export const interns = [
     "link": "#",
     "mail": "eynizadamurad@gmail.com",
     "linkedin": "https://www.linkedin.com/in/murad-eynizada/",
-    "github": "#",
     "note": "",
   },
   {
@@ -233,7 +213,6 @@ export const interns = [
     "link": "#",
     "mail": "#",
     "linkedin": "#",
-    "github": "#",
     "note": "",
   },
   {
@@ -244,7 +223,6 @@ export const interns = [
     "link": "#",
     "mail": "#",
     "linkedin": "#",
-    "github": "#",
     "note": "",
   },
   {
@@ -255,7 +233,6 @@ export const interns = [
     "link": "#",
     "mail": "#",
     "linkedin": "#",
-    "github": "#",
     "note": "",
   },
 ];

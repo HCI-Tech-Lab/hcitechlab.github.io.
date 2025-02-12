@@ -348,8 +348,15 @@ export const news = [
         icon: "/img/icon/paper2.jpg",
         title: "VR 2023 Posters",
         date: "Jan 30 2023",
-        content: <div>Three posters will be presented at <Link href="https://ieeevr.org/2023/" target="_blank">VR 2023</Link>. <Link href="News/VR2023.html" target="_blank">Read more</Link>.</div>,
-        images: []
+        content: <div>Three posters will be presented at <Link href="https://ieeevr.org/2023/" target="_blank">VR 2023</Link>.</div>,
+        images: [],
+        extraContent: (
+            <>
+                <small><p><strong>VibAware: Context-Aware Tap and Swipe Gestures Using Bio-Acoustic</strong> Jina Kim, Minyung Kim, Woo Suk Lee, Sang Ho Yoon (in collaboration with Microsoft)</p>
+                <p><strong>Mo2Hap: Rendering performer's Motion Flow to Upper-body Vibrotactile Haptic Feedback for VR performance</strong> Kyungeun Jung, Seungjae Oh, Sang Ho Yoon (in collaboration with Kyung Hee University)</p>
+                <p><strong>A Lightweight Wearable Multi-joint Force Feedback for High Definition Grasping in VR</strong> Nicha Vanichvoranun, Sang Ho Yoon</p></small>
+            </>
+        )
     },
     {
         icon: "",

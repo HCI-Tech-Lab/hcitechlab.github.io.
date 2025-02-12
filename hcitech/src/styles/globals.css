@@ -19,6 +19,15 @@ nav.navbar {
   color: #1260de !important;
 }
 
+.category-active {
+  background-color: #1260de !important;
+  color: white !important;
+}
+
+.category {
+  font-size: 12px;
+}
+
 .nav-link:hover {
   color: #0046b8 !important;
 }

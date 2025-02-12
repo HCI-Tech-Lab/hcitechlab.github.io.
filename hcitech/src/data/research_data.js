@@ -16,6 +16,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/2024/IMWUT/IMWUT2024.png",
@@ -33,6 +34,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/2024/ISMAR/ISMAR2024.png",
@@ -50,6 +52,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/2024/CVM/Teaser.webp",
@@ -67,6 +70,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/CHI2024/Interactivity_HCITech.png",
@@ -84,6 +88,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/IMWUT2023/IMWUT.jpg",
@@ -101,6 +106,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/SpringerVR/HapMotion.jpg",
@@ -118,6 +124,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/Submitted/Robust_Sound.webp",
@@ -135,6 +142,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/CVPR2024/cvpr2024.jpg",
@@ -152,6 +160,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "./research/Submitted",
@@ -169,6 +178,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2023": [
@@ -188,6 +198,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/WHC2023/wrimoucon.jpg",
@@ -205,6 +216,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/UIST2023/Mo2Hap.jpg",
@@ -222,6 +234,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/VR2023/Swipe.jpg",
@@ -239,6 +252,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Poster / Demo / Workshop"
         },
         {
             poster: "/research/VR2023/Mo2Hap.png",
@@ -256,6 +270,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Poster / Demo / Workshop"
         },
         {
             poster: "/research/VR2023/Lightweight.png",
@@ -273,6 +288,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Poster / Demo / Workshop"
         },
     ],
     "2022": [
@@ -292,6 +308,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Poster / Demo / Workshop"
         },
         {
             poster: "/research/VRST2022/GuideRing.jpg",
@@ -309,6 +326,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Poster / Demo / Workshop"
         },
         {
             poster: "/research/SoundGuided/Sound-guided-video.jpg",
@@ -326,6 +344,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/SoE/SoE.jpg",
@@ -343,6 +362,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research//SoundGuided/Sound-guided-CVPR.jpg",
@@ -360,6 +380,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2021": [
@@ -379,6 +400,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/AudioArt/AudioArt.JPG",
@@ -396,6 +418,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2020": [
@@ -415,6 +438,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/iMold/iMold.PNG",
@@ -432,6 +456,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         }, 
         {
             poster: "/research/StressMonitoring/StressMonitoring.PNG",
@@ -449,6 +474,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2019": [
@@ -468,6 +494,7 @@ export const research_temp = {
             presentation: "https://youtu.be/O3i3IaMdbXg",
             media: "",
             highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/MultiSoft/MultiSoft.jpg",
@@ -485,6 +512,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2018": [
@@ -504,6 +532,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2017": [
@@ -523,6 +552,7 @@ export const research_temp = {
             presentation: "https://youtu.be/_YupB3qLikQ",
             media: "https://www.youtube.com/watch?v=7fNbM-lrX-E",
             highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/BikeGesture/BikeGesture.jpg",
@@ -540,6 +570,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/RobustHand/RobustHand.png",
@@ -557,6 +588,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2016": [
@@ -576,6 +608,7 @@ export const research_temp = {
             presentation: "https://youtu.be/ruhxaCrznWs",
             media: "",
             highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/TMotion/TMotion.jpg",
@@ -593,6 +626,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "/research/WearableTextileInput/WearableTextileInput.PNG",
@@ -610,6 +644,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2015": [
@@ -629,6 +664,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2014": [
@@ -648,6 +684,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
 }

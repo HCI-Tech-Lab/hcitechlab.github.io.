@@ -9,8 +9,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <NavBar />
-      <main>
+      <main style={{ paddingTop: "86px"}}>
         <Component {...pageProps} />
       </main>
     </>

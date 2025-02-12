@@ -7,7 +7,10 @@ const NavBar = () => {
 
     return (
         <div className = "container">
-            <nav className = "navbar navbar-expand-lg navbar-light px-3">
+            <nav className = "navbar navbar-expand-lg navbar-light px-3 fixed-top bg-white shadow-sm">
+                <div style={{ width: "110px"}}>
+
+                </div>
                 <Link href = '/' className = 'navbar-brand'>
                     <Image alt = "logo" src = "/main_logo.png" width = {300} height = {50} className = "d-none d-sm-block"/>
                 </Link>

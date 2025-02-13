@@ -9,7 +9,7 @@ export default function Gallery() {
           <div className = "row">
             {
               Object.keys(galleries).map((key, index) => (
-                <GalleryCarousel images={galleries[key]} id = {index} title = {key} />
+                <GalleryCarousel images={galleries[key]} id = {index} title = {key} key = {index} />
               ))
             }
           </div>

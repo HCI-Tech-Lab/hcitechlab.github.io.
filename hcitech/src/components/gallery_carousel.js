@@ -7,7 +7,7 @@ export default function GalleryCarousel({ images, id, title }) {
     }, []);
 
     return (
-        <div className="col-md-6 col-lg-4 text-center mb-3">
+        <div className="col-md-6 col-lg-6 text-center mb-3">
             <div id={`carousel${id}`} className="carousel slide">
                 <ol className="carousel-indicators">
                     {images.map((_, index) => (

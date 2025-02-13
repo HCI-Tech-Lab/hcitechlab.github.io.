@@ -66,7 +66,6 @@ export default function Publications() {
                                             {item.pdf && <Link className="publication-link" href={item.pdf} target="_blank">PDF</Link>}
                                             {item.presentation && <Link className="publication-link" href={item.presentation} target="_blank">PRESENTATION</Link>}
                                             {item.media && <Link className="publication-link" href={item.media} target="_blank">MEDIA</Link>}
-                                            <h6><b>Category:</b> {item.category}</h6>
                                         </div>
                                     </div>
                                 ))}

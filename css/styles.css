@@ -4055,7 +4055,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4072,8 +4072,10 @@ textarea.form-control-lg {
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   font-size: 1.25rem;
+  margin-left: 0; 
+  padding-left: 0;
   text-decoration: none;
   white-space: nowrap;
 }

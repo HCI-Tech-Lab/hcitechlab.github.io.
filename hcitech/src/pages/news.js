@@ -27,7 +27,7 @@ export default function News() {
                         <div className="context_news mb-3">{item.content}</div>
                         <div className="news-images">
                             {item.images.map((src, imgIndex) => (
-                                <Image alt="news_image" src={src} width = {5000} height={150} style={{ height: '150', width: 'auto', marginRight: '4px' }} />
+                                <Image alt="news_image" src={src} width = {5000} height={120} style={{ height: '150', width: 'auto', marginRight: '4px' }} />
                             ))}
                         </div>
 

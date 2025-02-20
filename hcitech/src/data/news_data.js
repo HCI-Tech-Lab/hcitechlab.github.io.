@@ -2,6 +2,69 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "/img/icon/speaker.png",
+        title: "New Lab Logo",
+        date: "Feb 20 2025",
+        content: "Our lab got a new logo designed by Changheyon Park! Thanks all members for the feedback!",
+        images: ["/Logo_White.png"],
+        
+    },
+    {
+        icon: "/img/icon/graduation.png",
+        title: "2025 Graduation",
+        date: "Feb 14 2025",
+        content: "Hyung Il, Soyeong, Dongkyu, Min-yung, Junghoon, Kyungeun, Kyungjin, and Nicha graudated. Congrats!",
+        images: ["/img/Lab/2502/Grad_1.jpeg", "/img/Lab/2502/Grad_2.png", "/img/Lab/2502/Grad_3.JPG"],
+        
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "A paper accepted to IEEE TVCG",
+        date: "Jan 26 2025",
+        content: (
+            <>Our paper "Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations" led by Kun-Woo is accepted to <Link href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">IEEE Transactions on Visualization and Computer Graphics (TVCG)</Link>.</>
+        ),
+        images: [],
+        
+    },
+    {
+        icon: "/img/icon/paper2.jpg",
+        title: "Four papers accepted to CHI 2025",
+        date: "Jan 17 2025",
+        content: (
+            <>Four papers from HCI Tech Lab and collaborators have been accepted to <Link href="https://chi2025.acm.org/" target="_blank">CHI 2025</Link>. Congratulations to Hyunyoung Han, Kyungeun Jung, Jina Kim, and Youjin Sung!</>
+        ),
+        images: [],
+        extraContent: (
+            <>
+                <div class = "row research_item">
+                    <div class="col-md-12">
+                        <h4>ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool</h4>
+                        <h6><b>AUTHORS</b> Hyunyoung Han*, Kyungeun Jung*, Sang Ho Yoon</h6>
+                    </div>
+                </div>
+                <div class = "row research_item">
+                    <div class="col-md-12">
+                        <h4>T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input</h4>
+                        <h6><b>AUTHORS</b> Jina Kim, Yang Zhang, Sang Ho Yoon</h6>
+                    </div>
+                </div>
+                <div class = "row research_item">
+                    <div class="col-md-12">
+                        <h4>HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design</h4>
+                        <h6><b>AUTHORS</b> Youjin Sung*, Kevin John*, Sang Ho Yoon**, Hasti Seifi**</h6>
+                    </div>
+                </div>
+                <div class = "row research_item">
+                    <div class="col-md-12">
+                        <h4>VibWalk: Mapping Lower-limb Haptic Experiences of Everyday Walking</h4>
+                        <h6><b>AUTHORS</b> Shih Ying-Lei, Tang Dongxu, Weiming Hu, Sang Ho Yoon, Yitian Shao</h6>
+                    </div>
+                </div>  
+            </>
+        )
+    },
+    {
         icon: "/img/icon/Welcome.jpg",
         title: "Interns",
         date: "Jan 1 2025",

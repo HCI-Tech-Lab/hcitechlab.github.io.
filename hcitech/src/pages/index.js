@@ -121,7 +121,7 @@ const NewsCard = () => {
                           alt="news_image"
                           src={src}
                           width={5000}
-                          height={150}
+                          height={120}
                           style={{ width: 'auto', marginRight: '4px' }}
                         />
                       ))}

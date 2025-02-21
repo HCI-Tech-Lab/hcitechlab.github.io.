@@ -91,7 +91,7 @@ const GradStudents = () => {
 const Interns = () => {
   return (
     <div className = "row">
-      <h2 className="card-title">Graduate Students</h2>
+      <h2 className="card-title">Interns</h2>
       {
         interns.map(
           (member, index) => (

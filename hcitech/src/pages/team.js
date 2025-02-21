@@ -38,6 +38,8 @@ const ProfessorCard = () => {
             Office: N5 3F #2327<br/><br/>
             <div className = "contact-box">
               <Link href="https://sanghoy.com/" target="_blank"><i className = "bi bi-house-door-fill"/></Link>
+              {/* <Link href="mailto:ProfessorMail" target="_blank"><i className = "bi bi-envelope-fill"/></Link>
+              <Link href="ProfessorLinkedIn" target="_blank"><i className = "bi bi-linkedin"/></Link> */}
             </div>
         </div>
         <div className="col-lg-3 col-6" style={{textAlign: "center", paddingBottom: "20px"}}>

@@ -4,6 +4,9 @@ export const courses = [
         "desc": "This course explores various aspects (interfaces, sensing & haptics, applications) of augmented humans.",
         "years": [
             ["/GCT565Fall2021", "Fall 2021"],
+            ["/GCT565Fall2022", "Fall 2022"],
+            ["/GCT565Fall2023", "Fall 2023"],
+            ["/GCT565Fall2024", "Fall 2024"],
         ],
     },
     {

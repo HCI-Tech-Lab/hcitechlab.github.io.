@@ -13,6 +13,8 @@ export const courses = [
         "title": "CTP445 Augmented Reality",
         "desc": "This course explores core knwoledge relating to augmented reality including augmented interfaces, sensing technology, visualization, and applications.",
         "years": [
+            ["/CTP445Spring2022", "Spring 2022"],
+            ["/CTP445Spring2024", "Spring 2024"],
         ],
     },
     {

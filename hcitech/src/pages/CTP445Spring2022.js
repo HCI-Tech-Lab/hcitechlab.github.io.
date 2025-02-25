@@ -22,7 +22,7 @@ export default function Home() {
                     <div class="card h-100">
                         <div class="card-header bg-success text-white">Course Staff</div>
                         <div class="card-body">
-                            <b>Instructor: <a href="https://hcidesigner.weebly.com/" target="_blank">Prof. Sang Ho Yoon</a></b><br />&ensp;&ensp;&ensp;&ensp;&nbsp; <i>Office Hours: By Appointment</i><br /><br />
+                            <b>Instructor: <a href="https://sanghoy.com/" target="_blank">Prof. Sang Ho Yoon</a></b><br />&ensp;&ensp;&ensp;&ensp;&nbsp; <i>Office Hours: By Appointment</i><br /><br />
                             <b>TAs</b>: Seo Young Oh <br />&ensp;&ensp;&ensp;&ensp;&nbsp; Dooyoung Kim<br/>&ensp;&ensp;&ensp;&ensp;&nbsp; <i>Office Hours: By Appointment</i>
                         </div>
                     </div>

@@ -26,7 +26,7 @@ export default function Home() {
                         Course Staff
                     </div>
                         <div class="card-body">
-                        <b>Instructor: <a href="https://hcidesigner.weebly.com/" target="_blank">Prof. Sang Ho Yoon</a></b><br />
+                        <b>Instructor: <a href="https://sanghoy.com/" target="_blank">Prof. Sang Ho Yoon</a></b><br />
                                     &ensp;&ensp;&ensp;&ensp;&nbsp; <i>Office Hours: By Appointment</i><br /><br />
                         <b>TAs</b>: Youjin Sung <br />
                                     &ensp;&ensp;&ensp;&ensp;&nbsp;  Kyungjin Seo<br />

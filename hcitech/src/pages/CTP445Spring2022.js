@@ -66,133 +66,132 @@ export default function Home() {
                 </div>
             </div>
         </div>
-      <div className="container-fluid mb-3">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="card h-100">
-              <div className="card-header bg-success text-white">Project Gallery</div>
-              <div className="card-body">
-                <div className="row">
-                  <div  >
-                    <h1>The Choards</h1>
-                    <h3>Members: Eunki Joung, Seung-gun Park</h3>
-                    <div> The Ducks: An Immersive AR-based Tycoon Game </div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GRN5xBbUt5I?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] The Choards" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
+
+        <div className="container-fluid mb-3">
+            <div className="row">
+            <div className="col-md-12">
+                <div className="card h-100">
+                <div className="card-header bg-success text-white">Project Gallery</div>
+                <div className="card-body">
+                    <div className="row">
+                    <div  >
+                        <h1>The Choards</h1>
+                        <h3>Members: Eunki Joung, Seung-gun Park</h3>
+                        <div> The Ducks: An Immersive AR-based Tycoon Game </div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GRN5xBbUt5I?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] The Choards" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h1>GAZA (<a href="https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00135" target="_blank">ISMAR 2022 Poster</a>)</h1>
+                        <h3>Members: Hyuckjin Jang, Kyung Taek Oh, Seonji Kim</h3>
+                        <div> AR Store Placement based on Spatial Information in Mobile AR Shopping </div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FObmILDVP7Q?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] GAZA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h1>LAVR</h1>
+                        <h3>Members: Chaejung Maeng, Jiho Kang, Taehei Kim</h3>
+                        <div>Adaptive Pointing Motion Generation using Mobile UI component for Mobile AR Collaboration</div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HPqNxu00VpU?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] LAVR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h3><img src="../img/like.jpg" /> <span className="badge rounded-pill bg-secondary">Cool Video</span></h3>
+                        <h1>memARy(<a href="https://doi.org/10.1109/VRW58643.2023.00126" target="_blank">VR 2023 Poster</a>)</h1>
+                        <h3>Members: Eunhwa Song, Minju Baeck, Jihyeon Lee</h3>
+                        <div> Memo:me, AR Sticky Notes with Time and Color-based Reminder and Priority Transition System for To-do Management </div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/k9GahOiQORE?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] memARy" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h1>BackSeating</h1>
+                        <h3>Members: Pooseung Sean Koh, Jaejun Lee, Jaehong Kim</h3>
+                        <div>AR Desktop: Considering the Work Efficiency and Ergonomics</div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UYKLGrTVcqg?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] BackSeatGaming" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h3><img src="../img/like.jpg" /> <span className="badge rounded-pill bg-secondary">Cool Video</span></h3>
+                        <h1>WALL-Engineers</h1>
+                        <h3>Members: Jungjin Park, Jeonghoon Han, Gihoon Kim</h3>
+                        <div>AR Brain Wall</div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/51axyd3hHp4?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] WALL-Engineers" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h3><img src="../img/trophy.jpg" /> <span className="badge rounded-pill bg-secondary">Best Idea</span></h3>
+                        <h1>YunLeeKim (<a href="https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00156" target="_blank">ISMAR 2022 Poster</a>)</h1>
+                        <h3>Members: Seungun Lee, Jiyoung Yun, Dain Kim</h3>
+                        <div> MARS: Museum AR guide System </div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MnQylKDfk2c?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] YunLeeKim" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h3><img src="../img/trophy.jpg" /> <span className="badge rounded-pill bg-secondary">Best Idea</span></h3>
+                        <h1>Cat Together</h1>
+                        <h3>Members: Bowon Kim, Yujeung Eum, Sihyun Jeong</h3>
+                        <div>CaTogether</div>
+                        <br/><br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hmJV3RE-kvk?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] Cat Together" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h1>V2</h1>
+                        <h3>Members: Hyun Ho Yun, Soyeon Yoon, Kampanart Sudprasert, Sungwoo Jeon</h3>
+                        <div>Cloud Anchored Augmented Restaurant Menu Replacement by Time Period</div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EEhdOj1J68A?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] V2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div  >
+                        <h1>Art Rich (<a href="https://ismar2022.org/" target="_blank">ISMAR 2022 Poster</a>)</h1>
+                        <h3>Members: Joosun Yum, Sohyun Park, Jieon Du, Zeynep Ozdemir</h3>
+                        <div> Place Your AR Artwork: Art Rich</div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NDkJtkrSerk?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] Art Rich" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
+                    <div className="row">
+                    <div >
+                        <h1>AR Ensemble Space</h1>
+                        <h3>Members: Jiyun Park, Jaeran Choi, Yohan Yun</h3>
+                        <div> AR Ensemble Space: Spatial Music Visualizer in Augmented Reality </div>
+                        <br/>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1u8Jn2Bu8Yg?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] AR Ensemble" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                    </div>
+                    <hr/>
                 </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h1>GAZA (<a href="https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00135" target="_blank">ISMAR 2022 Poster</a>)</h1>
-                    <h3>Members: Hyuckjin Jang, Kyung Taek Oh, Seonji Kim</h3>
-                    <div> AR Store Placement based on Spatial Information in Mobile AR Shopping </div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FObmILDVP7Q?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] GAZA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
                 </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h1>LAVR</h1>
-                    <h3>Members: Chaejung Maeng, Jiho Kang, Taehei Kim</h3>
-                    <div>Adaptive Pointing Motion Generation using Mobile UI component for Mobile AR Collaboration</div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HPqNxu00VpU?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] LAVR" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h3><img src="../img/like.jpg" /> <span className="badge rounded-pill bg-secondary">Cool Video</span></h3>
-                    <h1>memARy(<a href="https://doi.org/10.1109/VRW58643.2023.00126" target="_blank">VR 2023 Poster</a>)</h1>
-                    <h3>Members: Eunhwa Song, Minju Baeck, Jihyeon Lee</h3>
-                    <div> Memo:me, AR Sticky Notes with Time and Color-based Reminder and Priority Transition System for To-do Management </div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k9GahOiQORE?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] memARy" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h1>BackSeating</h1>
-                    <h3>Members: Pooseung Sean Koh, Jaejun Lee, Jaehong Kim</h3>
-                    <div>AR Desktop: Considering the Work Efficiency and Ergonomics</div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UYKLGrTVcqg?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] BackSeatGaming" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h3><img src="../img/like.jpg" /> <span className="badge rounded-pill bg-secondary">Cool Video</span></h3>
-                    <h1>WALL-Engineers</h1>
-                    <h3>Members: Jungjin Park, Jeonghoon Han, Gihoon Kim</h3>
-                    <div>AR Brain Wall</div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/51axyd3hHp4?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] WALL-Engineers" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h3><img src="../img/trophy.jpg" /> <span className="badge rounded-pill bg-secondary">Best Idea</span></h3>
-                    <h1>YunLeeKim (<a href="https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00156" target="_blank">ISMAR 2022 Poster</a>)</h1>
-                    <h3>Members: Seungun Lee, Jiyoung Yun, Dain Kim</h3>
-                    <div> MARS: Museum AR guide System </div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MnQylKDfk2c?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] YunLeeKim" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h3><img src="../img/trophy.jpg" /> <span className="badge rounded-pill bg-secondary">Best Idea</span></h3>
-                    <h1>Cat Together</h1>
-                    <h3>Members: Bowon Kim, Yujeung Eum, Sihyun Jeong</h3>
-                    <div>CaTogether</div>
-                    <br/><br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hmJV3RE-kvk?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] Cat Together" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h1>V2</h1>
-                    <h3>Members: Hyun Ho Yun, Soyeon Yoon, Kampanart Sudprasert, Sungwoo Jeon</h3>
-                    <div>Cloud Anchored Augmented Restaurant Menu Replacement by Time Period</div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EEhdOj1J68A?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] V2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h1>Art Rich (<a href="https://ismar2022.org/" target="_blank">ISMAR 2022 Poster</a>)</h1>
-                    <h3>Members: Joosun Yum, Sohyun Park, Jieon Du, Zeynep Ozdemir</h3>
-                    <div> Place Your AR Artwork: Art Rich</div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NDkJtkrSerk?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] Art Rich" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-                <div className="row">
-                  <div  >
-                    <h1>AR Ensemble Space</h1>
-                    <h3>Members: Jiyun Park, Jaeran Choi, Yohan Yun</h3>
-                    <div> AR Ensemble Space: Spatial Music Visualizer in Augmented Reality </div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1u8Jn2Bu8Yg?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk" title="[CTP445 Project] AR Ensemble" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                  </div>
-                </div>
-                <hr/>
-              </div>
             </div>
-          </div>
+            </div>
         </div>
-      </div>
-
-
 
     </SectionContainer>
   );

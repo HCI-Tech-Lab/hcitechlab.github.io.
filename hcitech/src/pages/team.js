@@ -15,7 +15,7 @@ export default function Team() {
         </div>
         <ProfessorCard />
         <GradStudents />
-        <Interns />
+        {/*<Interns /> */}
         <AdministrativeStaff />
         <GradAlumni />
         <InternAlumni />

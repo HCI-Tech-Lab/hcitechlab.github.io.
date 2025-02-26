@@ -29,6 +29,8 @@ export const courses = [
         "title": "GCT/MV623 Interaction Sensing Principle& Application",
         "desc": "This course will educate core principles of 3D & Physical sensing adopted for huamn computer interaction.",
         "years": [
+            ["/GCT741Spring2023", "Spring 2023"],
+            ["/GCT741Spring2024", "Spring 2024"],
         ],
     },
 ];

@@ -33,6 +33,16 @@ export const gradStudents = [
       "note": "(Co-advised by Prof. Woontack Woo)",
     },
     {
+      "img": "/img/Member/MB.jpeg",
+      "hoverImg": "/main_icon.png",
+      "name": "Minju Baeck",
+      "title": "Ph.D. Student",
+      "link": "#",
+      "mail": "#",
+      "linkedin": "https://www.linkedin.com/in/minjubaeck/",
+      "note": "(Co-advised by Prof. Woontack Woo)",
+    },
+    {
       "img": "/img/Member/KJ.png",
       "hoverImg": "/main_icon.png",
       "name": "Kyungeun Jung",

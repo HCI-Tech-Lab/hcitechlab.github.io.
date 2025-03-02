@@ -207,7 +207,7 @@ export const gradStudents = [
       "hoverImg": "/main_icon.png",
       "name": "Rachel Jungmin Kim",
       "title": "Undergraduate Intern",
-      "link": "#",
+      "link": "http://www.racheljk.me/",
       "mail": "#",
       "linkedin": "#",
       "note": "",

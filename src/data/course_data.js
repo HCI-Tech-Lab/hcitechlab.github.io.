@@ -270,7 +270,8 @@ export const courses_new = {
                         imageLink: "/GCT565_Fall2022/Team2.jpg",
                         recognition: "",
                     },
-                ]
+                ],
+                schedule: []
             },
         ]
     }

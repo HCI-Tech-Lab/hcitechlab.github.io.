@@ -2,11 +2,14 @@
   "name": "hcitech",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hcitechlab.github.io/updatetest",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "baguettebox.js": "^1.12.0",
@@ -15,5 +18,8 @@
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

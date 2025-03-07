@@ -147,7 +147,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/2024/CVM/Teaser.webp",
+            poster: "research/2024/CVM/Teaser.webp",
             demo: "",
             title: "Audio-Guided Implicit Neural Representation for Local Image Stylization",
             authors: "Seunghyun Lee, Seung Hyun Lee, Sieun Kim, Wonmin Byeon, Gyeongrok Oh, Sumin In, Hyeongcheol Park, Sang Ho Yoon, Sung-hee Hong, Jinkyu Kim*, and Sangpil Kim*",
@@ -165,8 +165,8 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/CHI2024/Interactivity_HCITech.png",
-            demo: "/research/CHI2024/Interactivity_HCITech.mp4",
+            poster: "research/CHI2024/Interactivity_HCITech.png",
+            demo: "research/CHI2024/Interactivity_HCITech.mp4",
             title: "Adaptive and Immersive XR Interactions with Wearable Interfaces (Demo of KAIST HCI Tech Lab)",
             authors: "Sang Ho Yoon, Youjin Sung, Kun Woo Song, Kyungeun Jung, Kyungjin Seo, Jina Kim, Hyung Il Yi, Nicha Vanichvoranun, Hanseok Jeong, and Hojeong Lee",
             status: "",
@@ -183,8 +183,8 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/IMWUT2023/IMWUT.jpg",
-            demo: "/research/IMWUT2023/IMWUT.mp4",
+            poster: "research/IMWUT2023/IMWUT.jpg",
+            demo: "research/IMWUT2023/IMWUT.mp4",
             title: "HapticPilot: Authoring In-situ Hand Posture-Adaptive Vibrotactile Feedback for Virtual Reality",
             authors: "Youjin Sung, Rachel Kim, Kun Woo Song, Yitian Shao, Sang Ho Yoon",
             status: "",
@@ -201,8 +201,8 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/SpringerVR/HapMotion.jpg",
-            demo: "/research/SpringerVR/HapMotion.mp4",
+            poster: "research/SpringerVR/HapMotion.jpg",
+            demo: "research/SpringerVR/HapMotion.mp4",
             title: "HapMotion: Motion-to-Tactile Framework with Wearable Haptic Devices for Immersive VR Performance Experience",
             authors: "Kyungeun Jung, Sangpil Kim, Seungjae Oh*, Sang Ho Yoon*",
             status: "",
@@ -219,7 +219,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/Submitted/Robust_Sound.webp",
+            poster: "research/Submitted/Robust_Sound.webp",
             demo: "",
             title: "Robust Sound-Guided Image Manipulation",
             authors: "Seunghyun Lee, Hyung-gun Chi, Wonmin Byeon, Gyeongrok Oh, Sang Ho Yoon, Hyunje Park, Wonjun Cho, Jinkyu Kim, Sangpil Kim",
@@ -237,7 +237,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/CVPR2024/cvpr2024.jpg",
+            poster: "research/CVPR2024/cvpr2024.jpg",
             demo: "",
             title: "Edge-Aware 3D Instance Segmentation Network with Intelligent Semantic Prior",
             authors: "Wonseok Roh, Hwanhee Jung, Giljoo Nam, Jinseop Yeom, Hyunje Park, Sang Ho Yoon, Sangpil Kim",
@@ -257,8 +257,8 @@ export const research_temp = {
     ],
     "2023": [
         {
-            poster: "/research/VR2023/Vibaware.png",
-            demo: "/research/SUI2023/VibAware.mp4",
+            poster: "research/VR2023/Vibaware.png",
+            demo: "research/SUI2023/VibAware.mp4",
             title: "VibAware: Context-Aware Tap and Swipe Gestures Using Bio-Acoustic Sensing",
             authors: "Jina Kim, MinYung Kim, Woosuk Lee, Sang Ho Yoon",
             status: "",
@@ -275,8 +275,8 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/WHC2023/wrimoucon.jpg",
-            demo: "/research/WHC2023/wrimoucon.mp4",
+            poster: "research/WHC2023/wrimoucon.jpg",
+            demo: "research/WHC2023/wrimoucon.mp4",
             title: "WriMouCon: Wrist-Mounted Haptic Controller for Rendering Physical Properties in Virtual Reality",
             authors: "Minjae Jo, DongKyu Kwak, Sang Ho Yoon",
             status: "",
@@ -293,7 +293,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/UIST2023/Mo2Hap.jpg",
+            poster: "research/UIST2023/Mo2Hap.jpg",
             demo: "",
             title: "Mo2Hap: Rendering VR Performance Motion Flow to Upper-body Vibrotactile Haptic Feedback",
             authors: "Kyungeun Jung, Sang Ho Yoon",
@@ -311,7 +311,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/VR2023/Swipe.jpg",
+            poster: "research/VR2023/Swipe.jpg",
             demo: "",
             title: "Swipe-it!: One-handed Thumb-tip Interaction for Text Editing in AR",
             authors: "Nicha Vanichvoranun, Jina Kim, Hyuckjin Jang, Sang Ho Yoon",
@@ -329,7 +329,7 @@ export const research_temp = {
             category: "Poster / Demo / Workshop"
         },
         {
-            poster: "/research/VR2023/Mo2Hap.png",
+            poster: "research/VR2023/Mo2Hap.png",
             demo: "",
             title: "Mo2Hap: Rendering performer’s Motion Flow to Upper-body Vibrotactile Haptic Feedback for VR performance",
             authors: "Kyungeun Jung, Seungjae Oh, Sang Ho Yoon",
@@ -347,7 +347,7 @@ export const research_temp = {
             category: "Poster / Demo / Workshop"
         },
         {
-            poster: "/research/VR2023/Lightweight.png",
+            poster: "research/VR2023/Lightweight.png",
             demo: "",
             title: "A Lightweight Wearable Multi-joint Force Feedback for High Definition Grasping in VR",
             authors: "Nicha Vanichvoranun, Sang Ho Yoon",
@@ -367,7 +367,7 @@ export const research_temp = {
     ],
     "2022": [
         {
-            poster: "/research/VRST2022/HandPosture.jpg",
+            poster: "research/VRST2022/HandPosture.jpg",
             demo: "",
             title: "Exploring Vibration Intensity Map Of Hand Postures For Haptic Rendering In XR",
             authors: "Youjin Sung, Yitian Shao, Rachel Kim, Sang Ho Yoon",
@@ -385,7 +385,7 @@ export const research_temp = {
             category: "Poster / Demo / Workshop"
         },
         {
-            poster: "/research/VRST2022/GuideRing.jpg",
+            poster: "research/VRST2022/GuideRing.jpg",
             demo: "",
             title: "Guide Ring: Bi-directional Finger-worn Haptic Actuator for Rich Haptic Feedback",
             authors: "Zofia Marciniak, Seo Young Oh, Sang Ho Yoon",
@@ -403,7 +403,7 @@ export const research_temp = {
             category: "Poster / Demo / Workshop"
         },
         {
-            poster: "/research/SoundGuided/Sound-guided-video.jpg",
+            poster: "research/SoundGuided/Sound-guided-video.jpg",
             demo: "",
             title: "Sound-Guided Semantic Video Generation",
             authors: "Seung Hyun Lee, Gyeongrok Oh, Wonmin Byeon, Jihyun Bae, Chanyoung Kim, Won Jeong Ryoo, Sang Ho Yoon, Jinkyu Kim, Sangpil Kim",
@@ -421,7 +421,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/SoE/SoE.jpg",
+            poster: "research/SoE/SoE.jpg",
             demo: "",
             title: "Sense of Embodiment Inducement for People With Reduced Lower-body Mobility and Sensations With Partial-visuomotor Stimulation",
             authors: "Hyuckjin Jang, Taehei Kim, Seoyoung Oh, Jeongmi Lee, Sunghee Lee, Sang Ho Yoon",
@@ -439,7 +439,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research//SoundGuided/Sound-guided-CVPR.jpg",
+            poster: "research//SoundGuided/Sound-guided-CVPR.jpg",
             demo: "",
             title: "Sound-Guided Semantic Image Manipulation",
             authors: "Seunghyun Lee, Wonseok Roh, Wonmin Byeon, Sang Ho Yoon, Chanyoung Kim, Jinkyu Kim, Sangpil Kim",
@@ -459,7 +459,7 @@ export const research_temp = {
     ],
     "2021": [
         {
-            poster: "/research//SoundGuided/Sound-guided.jpg",
+            poster: "research//SoundGuided/Sound-guided.jpg",
             demo: "",
             title: "Sound-Guided Semantic Image Manipulation",
             authors: "Seunghyun Lee, Wonseok Roh, Wonmin Byeon, Sang Ho Yoon, Chanyoung Kim, Jinkyu Kim, Sangpil Kim",
@@ -470,14 +470,14 @@ export const research_temp = {
             website: "",
             doi: "https://openaccess.thecvf.com/content/CVPR2022/html/Lee_Sound-Guided_Semantic_Image_Manipulation_CVPR_2022_paper.html",
             video: "",
-            pdf: "/research/SoundGuided/sound_cvpr.pdf",
+            pdf: "research/SoundGuided/sound_cvpr.pdf",
             presentation: "",
             media: "",
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/AudioArt/AudioArt.JPG",
+            poster: "research/AudioArt/AudioArt.JPG",
             demo: "",
             title: "Audio-Guided Image Manipulation for Artistic Paintings",
             authors: "Seung Hyun Lee, Nahyuk Lee, Chanyoung Kim, Wonjeong Ryoo Jinkyu Kim , Sang Ho Yoon*, Sangpil Kim*",
@@ -488,7 +488,7 @@ export const research_temp = {
             website: "",
             doi: "https://openaccess.thecvf.com/content/CVPR2022/html/Lee_Sound-Guided_Semantic_Image_Manipulation_CVPR_2022_paper.html",
             video: "",
-            pdf: "/research/AudioArt/AudioGuided.pdf",
+            pdf: "research/AudioArt/AudioGuided.pdf",
             presentation: "",
             media: "",
             highligt: false,
@@ -497,7 +497,7 @@ export const research_temp = {
     ],
     "2020": [
         {
-            poster: "/research/Surfaceflow/Surfaceflow.gif",
+            poster: "research/Surfaceflow/Surfaceflow.gif",
             demo: "",
             title: "SurfaceFlow: Large Area Haptic Display via Compliant Liquid Dielectric Actuators",
             authors: "Yitian Shao, Siyuan Ma, Sang Ho Yoon, Yon Visell, James Holbery",
@@ -515,7 +515,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/iMold/iMold.PNG",
+            poster: "research/iMold/iMold.PNG",
             demo: "",
             title: "iMold: Enabling Interactive Design Optimization for In-Mold Electronics",
             authors: "Jonathan Ting, Yunbo Zhang, Sang Ho Yoon, James D Holbery, Siyuan Ma",
@@ -526,14 +526,14 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/3334480.3382891",
             video: "",
-            pdf: "/research/iMold/iMold.pdf",
+            pdf: "research/iMold/iMold.pdf",
             presentation: "",
             media: "",
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         }, 
         {
-            poster: "/research/StressMonitoring/StressMonitoring.PNG",
+            poster: "research/StressMonitoring/StressMonitoring.PNG",
             demo: "",
             title: "Stress Monitoring using Multimodal Bio-sensing Headset",
             authors: "Joong Hoon Lee, Hannes Gamper, Ivan Tashev, Steven Dong, Siyuan Ma, Jacquelin Remaley, James D Holbery, Sang Ho Yoon",
@@ -553,8 +553,8 @@ export const research_temp = {
     ],
     "2019": [
         {
-            poster: "/research/Hapsense/Hapsense.png",
-            demo: "/research/Hapsense/Hapsense.mp4",
+            poster: "research/Hapsense/Hapsense.png",
+            demo: "research/Hapsense/Hapsense.mp4",
             title: "HapSense: A Soft Haptic I/O Device with Uninterrupted Dual Functionalities of Force Sensing and Vibrotactile Actuation",
             authors: "Sang Ho Yoon, Woo Suk Lee, Shantanu Thakurdesai, Di Sun, Flávio P. Ribeiro, James D. Holbery",
             status: "",
@@ -564,15 +564,15 @@ export const research_temp = {
             website: "",
             doi: "https://dl.acm.org/doi/10.1145/3332165.3347888",
             video: "https://youtu.be/VpoEI6o3vMA",
-            pdf: "/research/Hapsense/Hapsense.pdf",
+            pdf: "research/Hapsense/Hapsense.pdf",
             presentation: "https://youtu.be/O3i3IaMdbXg",
             media: "",
             highligt: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/MultiSoft/MultiSoft.jpg",
-            demo: "/research/MultiSoft/MultiSoft.mp4",
+            poster: "research/MultiSoft/MultiSoft.jpg",
+            demo: "research/MultiSoft/MultiSoft.mp4",
             title: "MultiSoft: Soft Sensor Enabling Real-Time Multimodal Sensing with Contact Localization and Deformation Classification",
             authors: "Sang Ho Yoon, Luis Paredes, Ke Huo, Karthik Ramani",
             status: "",
@@ -582,7 +582,7 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/3264955",
             video: "https://youtu.be/PDgE26cgjG8",
-            pdf: "/research/MultiSoft/MultiSoft.pdf",
+            pdf: "research/MultiSoft/MultiSoft.pdf",
             presentation: "",
             media: "",
             highligt: false,
@@ -591,8 +591,8 @@ export const research_temp = {
     ],
     "2018": [
         {
-            poster: "/research/Scenariot/Scenariot.jpg",
-            demo: "/research/Scenariot/Scenariot.mp4",
+            poster: "research/Scenariot/Scenariot.jpg",
+            demo: "research/Scenariot/Scenariot.mp4",
             title: "Scenariot: Spatially mapping smart things within augmented reality scenes",
             authors: "Ke Huo, Yuanzhi Cao, Sang Ho Yoon, Zhuangying Xu, Guiming Chen, Karthik Ramani",
             status: "",
@@ -602,7 +602,7 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/3173574.3173793",
             video: "https://youtu.be/DqJsitjEo8E",
-            pdf: "/research/Scenariot/Scenariot.pdf",
+            pdf: "research/Scenariot/Scenariot.pdf",
             presentation: "",
             media: "",
             highligt: false,
@@ -611,8 +611,8 @@ export const research_temp = {
     ],
     "2017": [
         {
-            poster: "/research/iSoft/iSoft.jpg",
-            demo: "/research/iSoft/iSoft.mp4",
+            poster: "research/iSoft/iSoft.jpg",
+            demo: "research/iSoft/iSoft.mp4",
             title: "iSoft: A Customizable Soft Sensor with Real-time Continuous Contact and Stretching Sensing",
             authors: "Sang Ho Yoon, Ke Huo, Yunbo Zhang, Guiming Chen, Luis Paredes, Subramanian Chidambaram, Karthik Ramani",
             status: "",
@@ -622,15 +622,15 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/3126594.3126654",
             video: "https://youtu.be/JVaYEl9nbME",
-            pdf: "/research/iSoft/iSoft.pdf",
+            pdf: "research/iSoft/iSoft.pdf",
             presentation: "https://youtu.be/_YupB3qLikQ",
             media: "https://www.youtube.com/watch?v=7fNbM-lrX-E",
             highligt: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/BikeGesture/BikeGesture.jpg",
-            demo: "/research/BikeGesture/Bikegesture.mp4",
+            poster: "research/BikeGesture/BikeGesture.jpg",
+            demo: "research/BikeGesture/Bikegesture.mp4",
             title: "BikeGesture: user elicitation and performance of micro hand gesture as input for cycling",
             authors: "Yanke Tan*, Sang Ho Yoon*, Karthik Ramani",
             status: "",
@@ -640,14 +640,14 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/3027063.3053075",
             video: "",
-            pdf: "/research/BikeGesture/BikeGesture.pdf",
+            pdf: "research/BikeGesture/BikeGesture.pdf",
             presentation: "",
             media: "",
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/RobustHand/RobustHand.png",
+            poster: "research/RobustHand/RobustHand.png",
             demo: "",
             title: "Robust hand pose estimation during the interaction with an unknown object",
             authors: "Chiho Choi, Sang Ho Yoon, Chin-Ning Chen, Karthik Ramani",
@@ -658,7 +658,7 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1109/ICCV.2017.339",
             video: "",
-            pdf: "/research/RobustHand/RobustHand.pdf",
+            pdf: "research/RobustHand/RobustHand.pdf",
             presentation: "",
             media: "",
             highligt: false,
@@ -667,8 +667,8 @@ export const research_temp = {
     ],
     "2016": [
         {
-            poster: "/research/TRing/TRing.jpg",
-            demo: "/research/TRing/TRing.mp4",
+            poster: "research/TRing/TRing.jpg",
+            demo: "research/TRing/TRing.mp4",
             title: "TRing: Instant and customizable interactions with objects using an embedded magnet and a finger-worn device",
             authors: "Sang Ho Yoon, Ke Huo, Yunbo Zhang, Guiming Chen, Luis Paredes, Subramanian Chidambaram, Karthik Ramani",
             status: "",
@@ -678,15 +678,15 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/2984511.2984529",
             video: "https://youtu.be/MDS5G7-U9Kk",
-            pdf: "/research/TRing/TRing.pd",
+            pdf: "research/TRing/TRing.pd",
             presentation: "https://youtu.be/ruhxaCrznWs",
             media: "",
             highligt: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/TMotion/TMotion.jpg",
-            demo: "/research/TMotion/TMotion.mp4",
+            poster: "research/TMotion/TMotion.jpg",
+            demo: "research/TMotion/TMotion.mp4",
             title: "TMotion: Embedded 3D Mobile Input using Magnetic Sensing Technique",
             authors: "Sang Ho Yoon, Ke Huo, Vinh P. Nguyen, Karthik Ramani",
             status: "",
@@ -696,14 +696,14 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/2839462.2839463",
             video: "https://www.youtube.com/watch?v=pWuq5H5kyAg",
-            pdf: "/research/TMotion/TMotion.pdf",
+            pdf: "research/TMotion/TMotion.pdf",
             presentation: "",
             media: "",
             highligt: false,
             category: "Poster / Demo / Workshop"
         },
         {
-            poster: "/research/WearableTextileInput/WearableTextileInput.PNG",
+            poster: "research/WearableTextileInput/WearableTextileInput.PNG",
             demo: "",
             title: "Wearable textile input device with multimodal sensing for eyes-free mobile interaction during daily activities",
             authors: "Sang Ho Yoon, Ke Huo, Karthik Ramani",
@@ -714,7 +714,7 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1016/j.pmcj.2016.04.008",
             video: "",
-            pdf: "/research/WearableTextileInput/WearableTextileInput.pdf",
+            pdf: "research/WearableTextileInput/WearableTextileInput.pdf",
             presentation: "",
             media: "",
             highligt: false,
@@ -723,8 +723,8 @@ export const research_temp = {
     ],
     "2015": [
         {
-            poster: "/research/TiMMi/TiMMI.jpg",
-            demo: "/research/TiMMi/TiMMi.mp4",
+            poster: "research/TiMMi/TiMMI.jpg",
+            demo: "research/TiMMi/TiMMi.mp4",
             title: "TIMMi: Finger-worn Textile Input Device with Multimodal Sensing in Mobile Interaction",
             authors: "Sang Ho Yoon, Ke Huo, Vinh P. Nguyen, Karthik Ramani",
             status: "",
@@ -734,7 +734,7 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/2677199.2680560",
             video: "https://youtu.be/rEMBgWGdb-E",
-            pdf: "/research/TiMMi/TiMMi.pdf",
+            pdf: "research/TiMMi/TiMMi.pdf",
             presentation: "",
             media: "",
             highligt: false,
@@ -743,8 +743,8 @@ export const research_temp = {
     ],
     "2014": [
         {
-            poster: "/research/BendID/BendID.jpg",
-            demo: "/research/BendID/BendID.mp4",
+            poster: "research/BendID/BendID.jpg",
+            demo: "research/BendID/BendID.mp4",
             title: "BendID: Flexible interface for localized deformation recognition",
             authors: "Vinh P. Nguyen, Sang Ho Yoon, Ansh Verma, Karthik Ramani",
             status: "",
@@ -754,7 +754,7 @@ export const research_temp = {
             website: "",
             doi: "https://doi.org/10.1145/2632048.2636092",
             video: "https://youtu.be/8X91vr81mdg",
-            pdf: "/research/BendID/BendID.pdf",
+            pdf: "research/BendID/BendID.pdf",
             presentation: "",
             media: "",
             highligt: false,

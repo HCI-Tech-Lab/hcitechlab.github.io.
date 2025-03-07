@@ -28,7 +28,7 @@ const ProfessorCard = () => {
     <div className = "row">
         <h2 className="card-title">Faculty</h2>
         <div className="col-lg-3 col-6" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
-          <MemberImage originalImage = "/img/Member/Sang.jpg" hoverImage = "/main_icon.png" />
+          <MemberImage originalImage = "img/Member/Sang.jpg" hoverImage = "main_icon.png" />
         </div>
         <div className="col-lg-6 col-6" style={{textAlign: "left", paddingBottom: "20px"}}>
             <b style={{fontSize: "24px"}}>Sang Ho Yoon</b>

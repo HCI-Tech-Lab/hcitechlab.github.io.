@@ -12,7 +12,7 @@ const NavBar = () => {
 
                 </div>
                 <Link href = '/' className = 'navbar-brand'>
-                    <Image alt = "logo" src = "/Logo_White.png" width = {240} height = {60} className = "d-none d-sm-block"/>
+                    <Image alt = "logo" src = "Logo_White.png" width = {240} height = {60} className = "d-none d-sm-block"/>
                 </Link>
                 <div>
                     <ul className = "navbar-nav me-auto">

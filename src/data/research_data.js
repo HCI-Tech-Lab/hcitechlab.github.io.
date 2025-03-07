@@ -1,7 +1,7 @@
 export const research_temp = {
     "2025": [
         {
-            poster: "./research/TVCG/TVCG_01.png",
+            poster: "research/TVCG/TVCG_01.png",
             demo: "",
             title: "Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations",
             authors: "Kun-Woo Song, Sang Ho Yoon",
@@ -19,7 +19,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "./research/Submitted",
+            poster: "research/Submitted",
             demo: "",
             title: "ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool",
             authors: "Hyunyoung Han*, Kyungeun Jung*, Sang Ho Yoon",
@@ -37,7 +37,7 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-            poster: "./research/Submitted",
+            poster: "research/Submitted",
             demo: "",
             title: "T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input",
             authors: "Jina Kim, Yang Zhang, Sang Ho Yoon",
@@ -55,7 +55,7 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-            poster: "./research/Submitted",
+            poster: "research/Submitted",
             demo: "",
             title: "HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design",
             authors: "Youjin Sung*, Kevin John*, Sang Ho Yoon**, Hasti Seifi**",
@@ -73,7 +73,7 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-            poster: "./research/Submitted",
+            poster: "research/Submitted",
             demo: "",
             title: "VibWalk: Mapping Lower-limb Haptic Experiences of Everyday Walking",
             authors: "Shih Ying-Lei, Tang Dongxu, Weiming Hu, Sang Ho Yoon, Yitian Shao",
@@ -93,7 +93,7 @@ export const research_temp = {
     ],
     "2024": [
         {
-            poster: "/research/2024/NeurIPS/nips2024.jpg",
+            poster: "research/2024/NeurIPS/nips2024.jpg",
             demo: "",
             title: "Posture-Informed Muscular Force Learning for Robust Hand Pressure Estimation",
             authors: "Kyungjin Seo*, Junghoon Seo*, Hanseok Jeong, Sangpil Kim, Sang Ho Yoon",
@@ -111,7 +111,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/2024/IMWUT/IMWUT2024.png",
+            poster: "research/2024/IMWUT/IMWUT2024.png",
             demo: "",
             title: "EStatiG: Wearable Haptic Feedback with Multi-Phalanx Electrostatic Brake for Enhanced Object Perception in VR",
             authors: "Nicha Vanichvoranun*, Hojeong Lee*, Seoyeon Kim, Sang Ho Yoon",
@@ -129,7 +129,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "/research/2024/ISMAR/ISMAR2024.png",
+            poster: "research/2024/ISMAR/ISMAR2024.png",
             demo: "",
             title: "ThermicVib: Enabling Dynamic Thermal Sensation with Multimodal Haptic Glove for Thermal-Responsive Interaction",
             authors: "Hyung Il Yi, Hojeong Lee, Sang Ho Yoon",

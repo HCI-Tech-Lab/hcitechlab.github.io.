@@ -18,7 +18,7 @@ export default function ProjectGallery({projects}) {
                                                     {
                                                         project.recognition == "" ? null : 
                                                             <h3>
-                                                                <img src="/img/trophy.jpg" alt="trophy" />{" "}
+                                                                <img src="img/trophy.jpg" alt="trophy" />{" "}
                                                                 <span className="badge rounded-pill bg-secondary">{project.recognition}</span>
                                                             </h3>
                                                     }

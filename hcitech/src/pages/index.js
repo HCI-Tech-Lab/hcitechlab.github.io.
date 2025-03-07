@@ -1,5 +1,4 @@
 import Carousel from "@/components/carousel";
-import Image from 'next/image';
 import Link from 'next/link';
 import {news} from '../data/news_data';
 import { research_temp } from "@/data/research_data";
@@ -108,7 +107,7 @@ const NewsCard = () => {
                     <div className="news-item" key={_}>
                       <div className="title_news">
                         {newsItem["icon"] === "" ? null : (
-                          <Image
+                          <img
                             alt="icon"
                             src={newsItem["icon"]}
                             width={newsItem["tall"] ? 41.88 : 25}
@@ -120,7 +119,7 @@ const NewsCard = () => {
                       <div className="date"> {newsItem["date"]}</div>
                       <div className="context_news mb-3">{newsItem["content"]}</div>
                       {newsItem["images"].map((src, index) => (
-                        <Image
+                        <img
                           key={index}
                           alt="news_image"
                           src={src}
@@ -152,24 +151,6 @@ const NewsCard = () => {
               </div>
               <Link href="/news">More News</Link>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-
-//ResearchHighlights
-
-const ResearchHighlights = () => {
-  return (
-    <div className = "container">
-      <div className="col-lg-12 mb-3">
-        <div className="card h-100">
-          <div className="card-body">
-            <h2 className="card-title">Research Highlights</h2>
-            <Image alt="..." src="/img/Research_Highlight_2024.jpg" width = {5000} height={500} className = "w-100 d-block mx-auto" style={{ height: 'auto'}}/>
           </div>
         </div>
       </div>

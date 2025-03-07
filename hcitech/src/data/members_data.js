@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const gradStudents = [
     {
-      "img": "/img/Member/YS.jpeg",
+      "img": "img/Member/YS.jpeg",
       "hoverImg": "/main_icon.png",
       "name": "Youjin Sung",
       "title": "Ph.D. Student",
@@ -13,7 +13,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/JK.jpg",
+      "img": "img/Member/JK.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Jina Kim",
       "title": "Ph.D. Student",
@@ -23,7 +23,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/SO.jpg",
+      "img": "img/Member/SO.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Seo Young Oh",
       "title": "Ph.D. Student",
@@ -33,7 +33,7 @@ export const gradStudents = [
       "note": "(Co-advised by Prof. Woontack Woo)",
     },
     {
-      "img": "/img/Member/MB.jpeg",
+      "img": "img/Member/MB.jpeg",
       "hoverImg": "/main_icon.png",
       "name": "Minju Baeck",
       "title": "Ph.D. Student",
@@ -43,7 +43,7 @@ export const gradStudents = [
       "note": "(Co-advised by Prof. Woontack Woo)",
     },
     {
-      "img": "/img/Member/KJ.png",
+      "img": "img/Member/KJ.png",
       "hoverImg": "/main_icon.png",
       "name": "Kyungeun Jung",
       "title": "Ph.D. Student",
@@ -53,7 +53,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/KS.jpg",
+      "img": "img/Member/KS.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Kyungjin Seo",
       "title": "Ph.D. Student",
@@ -63,7 +63,7 @@ export const gradStudents = [
       "note": <> (On leave, working@<Link href="https://samsungsgr.com/" target="_blank"> Samsung Global Research</Link> Tech & Experience Team)</>,
     },
     {
-      "img": "/img/Member/MK.jpg",
+      "img": "img/Member/MK.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Min-yung Kim",
       "title": "M.S. Student",
@@ -73,7 +73,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/DK.jpg",
+      "img": "img/Member/DK.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Dong Kyu Kwak",
       "title": "M.S. Student",
@@ -83,7 +83,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/SY.jpg",
+      "img": "img/Member/SY.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Soyeong Yang",
       "title": "M.S. Student",
@@ -93,7 +93,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/HL.jpeg",
+      "img": "img/Member/HL.jpeg",
       "hoverImg": "/main_icon.png",
       "name": "Hyung Il Yi",
       "title": "M.S. Student",
@@ -103,7 +103,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/HH.jpg",
+      "img": "img/Member/HH.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Hyunyoung Han",
       "title": "M.S. Student",
@@ -113,7 +113,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/KWS.jpg",
+      "img": "img/Member/KWS.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Kun-Woo Song",
       "title": "M.S. Student",
@@ -123,7 +123,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/HJ.png",
+      "img": "img/Member/HJ.png",
       "hoverImg": "/main_icon.png",
       "name": "Hojeong Lee",
       "title": "M.S. Student",
@@ -133,7 +133,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/FL.jpg",
+      "img": "img/Member/FL.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Fangqing Li",
       "title": "M.S. Student",
@@ -143,7 +143,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/HWL.jpg",
+      "img": "img/Member/HWL.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Hyung Wook Yi",
       "title": "M.S. Student",
@@ -153,7 +153,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/HS.png",
+      "img": "img/Member/HS.png",
       "hoverImg": "/main_icon.png",
       "name": "Hanseok Jeong",
       "title": "M.S. Student",
@@ -163,7 +163,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/YL.jpg",
+      "img": "img/Member/YL.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Yubin Lee",
       "title": "M.S. Student",
@@ -173,7 +173,7 @@ export const gradStudents = [
       "note": "(Co-advised by Prof. Geehyuk Lee)",
     },
     {
-      "img": "/img/Member/CH.jpg",
+      "img": "img/Member/CH.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Changhyeon Park",
       "title": "M.S. Student",
@@ -183,7 +183,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/KM.jpg",
+      "img": "img/Member/KM.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Kyoungwhan Mheen",
       "title": "M.S. Student",
@@ -193,7 +193,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/DL.jpg",
+      "img": "img/Member/DL.jpg",
       "hoverImg": "/main_icon.png",
       "name": "Dohui Lee",
       "title": "M.S. Student",
@@ -203,7 +203,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/RJK.png",
+      "img": "img/Member/RJK.png",
       "hoverImg": "/main_icon.png",
       "name": "Rachel Jungmin Kim",
       "title": "Undergraduate Intern",
@@ -213,7 +213,7 @@ export const gradStudents = [
       "note": "",
     },
     {
-      "img": "/img/Member/ME.jpeg",
+      "img": "img/Member/ME.jpeg",
       "hoverImg": "/main_icon.png",
       "name": "Murad Eynizada",
       "title": "Undergraduate Intern (KAIST URP)",

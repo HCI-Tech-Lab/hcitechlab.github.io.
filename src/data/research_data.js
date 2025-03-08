@@ -27,7 +27,7 @@ export const research_temp = {
             conference: "CHI2025",
             conferenceLink: "https://chi2025.acm.org/",
             award: "",
-            website: "",
+            website: "https://choreocraft.hcitech.org/",
             doi: "",
             video: "",
             pdf: "",

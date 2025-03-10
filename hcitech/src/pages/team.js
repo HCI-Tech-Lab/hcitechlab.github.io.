@@ -126,7 +126,7 @@ const AdministrativeStaff = () => {
           <MemberImage originalImage = "img/Member/DY.jpeg" hoverImage = "main_icon.png" />
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "left"}}>
-          <b>Dasom Yoo</b><br/>
+          <b style={{fontSize: "24px"}}>Dasom Yoo</b><br/>
           <br/>
           Tel: +82-42-350-5915<br/>
           Office: N25 2F #3241

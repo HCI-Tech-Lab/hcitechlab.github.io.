@@ -196,6 +196,9 @@ export const courses_new = {
                     {date: "9/5", content: "Reading Group Announcement"},
                     {date: "8/29", content: "Class Starts!"},
                 ],
+                schedule: [
+
+                ],
                 projects: [
                     {
                         title: "Avatar-Ego",

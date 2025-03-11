@@ -6,7 +6,7 @@ export const news = [
         title: "New Lab Logo",
         date: "Feb 20 2025",
         content: "Our lab got a new logo designed by Changheyon Park! Thanks all members for the feedback!",
-        images: ["/Logo_White.png"],
+        images: ["Logo_White.png"],
         
     },
     {

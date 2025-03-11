@@ -4,7 +4,7 @@ import Link from "next/link";
 export const gradStudents = [
     {
       "img": "img/Member/YS.jpeg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Youjin Sung",
       "title": "Ph.D. Student",
       "interest": "Research Interest",
@@ -15,7 +15,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/JK.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Jina Kim",
       "title": "Ph.D. Student",
       "interest": "Research Interest",
@@ -26,7 +26,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/SO.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Seo Young Oh",
       "title": "Ph.D. Student",
       "interest": "Research Interest",
@@ -37,7 +37,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/MB.jpeg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Minju Baeck",
       "title": "Ph.D. Student",
       "interest": "Research Interest",
@@ -48,7 +48,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/KJ.png",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Kyungeun Jung",
       "title": "Ph.D. Student",
       "interest": "Research Interest",
@@ -59,7 +59,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/KS.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Kyungjin Seo",
       "title": "Ph.D. Student",
       "interest": "Research Interest",
@@ -70,7 +70,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/MK.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Min-yung Kim",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -81,7 +81,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/DK.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Dong Kyu Kwak",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -92,7 +92,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/SY.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Soyeong Yang",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -103,7 +103,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/HL.jpeg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Hyung Il Yi",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -114,7 +114,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/HH.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Hyunyoung Han",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -125,7 +125,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/KWS.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Kun-Woo Song",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -136,7 +136,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/HJ.png",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Hojeong Lee",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -147,7 +147,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/FL.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Fangqing Li",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -158,7 +158,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/HWL.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Hyung Wook Yi",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -169,7 +169,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/HS.png",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Hanseok Jeong",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -180,7 +180,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/YL.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Yubin Lee",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -191,7 +191,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/CH.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Changhyeon Park",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -202,7 +202,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/KM.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Kyoungwhan Mheen",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -213,7 +213,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/DL.jpg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Dohui Lee",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -224,7 +224,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/RJK.png",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Rachel Jungmin Kim",
       "title": "M.S. Student",
       "interest": "Research Interest",
@@ -235,7 +235,7 @@ export const gradStudents = [
     },
     {
       "img": "img/Member/ME.jpeg",
-      "hoverImg": "/main_icon.png",
+      "hoverImg": "main_icon.png",
       "name": "Murad Eynizada",
       "title": "M.S. Student",
       "interest": "Research Interest",

@@ -104,7 +104,7 @@ const NewsCard = () => {
                     return newsDate >= oneYearAgo && newsDate <= new Date();
                   })
                   .map((newsItem, _) => (
-                    <div className="news-item" key={_}>
+                    <div className="news-item col-md-6 col-12" key={_}>
                       <div className="title_news">
                         {newsItem["icon"] === "" ? null : (
                           <img

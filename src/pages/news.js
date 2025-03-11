@@ -10,7 +10,7 @@ export default function News() {
             <h2 className="card-title">News</h2>
             <div className="row news_item">
                 {news.map((item, index) => (
-                    <div key={index} className="news-item">
+                    <div key={index} className="news-item col-md-6 col-12">
                         <div className="title_news">
                             {item.icon && (
                                 <img 

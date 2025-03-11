@@ -12,7 +12,7 @@ export default function CourseTemplate({course_info, prof, ta, time, loc, submis
             <CourseInfo prof = {prof} ta = {ta} submission = {submission} discussion = {discussion} time = {time} loc = {loc}/>
             {announcements.length > 0 ? <AnnouncementBlock announcements={announcements}/> : null}
             {projects.length > 0 ? <ProjectGallery projects = {projects}/> : null}
-            <CourseSchedule schedule = {schedule}/>
+            {schedule.length > 0 ? <CourseSchedule schedule = {schedule}/> : null}
         </SectionContainer>
     )
 }

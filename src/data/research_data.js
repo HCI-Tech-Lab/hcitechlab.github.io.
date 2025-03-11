@@ -19,7 +19,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "research/Submitted",
+            poster: "research/CHI2025/Choreocraft.png",
             demo: "",
             title: "ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool",
             authors: "Hyunyoung Han*, Kyungeun Jung*, Sang Ho Yoon",
@@ -37,7 +37,7 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-            poster: "research/Submitted",
+            poster: "research/CHI2025/T2IRay.png",
             demo: "",
             title: "T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input",
             authors: "Jina Kim, Yang Zhang, Sang Ho Yoon",
@@ -45,7 +45,7 @@ export const research_temp = {
             conference: "CHI2025",
             conferenceLink: "https://chi2025.acm.org/",
             award: "",
-            website: "",
+            website: "https://t2iray.hcitech.org/",
             doi: "",
             video: "",
             pdf: "",
@@ -55,7 +55,7 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-            poster: "research/Submitted",
+            poster: "research/CHI2025/HapticGen.png",
             demo: "",
             title: "HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design",
             authors: "Youjin Sung*, Kevin John*, Sang Ho Yoon**, Hasti Seifi**",
@@ -73,7 +73,7 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-            poster: "research/Submitted",
+            poster: "research/CHI2025/VibWalk.png",
             demo: "",
             title: "VibWalk: Mapping Lower-limb Haptic Experiences of Everyday Walking",
             authors: "Shih Ying-Lei, Tang Dongxu, Weiming Hu, Sang Ho Yoon, Yitian Shao",

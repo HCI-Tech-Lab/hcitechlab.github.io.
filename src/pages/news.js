@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import SectionContainer from '@/components/section_container';
 import { news } from '../data/news_data';
-import Image from 'next/image';
 
 export default function News() {
     const [selectedNews, setSelectedNews] = useState(null);
@@ -14,7 +13,7 @@ export default function News() {
                     <div key={index} className="news-item">
                         <div className="title_news">
                             {item.icon && (
-                                <Image 
+                                <img 
                                     alt="icon" 
                                     src={item.icon} 
                                     width={25} 
@@ -27,7 +26,7 @@ export default function News() {
                         <div className="context_news mb-3">{item.content}</div>
                         <div className="news-images">
                             {item.images.map((src, imgIndex) => (
-                                <Image alt="news_image" src={src} width = {5000} height={120} style={{ height: '150', width: 'auto', marginRight: '4px' }} />
+                                <img alt="news_image" src={src} width = {5000} height={120} style={{ height: '150', width: 'auto', marginRight: '4px' }} />
                             ))}
                         </div>
 

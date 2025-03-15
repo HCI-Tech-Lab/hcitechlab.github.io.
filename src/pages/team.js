@@ -1,6 +1,6 @@
 import SectionContainer from "@/components/section_container";
 import Link from "next/link";
-import {gradStudents, interns, gradAlumni, internAlumni} from "@/data/members_data";
+import {phdStudents, interns, msStudents, gradAlumni, internAlumni} from "@/data/members_data";
 import MemberImage from "@/components/member_image";
 import { Fragment } from "react";
 
@@ -14,7 +14,8 @@ export default function Team() {
             </div>
         </div>
         <ProfessorCard />
-        <GradStudents />
+        <PhdStudents />
+        <MasterStudents />
         {/*<Interns /> */}
         <AdministrativeStaff />
         <GradAlumni />
@@ -45,17 +46,16 @@ const ProfessorCard = () => {
         </div>
       </div>
     </div>
-    
   );
 }
 
-const GradStudents = () => {
+const PhdStudents = () => {
   return (
     <div className = "container-fluid">
       <div className = "row justify-content-center">
-      <h1 className="card-title" style = {{textAlign: "center"}}>Graduate Students</h1>
+      <h1 className="card-title" style = {{textAlign: "center"}}>PhD Students</h1>
         {
-          gradStudents.map(
+          phdStudents.map(
             (member, index) => (
               <Fragment key = {index}>
                 <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style = {{textAlign: "center"}}>
@@ -82,8 +82,42 @@ const GradStudents = () => {
         </div>
       </div>
     </div>
-    
-    
+  );
+}
+
+const MasterStudents = () => {
+  return (
+    <div className = "container-fluid">
+      <div className = "row justify-content-center">
+      <h1 className="card-title" style = {{textAlign: "center"}}>MS Students</h1>
+        {
+          msStudents.map(
+            (member, index) => (
+              <Fragment key = {index}>
+                <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style = {{textAlign: "center"}}>
+                  <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
+                  <b style={{fontSize: "24px"}}>{member['name']} </b><br/>
+                  <span style={{fontSize: "14px"}}>{member['title']}</span><br/>
+                  <span style={{fontSize: "14px"}}>{member['interest']}</span><br/>
+                  <br/>
+                  <div className = "contact-box">
+                    {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
+                    {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
+                    {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
+                  </div>
+                  <span style={{fontSize: "12px"}}>{member['note']}</span><br/><br/>
+                </div>
+              </Fragment>
+            )
+          )
+        }
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "center", paddingBottom: "20px"}}>
+              {/* <MemberImage originalImage = "main_icon.png" hoverImage = "main_icon.png" /> */}
+              <img  src = "main_icon.png" style={{width: "200px", height: "200px", borderRadius: "20%", display: "flex", justifyContent: "center", margin: "auto"}}/> 
+              <b style={{fontSize: "24px"}}><Link href="/recruiting_graduate">See Openings</Link></b>
+        </div>
+      </div>
+    </div>
   );
 }
 

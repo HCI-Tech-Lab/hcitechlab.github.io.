@@ -4,14 +4,14 @@ import PersonName from "./person_name";
 
 export default function CourseInfo({prof, ta, submission, discussion, time, loc}) {
     return (
-        <div class="container-fluid mb-3">
-            <div class="row">
-                <div class="col-md-6 bg-white">
-                    <div class="card h-100">
-                    <div class="card-header bg-success text-white">
+        <div className="container-fluid mb-3">
+            <div className="row">
+                <div className="col-md-6 bg-white">
+                    <div className="card h-100">
+                    <div className="card-header bg-success text-white">
                         Course Staff
                     </div>
-                        <div class="card-body">
+                        <div className="card-body">
                         <b>Instructor: 
                             {
                                 prof.map(
@@ -42,12 +42,12 @@ export default function CourseInfo({prof, ta, submission, discussion, time, loc}
                     </div>
                 </div>
 
-                <div class="col-md-6 bg-white">
-                    <div class="card h-100">
-                        <div class="card-header bg-success text-white">
+                <div className="col-md-6 bg-white">
+                    <div className="card h-100">
+                        <div className="card-header bg-success text-white">
                             Course Info
                         </div>
-                        <div class="card-body">
+                        <div className="card-body">
                             <b>Time</b>: {time}<br />
                             <b>Location</b>: {loc}<br />
                             <b>Assignment Submission & Grading</b>: <PersonName person = {submission}/><br />

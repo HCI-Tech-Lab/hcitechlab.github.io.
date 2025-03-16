@@ -2,14 +2,14 @@ import { Fragment } from "react";
 
 export default function AnnouncementBlock({announcements}) {
     return (
-        <div class="container-fluid mb-3">
-        <div class="row">
-            <div class="col-md-12 bg-white">
-                <div class="card h-100">
-                <div class="card-header bg-success text-white">
+        <div className="container-fluid mb-3">
+        <div className="row">
+            <div className="col-md-12 bg-white">
+                <div className="card h-100">
+                <div className="card-header bg-success text-white">
                     Announcement
                 </div>
-                <div class="card-body">
+                <div className="card-body">
                     {
                         announcements.map(
                             (item, index) => (

@@ -23,7 +23,7 @@ export default function GalleryCarousel({ images, id, title }) {
                         ))}
                     </div>
                 </div>
-                <figcaption class="figure-caption "><h4>{title}</h4></figcaption>
+                <figcaption className="figure-caption "><h4>{title}</h4></figcaption>
                 {
                     images.length > 1 ? 
                     <a className="carousel-control-prev" href={`#carousel${id}`} role="button" data-bs-slide="prev">

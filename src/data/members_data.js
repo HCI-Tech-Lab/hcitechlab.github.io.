@@ -291,7 +291,7 @@ export const gradAlumni = [
     "title": "M.S. Student",
     "period": "Spring 2023 - Winter 2025",
     "thesisLink": "#",
-    "current": <span class="type"> (now Principal Researcher @ <Link href="https://pitin-ev.com/" target="_blank">PIT IN</Link> AI Robot Team)</span>,
+    "current": <span className="type"> (now Principal Researcher @ <Link href="https://pitin-ev.com/" target="_blank">PIT IN</Link> AI Robot Team)</span>,
   },
   {
     "name": "Nicha Vanichvoranun",
@@ -299,7 +299,7 @@ export const gradAlumni = [
     "title": "M.S. Student",
     "period": "Summer 2022 - Summer 2024",
     "thesisLink": "#",
-    "current": <span class="type"> (now R&D Intern @  <Link href="https://kr.aniai.ai/" target="_blank">Aniai</Link>)</span>,
+    "current": <span className="type"> (now R&D Intern @  <Link href="https://kr.aniai.ai/" target="_blank">Aniai</Link>)</span>,
   },
   {
     "name": "Kyungeun Jung",
@@ -489,7 +489,7 @@ export const internAlumni = [
     "nameLink": "#",
     "title": "URP Program (KAIST)",
     "period": "Winter-Spring 2022",
-    "current": <span class="type"> (now M.S. Student @  <Link href="https://makinteract.kaist.ac.kr/" target="_blank">MAKinteract lab</Link>, KAIST)</span>,
+    "current": <span className="type"> (now M.S. Student @  <Link href="https://makinteract.kaist.ac.kr/" target="_blank">MAKinteract lab</Link>, KAIST)</span>,
   },
   {
     "name": "Yoonseo Kim",

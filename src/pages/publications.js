@@ -36,7 +36,10 @@ export default function Publications() {
 
                 {/* Research Publications List */}
                 <div className="col-md-10">
-                    {Object.keys(research_temp).reverse().map(year => (
+                    {Object.keys(research_temp)
+                    .reverse()
+                    .filter(year => research_temp[year].some(item => selectedCategory === "All" || item.category === selectedCategory)) // Filter out empty years
+                    .map(year => (
                         <div key={year} ref={(el) => (yearRefs.current[year] = el)}>
                             <h2 className="card-title" style={{ color: "rgb(0, 50, 100)" }}>{year}</h2>
                             {research_temp[year]
@@ -69,8 +72,8 @@ export default function Publications() {
                                         </div>
                                     </div>
                                 ))}
-                        </div>
-                    ))}
+                            </div>
+                        ))}
                 </div>
 
                 {/* Sidebar for Year Navigation & Tag Filters */}

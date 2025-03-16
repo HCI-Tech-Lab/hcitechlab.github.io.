@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import Image from 'next/image';
 import NavBar from '@/components/navbar';
 
 export default function Document() {

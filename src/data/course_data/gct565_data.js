@@ -396,8 +396,8 @@ export const gct565_data = [
             {
                 title: "Immersive Multimodal MR Environment for Relieve Stress",
                 authors: "Seonji Kim & Seongjin Park",
-                slideLink: "/GCT565_Fall2021/Team1.pdf",
-                imageLink: "/GCT565_Fall2021/Team1.jpg",
+                slideLink: "GCT565_Fall2021/Team1.pdf",
+                imageLink: "GCT565_Fall2021/Team1.jpg",
                 videoLink: "",
                 recognition: ""
             },

@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Image from "next/image";
 
 export default function ProjectGallery({projects}) {
     return (
@@ -18,7 +19,7 @@ export default function ProjectGallery({projects}) {
                                                     {
                                                         project.recognition == "" ? null : 
                                                             <h3>
-                                                                <img src="img/trophy.jpg" alt="trophy" />{" "}
+                                                                <Image src="/img/trophy.jpg" width = {50} height = {50} alt="trophy" />{" "}
                                                                 <span className="badge rounded-pill bg-secondary">{project.recognition}</span>
                                                             </h3>
                                                     }
@@ -27,7 +28,7 @@ export default function ProjectGallery({projects}) {
                                                         Members: {project.members}
                                                         {
                                                             project.slideLink != "" ? 
-                                                                <a href={project.slideLink} target="_blank" rel="noreferrer">
+                                                                <a href={"/" + project.slideLink} target="_blank" rel="noreferrer">
                                                                     {" "}[Slide]
                                                                 </a> : null
                                                         }
@@ -45,7 +46,7 @@ export default function ProjectGallery({projects}) {
                                                         ></iframe> : 
                                                         <img
                                                             className="img-fluid"
-                                                            src={project.imageLink}
+                                                            src={"/" + project.imageLink}
                                                             style={{ height: "250px" }}
                                                             alt={project.title}
                                                         />

@@ -27,7 +27,7 @@ export default function Document() {
               </div>
 
               <div className="col-lg-6 text-keft">
-                <img alt="footer" src="CT_New_Logo_White.png" width = {5000} height={500} style={{ height: '50px' , width: "auto"}}/>
+                <img alt="footer" src="/CT_New_Logo_White.png" width = {5000} height={500} style={{ height: '50px' , width: "auto"}}/>
               </div>
 
             </div>

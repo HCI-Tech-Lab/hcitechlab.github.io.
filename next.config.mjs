@@ -6,8 +6,8 @@ const nextConfig = {
     unoptimized: true,
     path: "/",
   },
-  // assetPrefix: isProd ? '/updatetest' : '',
-  // basePath: isProd ? '/updatetest' : '',
+  assetPrefix: isProd ? '/updatetest' : '',
+  basePath: isProd ? '/updatetest' : '',
   output: 'export'
 };
 

@@ -1,3 +1,5 @@
+import trophy from "@/dynamic_assets/trophy.jpg";
+
 export const gct565_data = [
     {
         course_info: {
@@ -218,8 +220,8 @@ export const gct565_data = [
                 members: "Junghoon Seo, Tamana Pirzad, Minji Park",
                 desc: "",
                 videoLink: "",
-                slideLink: "GCT565_Fall2023/Team1.pdf",
-                imageLink: "GCT565_Fall2023/Team1.jpg",
+                slideLink: "/GCT565_Fall2023/Team1.pdf",
+                imageLink: "/GCT565_Fall2023/Team1.jpg",
                 recognition: "",
             },
             {
@@ -358,8 +360,8 @@ export const gct565_data = [
                 members: "Xintong Wu, Aylar Akbari",
                 desc: "Assessing General Mental Pressure in Virtual Walking Scenarios Using Human Factors Approach - a Pilot Study",
                 videoLink: "",
-                slideLink: "GCT565_Fall2022/Team1.pdf",
-                imageLink: "GCT565_Fall2022/Team1.jpg",
+                slideLink: "/GCT565_Fall2022/Team1.pdf",
+                imageLink: "/GCT565_Fall2022/Team1.jpg",
                 recognition: "",
             },
 
@@ -368,8 +370,8 @@ export const gct565_data = [
                 members: "Minjae Jo, Ki-Dong Baek",
                 desc: "Enabling physical interaction through wrist-mounted haptic controller with force feedback",
                 videoLink: "",
-                slideLink: "GCT565_Fall2022/Team2.pdf",
-                imageLink: "GCT565_Fall2022/Team2.jpg",
+                slideLink: "/GCT565_Fall2022/Team2.pdf",
+                imageLink: "/GCT565_Fall2022/Team2.jpg",
                 recognition: "",
             },
         ]
@@ -396,48 +398,48 @@ export const gct565_data = [
             {
                 title: "Immersive Multimodal MR Environment for Relieve Stress",
                 authors: "Seonji Kim & Seongjin Park",
-                slideLink: "GCT565_Fall2021/Team1.pdf",
-                imageLink: "GCT565_Fall2021/Team1.jpg",
+                slideLink: "/GCT565_Fall2021/Team1.pdf",
+                imageLink: "/GCT565_Fall2021/Team1.jpg",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "Depth aware Real-time 6DoF Object Pose Tracking for Augmented Reality",
                 authors: "Chaejung Maeng",
-                slideLink: "GCT565_Fall2021/Team2.pdf",
-                imageLink: "GCT565_Fall2021/Team2.jpg",
+                slideLink: "/GCT565_Fall2021/Team2.pdf",
+                imageLink: "/GCT565_Fall2021/Team2.jpg",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "A Comprehensive Procedure for Personalized Happiness Recommender System: Using Multi-Faceted Signal Processing with Holistic Quantified Self (HQS)",
                 authors: "Eunhwa Song & Byeong-Yun Ko",
-                slideLink: "GCT565_Fall2021/Team3.pdf",
-                imageLink: "GCT565_Fall2021/Team3.jpg",
+                slideLink: "/GCT565_Fall2021/Team3.pdf",
+                imageLink: "/GCT565_Fall2021/Team3.jpg",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "Sense of Embodiment(SoE) Amplification for Paraplegic People by Lower Body Motion Generation in Virtual Reality",
                 authors: "Hyuckjin Jang & Taehei Kim",
-                slideLink: "GCT565_Fall2021/Team4.pdf",
-                imageLink: "GCT565_Fall2021/Team4.jpg",
+                slideLink: "/GCT565_Fall2021/Team4.pdf",
+                imageLink: "/GCT565_Fall2021/Team4.jpg",
                 videoLink: "",
                 recognition: "SIGGRAPH 2022 Emerging Technologies"
             },
             {
                 title: "The Impact of the Displayed Emotions of the Virtual Avatar on the Emotional State of the User",
                 authors: "Tatiana Chivisova & Bowon Kim",
-                slideLink: "GCT565_Fall2021/Team5.pdf",
-                imageLink: "GCT565_Fall2021/Team5.jpg",
+                slideLink: "/GCT565_Fall2021/Team5.pdf",
+                imageLink: "/GCT565_Fall2021/Team5.jpg",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "Co-presence in MR Museum: on the magnitude of physical and behavior manifestation",
                 authors: "Eunseo Kim & Taewook Ha",
-                slideLink: "GCT565_Fall2021/Team6.pdf",
-                imageLink: "GCT565_Fall2021/Team6.jpg",
+                slideLink: "/GCT565_Fall2021/Team6.pdf",
+                imageLink: "/GCT565_Fall2021/Team6.jpg",
                 videoLink: "",
                 recognition: ""
             }

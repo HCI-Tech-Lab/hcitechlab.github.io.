@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/updatetest/' : '',
+  assetPrefix: isProd ? '/updatetest' : '',
   basePath: isProd ? '/updatetest' : '',
   output: 'export'
 };

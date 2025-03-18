@@ -29,7 +29,7 @@ export default function ProjectGallery({projects}) {
                                                         Members: {project.members}
                                                         {
                                                             project.slideLink != "" ? 
-                                                                <a href={"/" + project.slideLink} target="_blank" rel="noreferrer">
+                                                                <a href={project.slideLink} target="_blank" rel="noreferrer">
                                                                     {" "}[Slide]
                                                                 </a> : null
                                                         }
@@ -47,7 +47,7 @@ export default function ProjectGallery({projects}) {
                                                         ></iframe> : 
                                                         <img
                                                             className="img-fluid"
-                                                            src={"/" + project.imageLink}
+                                                            src={project.imageLink}
                                                             style={{ height: "250px" }}
                                                             alt={project.title}
                                                         />

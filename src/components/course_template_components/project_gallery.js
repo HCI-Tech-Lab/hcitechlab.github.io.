@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Image from "next/image";
+import trophy from "@/dynamic_assets/trophy.jpg";
 
 export default function ProjectGallery({projects}) {
     return (
@@ -19,7 +20,7 @@ export default function ProjectGallery({projects}) {
                                                     {
                                                         project.recognition == "" ? null : 
                                                             <h3>
-                                                                <Image src="/img/trophy.jpg" width = {50} height = {50} alt="trophy" />{" "}
+                                                                <Image src={trophy} width = {50} height = {50} alt="trophy" />{" "}
                                                                 <span className="badge rounded-pill bg-secondary">{project.recognition}</span>
                                                             </h3>
                                                     }

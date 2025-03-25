@@ -341,8 +341,6 @@ export const gct722_data = [
                 "members": "Doyo Choi, Sungbaek Kim",
                 "desc": "EMPop: Electromagnetic Actuation for Augmented Projection Mapping",
                 "videoLink": "https://www.youtube.com/embed/vx0_V1mBSDU?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "slideLink": "",
-                "imageLink": "",
                 "recognition": "Best Haptic Idea, Cool Video"
             },
             {
@@ -350,8 +348,6 @@ export const gct722_data = [
                 "members": "Kyungjin Seo, Yeonsu Kim, Nicha Vanichvoranun",
                 "desc": "GoGoHand+: Designing Haptic Feedback to Enhance the GoGo Hand Interaction Technique",
                 "videoLink": "https://www.youtube.com/embed/RM-1zAk3iyw?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "slideLink": "",
-                "imageLink": "",
                 "recognition": ""
             },
             {
@@ -359,8 +355,6 @@ export const gct722_data = [
                 "members": "Ki-Dong Baek, Yewon Lee, Yong Won Choi",
                 "desc": "Estimating the Role of Thickness in Enhancing Artistic Experiences Through Haptic Collage: A Multisensory Approach in Virtual Reality",
                 "videoLink": "https://www.youtube.com/embed/YoabS4z4fNY?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "slideLink": "",
-                "imageLink": "",
                 "recognition": ""
             },
             {
@@ -368,8 +362,6 @@ export const gct722_data = [
                 "members": "Youjin Sung, Taeyeon Kim, Dongkyu Kwak",
                 "desc": "Deep-Texture: A Foldable Haptic Ring for Shape and Texture Rendering in Virtual Reality",
                 "videoLink": "https://www.youtube.com/embed/EVGpitmeL4o?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "slideLink": "",
-                "imageLink": "",
                 "recognition": "Best Haptic Idea"
             },
             {
@@ -377,8 +369,6 @@ export const gct722_data = [
                 "members": "Minyung Kim, Soyeong Yang, Linda Sinani",
                 "desc": "HaptoRelax: Haptic Feedback for Enhancing Human Touch in VR Relaxation Using SMA",
                 "videoLink": "https://www.youtube.com/embed/dUzEfDyQXyE?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "slideLink": "",
-                "imageLink": "",
                 "recognition": ""
             },
             {
@@ -386,8 +376,6 @@ export const gct722_data = [
                 "members": "Erik Jonathan, Karin Rizky Irminanda",
                 "desc": "Enhancing VR Assembly Simulation Realism with Weight Illusion and Force Exertion",
                 "videoLink": "https://www.youtube.com/embed/nMH6W4Qd468?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "slideLink": "",
-                "imageLink": "",
                 "recognition": ""
             },
             {
@@ -395,8 +383,6 @@ export const gct722_data = [
                 "members": "Hyung IL Yi, Atish Waghwase, Vera Janneke Jansen",
                 "desc": "Controller Adaptation to Enhance Haptic Feedback for Archery in Virtual Reality",
                 "videoLink": "https://www.youtube.com/embed/x0dAXSfRMB4?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "slideLink": "",
-                "imageLink": "",
                 "recognition": ""
             }
         ]

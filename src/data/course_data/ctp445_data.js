@@ -451,8 +451,6 @@ export const ctp445_data = [
                 members: "Eunki Joung, Seung-gun Park",
                 desc: "The Ducks: An Immersive AR-based Tycoon Game",
                 videoLink: "https://www.youtube.com/embed/GRN5xBbUt5I?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: ""
             },
             {
@@ -460,8 +458,6 @@ export const ctp445_data = [
                 members: "Hyuckjin Jang, Kyung Taek Oh, Seonji Kim",
                 desc: "AR Store Placement based on Spatial Information in Mobile AR Shopping",
                 videoLink: "https://www.youtube.com/embed/FObmILDVP7Q?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: "ISMAR 2022 Poster"
             },
             {
@@ -469,8 +465,6 @@ export const ctp445_data = [
                 members: "Chaejung Maeng, Jiho Kang, Taehei Kim",
                 desc: "Adaptive Pointing Motion Generation using Mobile UI component for Mobile AR Collaboration",
                 videoLink: "https://www.youtube.com/embed/HPqNxu00VpU?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: ""
             },
             {
@@ -478,8 +472,6 @@ export const ctp445_data = [
                 members: "Eunhwa Song, Minju Baeck, Jihyeon Lee",
                 desc: "Memo:me, AR Sticky Notes with Time and Color-based Reminder and Priority Transition System for To-do Management",
                 videoLink: "https://www.youtube.com/embed/k9GahOiQORE?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: "VR 2023 Poster"
             },
             {
@@ -487,8 +479,6 @@ export const ctp445_data = [
                 members: "Pooseung Sean Koh, Jaejun Lee, Jaehong Kim",
                 desc: "AR Desktop: Considering the Work Efficiency and Ergonomics",
                 videoLink: "https://www.youtube.com/embed/UYKLGrTVcqg?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: ""
             },
             {
@@ -496,8 +486,6 @@ export const ctp445_data = [
                 members: "Jungjin Park, Jeonghoon Han, Gihoon Kim",
                 desc: "AR Brain Wall",
                 videoLink: "https://www.youtube.com/embed/51axyd3hHp4?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: "Cool Video"
             },
             {
@@ -505,8 +493,6 @@ export const ctp445_data = [
                 members: "Seungun Lee, Jiyoung Yun, Dain Kim",
                 desc: "MARS: Museum AR guide System",
                 videoLink: "https://www.youtube.com/embed/MnQylKDfk2c?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: "Best Idea, ISMAR 2022 Poster"
             },
             {
@@ -514,8 +500,6 @@ export const ctp445_data = [
                 members: "Bowon Kim, Yujeung Eum, Sihyun Jeong",
                 desc: "CaTogether",
                 videoLink: "https://www.youtube.com/embed/hmJV3RE-kvk?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: "Best Idea"
             },
             {
@@ -523,8 +507,6 @@ export const ctp445_data = [
                 members: "Hyun Ho Yun, Soyeon Yoon, Kampanart Sudprasert, Sungwoo Jeon",
                 desc: "Cloud Anchored Augmented Restaurant Menu Replacement by Time Period",
                 videoLink: "https://www.youtube.com/embed/EEhdOj1J68A?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: ""
             },
             {
@@ -532,8 +514,6 @@ export const ctp445_data = [
                 members: "Joosun Yum, Sohyun Park, Jieon Du, Zeynep Ozdemir",
                 desc: "Place Your AR Artwork: Art Rich",
                 videoLink: "https://www.youtube.com/embed/NDkJtkrSerk?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: "ISMAR 2022 Poster"
             },
             {
@@ -541,8 +521,6 @@ export const ctp445_data = [
                 members: "Jiyun Park, Jaeran Choi, Yohan Yun",
                 desc: "AR Ensemble Space: Spatial Music Visualizer in Augmented Reality",
                 videoLink: "https://www.youtube.com/embed/1u8Jn2Bu8Yg?list=PLsnyS9wZul9bmliPfVup9fsgFqvGJS-jk",
-                slideLink: "",
-                imageLink: "",
                 recognition: ""
             }
         ]

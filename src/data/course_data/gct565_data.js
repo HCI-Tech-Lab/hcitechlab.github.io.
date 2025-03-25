@@ -1,5 +1,3 @@
-import trophy from "@/dynamic_assets/trophy.jpg";
-
 export const gct565_data = [
     {
         course_info: {
@@ -202,8 +200,6 @@ export const gct565_data = [
                 members: "Yi Hyung Il, Yi Hyung Wook, Kwak Dong Kyu",
                 desc: "Thermal Illusions in VR: Enhancing Perception of Distance and VelocitySpeech-Gesture integration method for enhancement of egocentric pose estimation in VR remote collaboration",
                 videoLink: "https://www.youtube.com/embed/5OPypDY-G3k",
-                slideLink: "",
-                imageLink: "",
                 recognition: "Best Augmented Humans Project (Best)",
             },
             {
@@ -211,8 +207,6 @@ export const gct565_data = [
                 members: "Min-yung Kim, Yohan Lim, Kun Woo Song",
                 desc: "Collision Prevention in Diminished Reality through the Use of Peripheral Vision",
                 videoLink: "https://www.youtube.com/embed/PDGqpaoq7VA",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -220,8 +214,6 @@ export const gct565_data = [
                 members: "Junghoon Seo, Tamana Pirzad, Minji Park",
                 desc: "",
                 videoLink: "",
-                slideLink: "/GCT565_Fall2023/Team1.pdf",
-                imageLink: "/GCT565_Fall2023/Team1.jpg",
                 recognition: "",
             },
             {
@@ -229,8 +221,6 @@ export const gct565_data = [
                 members: "Jeeseung Ryu, Minhong Jeong, Seungmin Lee",
                 desc: "Communication Enhancement in VR Multi-talker Environment using EEG-Based Auditory Attention Decoding",
                 videoLink: "https://www.youtube.com/embed/T95e0fDtgoE",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -238,8 +228,6 @@ export const gct565_data = [
                 members: "Hyunyoung Han, Jisu Yim, Eunhee Jeong",
                 desc: "You Only Look at Yourself: Real-time Visual and Haptic Guidance System for Golf Swing in Virtual RealityA methodology of classifying sounds to objects through awareness of both the physical environmental context and user behavior signals",
                 videoLink: "https://www.youtube.com/embed/F4O0P7j7Nj4",
-                slideLink: "",
-                imageLink: "",
                 recognition: "Best Augmented Humans Project (Runner-up)",
             },
             {
@@ -247,8 +235,6 @@ export const gct565_data = [
                 members: "Zosia Marciniak, Hojeong Lee, Fangqing Li",
                 desc: "Multimodal Haptic Display for Varying Texture Perception in Virtual Reality using Vibrotactile and Thermal FeedbackVibrotactile glove for improving navigation in the 3D game environment for visually impaired people",
                 videoLink: "",
-                slideLink: "GCT565_Fall2023/Team2.pdf",
-                imageLink: "GCT565_Fall2023/Team2.jpg",
                 recognition: "",
             },
             {
@@ -256,8 +242,6 @@ export const gct565_data = [
                 members: "Hyunsong Kwon, Pooseung Koh, Vanessa Tan",
                 desc: "Enhancing Participation in VR Concerts through Motion Interaction and Immersive Audio",
                 videoLink: "https://www.youtube.com/embed/qGL8z7rRI_o",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -265,8 +249,6 @@ export const gct565_data = [
                 members: "Ryan Gallagher, David Rudebjer, Yong Won Choi",
                 desc: "MARIMOGOTCHI: Harnessing the Fusion of Nature and Technology for Interactive Environmental Engagement",
                 videoLink: "https://www.youtube.com/embed/3cjT2TmyFYI",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             }
         ],
@@ -306,8 +288,6 @@ export const gct565_data = [
                 members: "Sungwoo Jeon, Seoyoung Kang",
                 desc: "Speech-Gesture integration method for enhancement of egocentric pose estimation in VR remote collaboration",
                 videoLink: "https://www.youtube.com/embed/A6HGqyw1QCM",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -315,8 +295,6 @@ export const gct565_data = [
                 members: "Youjin Sung, Kyungeun Jung, Yoonjae Hong",
                 desc: "Customizable VR Controller with Multi-input Kinesthetic Haptic Feedback",
                 videoLink: "https://www.youtube.com/embed/8qIUiHDd8tQ",
-                slideLink: "",
-                imageLink: "",
                 recognition: "Best Augmented Humans Project",
             },
             {
@@ -324,8 +302,6 @@ export const gct565_data = [
                 members: "Minju Baeck, Kwan Yun",
                 desc: "MR Physics Simulation Authoring Tool for Teachers with AR/MR Glasses",
                 videoLink: "https://www.youtube.com/embed/mg-SmMgKpT8",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -333,8 +309,6 @@ export const gct565_data = [
                 members: "Byeoli Choi, Taeyeon Kim, Seungchan Lim",
                 desc: "The sense of embodiment derived by Customized full-body avatar in VR Reduces pain",
                 videoLink: "https://www.youtube.com/embed/U6blNLrL1hc",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -342,8 +316,6 @@ export const gct565_data = [
                 members: "Kyungjin Seo, Nicha Vanichvoranun, Emily Liu",
                 desc: "A methodology of classifying sounds to objects through awareness of both the physical environmental context and user behavior signals",
                 videoLink: "https://www.youtube.com/embed/ROYv521fjrc",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -351,8 +323,6 @@ export const gct565_data = [
                 members: "Bianca Budulacu, Martina Lackova",
                 desc: "Vibrotactile glove for improving navigation in the 3D game environment for visually impaired people",
                 videoLink: "https://www.youtube.com/embed/WY6hi7w32oc",
-                slideLink: "",
-                imageLink: "",
                 recognition: "",
             },
             {
@@ -360,8 +330,6 @@ export const gct565_data = [
                 members: "Xintong Wu, Aylar Akbari",
                 desc: "Assessing General Mental Pressure in Virtual Walking Scenarios Using Human Factors Approach - a Pilot Study",
                 videoLink: "",
-                slideLink: "/GCT565_Fall2022/Team1.pdf",
-                imageLink: "/GCT565_Fall2022/Team1.jpg",
                 recognition: "",
             },
 
@@ -370,8 +338,6 @@ export const gct565_data = [
                 members: "Minjae Jo, Ki-Dong Baek",
                 desc: "Enabling physical interaction through wrist-mounted haptic controller with force feedback",
                 videoLink: "",
-                slideLink: "/GCT565_Fall2022/Team2.pdf",
-                imageLink: "/GCT565_Fall2022/Team2.jpg",
                 recognition: "",
             },
         ]
@@ -397,49 +363,37 @@ export const gct565_data = [
         projects: [
             {
                 title: "Immersive Multimodal MR Environment for Relieve Stress",
-                authors: "Seonji Kim & Seongjin Park",
-                slideLink: "GCT565_Fall2021/Team1.pdf",
-                imageLink: "GCT565_Fall2021/Team1.jpg",
+                members: "Seonji Kim & Seongjin Park",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "Depth aware Real-time 6DoF Object Pose Tracking for Augmented Reality",
-                authors: "Chaejung Maeng",
-                slideLink: "GCT565_Fall2021/Team2.pdf",
-                imageLink: "GCT565_Fall2021/Team2.jpg",
+                members: "Chaejung Maeng",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "A Comprehensive Procedure for Personalized Happiness Recommender System: Using Multi-Faceted Signal Processing with Holistic Quantified Self (HQS)",
-                authors: "Eunhwa Song & Byeong-Yun Ko",
-                slideLink: "GCT565_Fall2021/Team3.pdf",
-                imageLink: "GCT565_Fall2021/Team3.jpg",
+                members: "Eunhwa Song & Byeong-Yun Ko",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "Sense of Embodiment(SoE) Amplification for Paraplegic People by Lower Body Motion Generation in Virtual Reality",
-                authors: "Hyuckjin Jang & Taehei Kim",
-                slideLink: "GCT565_Fall2021/Team4.pdf",
-                imageLink: "GCT565_Fall2021/Team4.jpg",
+                members: "Hyuckjin Jang & Taehei Kim",
                 videoLink: "",
                 recognition: "SIGGRAPH 2022 Emerging Technologies"
             },
             {
                 title: "The Impact of the Displayed Emotions of the Virtual Avatar on the Emotional State of the User",
-                authors: "Tatiana Chivisova & Bowon Kim",
-                slideLink: "GCT565_Fall2021/Team5.pdf",
-                imageLink: "GCT565_Fall2021/Team5.jpg",
+                members: "Tatiana Chivisova & Bowon Kim",
                 videoLink: "",
                 recognition: ""
             },
             {
                 title: "Co-presence in MR Museum: on the magnitude of physical and behavior manifestation",
-                authors: "Eunseo Kim & Taewook Ha",
-                slideLink: "GCT565_Fall2021/Team6.pdf",
-                imageLink: "GCT565_Fall2021/Team6.jpg",
+                members: "Eunseo Kim & Taewook Ha",
                 videoLink: "",
                 recognition: ""
             }

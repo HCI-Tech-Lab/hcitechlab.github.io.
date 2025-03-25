@@ -27,30 +27,19 @@ export default function ProjectGallery({projects}) {
                                                     <h1>{project.title}</h1>
                                                     <h3>
                                                         Members: {project.members}
-                                                        {
-                                                            project.slideLink != "" ? 
-                                                                <a href={project.slideLink} target="_blank" rel="noreferrer">
-                                                                    {" "}[Slide]
-                                                                </a> : null
-                                                        }
                                                     </h3>
                                                     <div>{project.desc}</div>
                                                     <br />
                                                     {
-                                                        project.imageLink === "" ? <iframe
+                                                        project.videoLink === "" ? <div></div> : 
+                                                        <iframe
                                                             width="560"
                                                             height="315"
                                                             src={project.videoLink}
                                                             title={project.title}
                                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                             allowFullScreen
-                                                        ></iframe> : 
-                                                        <img
-                                                            className="img-fluid"
-                                                            src={project.imageLink}
-                                                            style={{ height: "250px" }}
-                                                            alt={project.title}
-                                                        />
+                                                        ></iframe>
                                                     }
                                                 </div>
                                             </div>

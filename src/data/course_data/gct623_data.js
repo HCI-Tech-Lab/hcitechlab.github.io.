@@ -451,39 +451,31 @@ export const gct623_data = [
         schedule: [],
         projects: [
             {
-                "title": "MetaHands",
-                "members": "Kyungjin Seo, Jeonghoon Seo",
-                "desc": "sEMG based Simultaneous Estimation of Hand Pose and Palm Force",
-                "videoLink": "https://www.youtube.com/embed/fS6a6rfNG5M?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
-                "slideLink": "",
-                "imageLink": "",
-                "recognition": ""
+              "title": "MetaHands",
+              "members": "Kyungjin Seo, Jeonghoon Seo",
+              "desc": "sEMG based Simultaneous Estimation of Hand Pose and Palm Force",
+              "videoLink": "https://www.youtube.com/embed/fS6a6rfNG5M?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
+              "recognition": ""
             },
             {
-                "title": "InFinIt",
-                "members": "Jina Kim, Nicha Vanichvoranun",
-                "desc": "Swiped-it!: One-handed Thumb-tip Interaction for Text Editing in XR",
-                "videoLink": "https://www.youtube.com/embed/SFiDFJFhAPY?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
-                "slideLink": "",
-                "imageLink": "",
-                "recognition": "ISMAR 2023 Poster"
+              "title": "InFinIt",
+              "members": "Jina Kim, Nicha Vanichvoranun",
+              "desc": "Swiped-it!: One-handed Thumb-tip Interaction for Text Editing in XR",
+              "videoLink": "https://www.youtube.com/embed/SFiDFJFhAPY?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
+              "recognition": "ISMAR 2023 Poster"
             },
             {
-                "title": "Ch3 Game",
-                "members": "Sehoon Tak, Donghoon Shin, Mincheol Choi, Jeonghyeop Son",
-                "desc": "",
-                "videoLink": "https://www.youtube.com/embed/5Us7tf8LCeo?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
-                "slideLink": "",
-                "imageLink": "",
-                "recognition": ""
+              "title": "Ch3 Game",
+              "members": "Sehoon Tak, Donghoon Shin, Mincheol Choi, Jeonghyeop Son",
+              "desc": "",
+              "videoLink": "https://www.youtube.com/embed/5Us7tf8LCeo?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
+              "recognition": ""
             },
             {
               "title": "Sound Trigger Recognition",
               "members": "Minseong Kim, Chanjoon Park, Sanghoon Jeon, Byeongseok Kim",
               "desc": "",
               "videoLink": "https://www.youtube.com/embed/IXMEx_t4F_M?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
-              "slideLink": "",
-              "imageLink": "",
               "recognition": ""
             },
             {
@@ -491,8 +483,6 @@ export const gct623_data = [
               "members": "Jinhui An, Sunghun Kim, Keunhee Cho",
               "desc": "",
               "videoLink": "https://www.youtube.com/embed/mWWUqPf3IKo?list=PLsnyS9wZul9Yl3K6dzoIaOJGkkA37WWt-",
-              "slideLink": "",
-              "imageLink": "",
               "recognition": ""
             }
         ]

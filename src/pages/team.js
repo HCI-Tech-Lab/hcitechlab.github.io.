@@ -75,11 +75,6 @@ const PhdStudents = () => {
             )
           )
         }
-        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "center", paddingBottom: "20px"}}>
-              {/* <MemberImage originalImage = "main_icon.png" hoverImage = "main_icon.png" /> */}
-              <img  src = "main_icon.png" style={{width: "200px", height: "200px", borderRadius: "20%", display: "flex", justifyContent: "center", margin: "auto"}}/> 
-              <b style={{fontSize: "24px"}}><Link href="/recruiting_graduate">See Openings</Link></b>
-        </div>
       </div>
     </div>
   );
@@ -111,11 +106,6 @@ const MasterStudents = () => {
             )
           )
         }
-        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "center", paddingBottom: "20px"}}>
-              {/* <MemberImage originalImage = "main_icon.png" hoverImage = "main_icon.png" /> */}
-              <img  src = "main_icon.png" style={{width: "200px", height: "200px", borderRadius: "20%", display: "flex", justifyContent: "center", margin: "auto"}}/> 
-              <b style={{fontSize: "24px"}}><Link href="/recruiting_graduate">See Openings</Link></b>
-        </div>
       </div>
     </div>
   );

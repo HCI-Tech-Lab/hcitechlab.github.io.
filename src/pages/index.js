@@ -30,11 +30,12 @@ export default function Home() {
             <div className="card h-100">
               <div className="card-body text-center">
               <h2 className="card-title">HCI Tech Youtube </h2>
-              <iframe
-                style={{ width: "100%", height: "500px", border: "none" }}
-                className = "mt-4"
-                src="https://youtube.com/playlist?list=PLsnyS9wZul9ZVvpTg3ElUwnnQQ7uiD8Uj">
-              </iframe>
+                <iframe
+                  style={{ width: "100%", height: "500px", border: "none" }}
+                  className="mt-4"
+                  src="https://www.youtube.com/embed/videoseries?list=PLsnyS9wZul9ZVvpTg3ElUwnnQQ7uiD8Uj"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>

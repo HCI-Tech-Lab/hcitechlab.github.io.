@@ -33,7 +33,7 @@ export default function Home() {
               <iframe
                 style={{ width: "100%", height: "500px", border: "none" }}
                 className = "mt-4"
-                src="https://youtube.com/playlist?list=PLsnyS9wZul9ZVvpTg3ElUwnnQQ7uiD8Uj&si=cosf2BMyWqklvbgz">
+                src="https://youtube.com/playlist?list=PLsnyS9wZul9ZVvpTg3ElUwnnQQ7uiD8Uj">
               </iframe>
               </div>
             </div>

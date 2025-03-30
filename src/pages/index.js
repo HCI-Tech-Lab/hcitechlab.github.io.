@@ -16,7 +16,7 @@ export default function Home() {
 
           <WelcomeCard />
 
-          <div className = "col-md-6 mb-3">
+          <div className = "col-lg-7 col-md-12 mb-3">
             <div className="card h-100">
               <div className="card-body">
                 <Carousel />
@@ -56,7 +56,7 @@ export default function Home() {
 
 const WelcomeCard = () => {
   return (
-    <div className="col-md-6 mb-3">
+    <div className="col-lg-5 col-md-12 mb-3">
       <div className="card h-100">
         <div className="card-body">
             <h2>Welcome to HCI Tech Lab!</h2>
@@ -75,7 +75,7 @@ const WelcomeCard = () => {
             <Link class="btn btn-primary" href="https://www.youtube.com/@HCI_Tech" target="_blank"><b>HCI Tech Youtube</b></Link>
             <br />
             <br />
-            <Link class="btn btn-dark" href="https://youtu.be/BndS5KMmBHA" target="_blank"><b>Learn More about HCI Tech Lab through this video (Korean)</b></Link>
+            <Link class="btn btn-dark" href="https://youtu.be/BndS5KMmBHA" target="_blank"><b>Learn More about HCI Tech Lab (Korean)</b></Link>
         </div>
       </div>
     </div>
@@ -125,8 +125,8 @@ const NewsCard = () => {
                           alt="news_image"
                           src={src}
                           width={5000}
-                          height={120}
-                          style={{ width: 'auto', marginRight: '4px' }}
+                          height={200}
+                          style={{ width: 'auto', marginRight: '5px' }}
                         />
                       ))}
                       {newsItem.extraContent && (

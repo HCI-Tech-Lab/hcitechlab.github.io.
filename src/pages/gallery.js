@@ -19,6 +19,69 @@ export default function Gallery() {
   }
 
 const galleries = {
+  "February, 2025 (Graduation)": [
+    "img/Lab/2502/Grad_1.jpeg",
+    "img/Lab/2502/Grad_2.png",
+    "img/Lab/2502/Grad_3.jpg",
+    "img/Lab/2502/Grad_4.jpeg",
+    "img/Lab/2502/Grad_5.jpg",
+    "img/Lab/2502/Grad_6.jpg",
+    "img/Lab/2502/Grad_7.jpg",
+    "img/Lab/2502/Grad_8.jpg",
+    "img/Lab/2502/Grad_9.jpg",
+
+  ],
+  "February, 2025 (HCIK)": [
+    "img/Lab/2502/hcik1.jpg",
+    "img/Lab/2502/hcik2.jpg",
+    "img/Lab/2502/hcik3.jpg",
+    "img/Lab/2502/hcik4.png",
+    "img/Lab/2502/hcik5.jpg",
+  ],
+  "December, 2024 (KSC)": [
+    "img/Lab/2412/KCC2024_1.jpg",
+    "img/Lab/2412/KCC2024_2.jpg",
+    "img/Lab/2412/KCC2024_3.jpg",
+  ],
+  "December, 2024 (NeurIPS)": [
+    "img/Lab/2412/NeurIPS24_1.jpg",
+    "img/Lab/2412/NeurIPS24_2.jpg",
+    "img/Lab/2412/NeurIPS24_3.jpg",
+    "img/Lab/2412/NeurIPS24_4.jpg",
+    "img/Lab/2412/NeurIPS24_5.jpg",
+  ],
+  "November, 2024 (Community Service)": [
+    "img/Lab/2412/HCIT_1.jpg",
+    "img/Lab/2412/HCIT_2.jpg",
+    "img/Lab/2412/HCIT_3.jpg",
+    "img/Lab/2412/HCIT_4.jpg",
+    "img/Lab/2412/HCIT_5.jpg",
+  ],
+  "October, 2024 (UbiComp & ISMAR)": [
+    "img/Lab/2411/ubicomp1.jpg",
+    "img/Lab/2411/ubicomp2.jpg",
+    "img/Lab/2411/ubicomp3.jpg",
+    "img/Lab/2411/ISMAR1.png",
+    "img/Lab/2411/ISMAR3.jpeg",
+    "img/Lab/2411/ISMAR2.jpeg",
+  ],
+  "August, 2024 (KHC)": [
+    "img/Lab/2408/2408_0.jpg",
+    "img/Lab/2408/2408_1.jpg",
+    "img/Lab/2408/2408_2.jpg",
+    "img/Lab/2408/2408_3.jpg",
+  ],
+  "July, 2024": [
+    "img/Lab/2407/2407_0.jpg",
+    "img/Lab/2407/2407_1.jpg",
+    "img/Lab/2407/2407_2.png",
+    "img/Lab/2407/2407_3.png",
+  ],
+  "May, 2024": [
+    "img/Lab/2405/2405_1.jpg",
+    "img/Lab/2405/2405_2.jpg",
+    "img/Lab/2405/2405_3.png",
+  ],
   "May, 2024 (CHI)": [
     "img/Lab/2405/CHI1.jpg",
     "img/Lab/2405/CHI2.jpg",

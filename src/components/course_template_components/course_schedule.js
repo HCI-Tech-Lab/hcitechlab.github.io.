@@ -10,14 +10,15 @@ export default function CourseSchedule({schedule}) {
                         <div className="card-header bg-success text-white">Schedule</div><br />
                         <span style={{ color: 'blue' }}>&nbsp;&nbsp;&nbsp;* Blue box indicates activity related lectures (team project, paper seminar, ML lecture)</span>
                         <div className="card-body ta">
-                            <table className="table table-bordered text-center text-responsive">
+                            <div className="overflow-auto">
+                            <table className="table table-bordered text-center">
                                 <thead>
                                     <tr>
-                                        <th scope="col" className="col-md-1">Week</th>
-                                        <th scope="col" className="col-md-1">Date</th>
-                                        <th scope="col" className="col-md-4">Topic</th>
-                                        <th scope="col" className="col-md-3">Note</th>
-                                        <th scope="col" className="col-md-3">Due</th>
+                                        <th scope="col">Week</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Topic</th>
+                                        <th scope="col">Note</th>
+                                        <th scope="col">Due</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -139,12 +140,12 @@ export default function CourseSchedule({schedule}) {
                                                         </td>
                                                     </tr>
                                                 </Fragment>
-                                                
                                             )
                                         )
                                     }
                                 </tbody>
-                            </table>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>

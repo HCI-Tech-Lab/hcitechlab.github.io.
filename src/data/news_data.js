@@ -14,8 +14,7 @@ export const news = [
         title: "New Lab Logo",
         date: "Feb 20 2025",
         content: "Our lab got a new logo designed by Changheyon Park! Thanks all members for the feedback!",
-        images: ["Logo_White.png"],
-        
+        images: [],
     },
     {
         icon: "img/icon/graduation.png",
@@ -23,6 +22,14 @@ export const news = [
         date: "Feb 14 2025",
         content: "Hyung Il, Soyeong, Dongkyu, Min-yung, Junghoon, Kyungeun, Kyungjin, and Nicha graudated. Congrats!",
         images: ["img/Lab/2502/Grad_1.jpeg", "img/Lab/2502/Grad_2.png", "img/Lab/2502/Grad_3.JPG"],
+        
+    },
+    {
+        icon: "img/icon/award.png",
+        title: "KSC 2024 Outstanding Paper Presentation Award",
+        date: "Feb 3 2025",
+        content: "Kun-woo, Youngrae, and Kyoungwhan received KSC 2024 Outstanding Paper Presentation Award!",
+        images: ["img/Lab/2502/KSC25_Award1.png", "img/Lab/2502/KSC25_Award2.png"],
         
     },
     {
@@ -78,6 +85,35 @@ export const news = [
         date: "Jan 1 2025",
         content: "Welcome our winter interns Rachel Jungmin Kim, Eun Ho Kim, and Hyunwook Jung!",
         images: []
+    },
+    ,
+    {
+        icon: "img/icon/conf.png",
+        title: "KSC 2024 Participation",
+        date: "Dec 20 2024",
+        content: "Out lab participated in KSC 2024. Dongkyu and Kun-Woo presented papers.",
+        images: ["img/Lab/2412/KCC2024_1.jpg", "img/Lab/2412/KCC2024_2.jpg", "img/Lab/2412/KCC2024_3.jpg"]
+    },
+    {
+        icon: "img/icon/award.png",
+        title: "Student Research Prize",
+        date: "Dec 16 2024",
+        content: "Hojeong received the College of Liberal Arts and Convergence Science Research Prize for 2024!",
+        images: ["img/Lab/2412/researchaward.jpg"]
+    },
+    {
+        icon: "img/icon/conf.png",
+        title: "NeurIPS 2024 Participation",
+        date: "Dec 10 2024",
+        content: "Our lab participated in NeurIPS 2024 held in Vancouver. Kyungjin, Junghoon, Hanseok presented a paper!",
+        images: ["img/Lab/2412/NeurIPS24_1.jpg", "img/Lab/2412/NeurIPS24_2.jpg"]
+    },
+    {
+        icon: "img/icon/speaker.png",
+        title: "Lab Activity (Community Service)",
+        date: "Nov 22 2024",
+        content: "Our lab participated in community service.",
+        images: ["img/Lab/2412/HCIT_1.jpg", "img/Lab/2412/HCIT_2.jpg"]
     },
     {
         icon: "img/icon/speaker.png",

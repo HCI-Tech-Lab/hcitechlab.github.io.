@@ -17,8 +17,8 @@ export default function Home() {
           <WelcomeCard />
 
           <div className = "col-lg-7 col-md-12 mb-3">
-            <div className="card h-100">
-              <div className="card-body">
+            <div className="card h-100 border-0" style={{ marginTop: 0 }}>
+              <div className="card-body" style={{ padding: 0 }}>
                 <Carousel />
               </div>
             </div>

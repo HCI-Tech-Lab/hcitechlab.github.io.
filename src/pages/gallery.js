@@ -80,7 +80,7 @@ const galleries = {
   "May, 2024": [
     "img/Lab/2405/2405_1.jpg",
     "img/Lab/2405/2405_2.jpg",
-    "img/Lab/2405/2405_3.png",
+    "img/Lab/2405/2405_3.jpg",
   ],
   "May, 2024 (CHI)": [
     "img/Lab/2405/CHI1.jpg",
@@ -102,6 +102,13 @@ const galleries = {
     "img/Lab/2402/Graduation3.JPG",
     "img/Lab/2402/Graduation4.JPG",
     "img/Lab/2402/Graduation5.JPG"
+  ],
+  "Dec, 2023 (Lab Photo)": [
+    "img/Lab/2312/2312_1.jpg",
+    "img/Lab/2312/2312_2.jpg",
+    "img/Lab/2312/2312_3.jpg",
+    "img/Lab/2312/2312_4.jpg",
+    "img/Lab/2312/2312_5.jpg",
   ],
   "Nov, 2023 (KHC)": [
     "img/Lab/2311/KHC1.JPG",

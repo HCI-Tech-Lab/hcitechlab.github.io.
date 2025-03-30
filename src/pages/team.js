@@ -9,7 +9,7 @@ export default function Team() {
       <SectionContainer>
         <div>
             <div className="col-lg-12 col-12" style={{textAlign: "center", paddingBottom: "20px"}}>
-                <img className="img-fluid img-thumbnail img-title" src="./img/Lab/Group/2024_02.JPG" /><br />
+                <img className="img-fluid img-thumbnail img-title" src="./img/Lab/Group/2024_05_0.jpg" /><br />
                 <h5><Link href="/gallery">See All Group Photos</Link></h5>
             </div>
         </div>

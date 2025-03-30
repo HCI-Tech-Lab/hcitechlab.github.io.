@@ -31,7 +31,7 @@ const galleries = {
     "img/Lab/2502/Grad_9.jpg",
 
   ],
-  "February, 2025 (HCIK)": [
+  "February, 2025 (HCI Korea)": [
     "img/Lab/2502/hcik1.jpg",
     "img/Lab/2502/hcik2.jpg",
     "img/Lab/2502/hcik3.jpg",

@@ -111,7 +111,7 @@ export const gct722_data = [
                     titles: ["Haptic Rendering I"],
                     type: 0,
                     notes: [
-                        { name: "Park et al. - 'Tactile Information Transmission by 2D Stationary Phantom Sensations', CHI 2018", link: "https://doi.org/10.1145/3173574.3173832" }
+                        { name: "Luo et al. -'Perceptual Localization Performance of the Whole Hand Vibrotactile Funneling Illusion', ToH 2023", link: "https://doi.org/10.1109/TOH.2023.3266432"}
                     ],
                     dues: [{ name: "RR Group A due by 4/3 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }]
                 },

@@ -51,7 +51,7 @@ export default function Publications() {
                                 .map((item, index) => (
                                     <div key={`${year}-${index}`} className="row research_item">
                                         <div className="col-md-4">
-                                            <video className="img-fluid" style={{ height: "100px" }} autoPlay loop muted playsInline poster={item.poster}>
+                                            <video className="img-fluid" style={{ height: "120px" }} autoPlay loop muted playsInline poster={item.poster}>
                                                 {item.demo && <source type="video/mp4" src={item.demo} />}
                                             </video>
                                         </div>
@@ -72,7 +72,7 @@ export default function Publications() {
                                                     alt="award"
                                                     style={{ width: "20px", height: "20px", marginRight: "5px" }}
                                                     />
-                                                <b>AWARD:</b> {item.award}</h6>}
+                                                <b>AWARD:&nbsp;</b> {item.award}</h6>}
                                             {item.website && <Link className="publication-link" href={item.website} target="_blank">Project Website</Link>}
                                             {item.doi && <Link className="publication-link" href={item.doi} target="_blank">DOI</Link>}
                                             {item.video && <Link className="publication-link" href={item.video} target="_blank">VIDEO</Link>}

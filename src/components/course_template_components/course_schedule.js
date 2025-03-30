@@ -33,7 +33,7 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day1.titles.map(
                                                                     (title, index) => (
                                                                         <Fragment key = {index}>
-                                                                            &#9642; {title}
+                                                                            {title}
                                                                             {index == week.day1.titles.length - 1 ? null : <br />}
                                                                         </Fragment>
                                                                     )
@@ -45,7 +45,6 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day1.notes.map(
                                                                     (note, index) => (
                                                                         <Fragment key = {index}>
-                                                                            &#9642;
                                                                             {
                                                                                 note.link == "" 
                                                                                 ? <>{note.name}</> 
@@ -63,7 +62,7 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day1.dues.map(
                                                                     (due, index) => (
                                                                         <Fragment key = {index}>
-                                                                            &#9642;
+                                                                            &#9642;{" "}
                                                                             {
                                                                                 due.link == "" 
                                                                                 ? <>{due.name}</> 
@@ -84,7 +83,7 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day2.titles.map(
                                                                     (title, index) => (
                                                                         <Fragment key = {index}>
-                                                                            &#9642; {title}
+                                                                            {title}
                                                                             {index == week.day2.titles.length - 1 ? null : <br />}
                                                                         </Fragment>
                                                                     )
@@ -96,7 +95,6 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day2.notes.map(
                                                                     (note, index) => (
                                                                         <Fragment key = {index}>
-                                                                            &#9642;
                                                                             {
                                                                                 note.link == "" 
                                                                                 ? <>{note.name}</> 
@@ -113,7 +111,7 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day2.dues.map(
                                                                     (due, index) => (
                                                                         <Fragment key = {index}>
-                                                                            &#9642;
+                                                                            &#9642;{" "}
                                                                             {
                                                                                 due.link == "" 
                                                                                 ? <>{due.name}</> 

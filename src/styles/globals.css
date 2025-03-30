@@ -214,11 +214,11 @@ a {
 }
 
 .research_item {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
   max-width: 100%;
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   align-items: center;
 }

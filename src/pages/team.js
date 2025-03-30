@@ -155,6 +155,16 @@ const AdministrativeStaff = () => {
           Tel: +82-42-350-5915<br/>
           Office: N25 2F #3241
         </div>
+
+        <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style={{paddingBottom: "20px"}}>
+          <MemberImage originalImage = "img/Member/NK.jpg" hoverImage = "main_icon.png" />
+        </div>
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "left"}}>
+          <b style={{fontSize: "24px"}}>Nahyeong Kim</b><br/>
+          <br/>
+          Tel: +82-42-350-5914<br/>
+          Office: N25 2F #3241
+        </div>
       </div>
     </div>
     

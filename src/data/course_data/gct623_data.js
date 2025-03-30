@@ -19,201 +19,168 @@ export const gct623_data = [
         announcements: [{"date": "3/4", "content": "Class Starts!"}, {"date": "3/4", "content": "Course Sign-up due 3/4 11:59pm"}],
         schedule: [
             {
-                "day1": {
-                  "date": "2/25", "titles": ["No Class"], "type": 2,
-                  "notes": [], "dues": []
+                day1: {
+                  date: "2/25", 
+                  titles: ["No Class"], 
+                  type: 2,
+                  notes: [], 
+                  dues: []
                 },
-                "day2": {
-                  "date": "2/27", "titles": ["No Class"], "type": 2,
-                  "notes": [], "dues": []
+                day2: { date: "2/27", titles: ["No Class"], type: 2, notes: [], dues: [] }
+              },
+              {
+                day1: { date: "3/4", titles: ["Introduction & Course Overview"], type: 0, notes: [], dues: [] },
+                day2: { date: "3/6", titles: ["Introduction to 3D Sensor"], type: 0, notes: [], dues: [] }
+              },
+              {
+                day1: {
+                  date: "3/11", titles: ["Project Workshop"], type: 1,
+                  notes: [{ name: 'Li et al. "Practical Stereo Matching via Cascaded Recurrent Network with Adaptive Correlation", CVPR, 2012', link: "https://doi.org/10.1109/CVPR52688.2022.01578", reading:true}],
+                  dues: [{ name: "RR due by 3/14 (Thu) 11:59pm", link: "" }]
+                },
+                day2: {
+                  date: "3/13", titles: ["Vision-based Sensor: Stereo Vision I"], type: 0,
+                  notes: [],
+                  dues: []
                 }
               },
               {
-                "day1": {
-                  "date": "3/4", "titles": ["Introduction & Course Overview"], "type": 0,
-                  "notes": [], "dues": []
+                day1: {
+                  date: "3/18", titles: ["Vision-based Sensor: Stereo Vision II"], type: 0,
+                  notes: [{ name: "HW#1 Handout (KLMS)", link: "https://klms.kaist.ac.kr/" }],
+                  dues: []
                 },
-                "day2": {
-                  "date": "3/6", "titles": ["Introduction to 3D Sensor"], "type": 0,
-                  "notes": [], "dues": []
+                day2: {
+                  date: "3/20", titles: ["Vision-based Sensor: Structured light Sensor"], type: 0,
+                  notes: [],
+                  dues: []
                 }
               },
               {
-                "day1": {
-                  "date": "3/11", "titles": ["Project Workshop"], "type": 1,
-                  "notes": [
-                    {"name": "Li et al. 'Practical Stereo Matching via Cascaded Recurrent Network with Adaptive Correlation', CVPR, 2012", "link": ""}
-                  ],
-                  "dues": [
-                    {"name": "RR due by 3/14 (Thu) 11:59pm", "link": ""}
-                  ]
+                day1: {
+                  date: "3/25", titles: ["Topic Presentation #1"], type: 1,
+                  notes: [{ name: "Individual Team Meeting", link: "" }],
+                  dues: []
                 },
-                "day2": {
-                  "date": "3/13", "titles": ["Vision-based Sensor: Stereo Vision I"], "type": 0,
-                  "notes": [{"name": "HW#1 Handout (KLMS)", "link": ""}],
-                  "dues": []
+                day2: {
+                  date: "3/27", titles: ["Project Proposal Q&A"], type: 1,
+                  notes: [{ name: "Proposal Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1q77PmRXISpWT53ripXBx8S2zqSWug_WiRnRxYaFQL84/edit?gid=987640423#gid=987640423" }],
+                  dues: [{ name: "HW#1 due by 3/27 (Thu) 11:59pm", link: "" },{ name: "Proposal Presentation Slides due by 3/31 (Mon) 11:59pm (All Teams)", link: "" }]
                 }
               },
               {
-                "day1": {
-                  "date": "3/18", "titles": ["Vision-based Sensor: Stereo Vision II"], "type": 0,
-                  "notes": [{"name": "Chen et al. 'Comparative study on 3D optical sensors for short range applications', Optics and Lasers in Engineering, 2022", "link": ""}],
-                  "dues": []
+                day1: {
+                  date: "4/1", titles: ["Project Proposal Presentation"], type: 1,
+                  notes: [{ name: 'Chen et al. "Comparative study on 3D optical sensors for short range applications", Optics and Lasers in Engineering, 2022', link: "https://doi.org/10.1016/j.optlaseng.2021.106763", reading:true }],
+                  dues: []
                 },
-                "day2": {
-                  "date": "3/20", "titles": ["Vision-based Sensor: Structured light Sensor"], "type": 0,
-                  "notes": [{"name": "An et al. 'Pixel-wise absolute phase unwrapping using geometric constraints of structured light system', Optics Express, 2016", "link": ""}],
-                  "dues": [{"name": "HW#1 due by 3/22 (Fri) 11:59pm", "link": ""}]
+                day2: {
+                  date: "4/3", titles: ["Digital Fringe Projection (1): Pinhole"], type: 0,
+                  notes: [{ name: "HW#2 Handout (KLMS)", link: "" }],
+                  dues: [{ name: "RR(Group A) due by 4/3 (Thu) 11:59pm", link: "" }]
                 }
               },
               {
-                "day1": {
-                  "date": "3/25", "titles": ["Topic Presentation #1"], "type": 1,
-                  "notes": [{"name": "Individual Team Meeting", "link": ""}],
-                  "dues": []
+                day1: {
+                  date: "4/8", titles: ["Topic Presentation #2", "Digital Fringe Projection (2): Phase"], type: 1,
+                  notes: [{ name: "An et al. 'Pixel-wise absolute phase unwrapping using geometric constraints of structured light system', Optics Express, 2016", link: "https://doi.org/10.1364/OE.24.018445", reading:true }],
+                  dues: []
                 },
-                "day2": {
-                  "date": "3/27", "titles": ["Project Proposal Q&A"], "type": 1,
-                  "notes": [{"name": "Proposal Presentation Schedule", "link": ""}],
-                  "dues": [{"name": "Proposal Presentation Slides due by 3/26 (Tue) 11:59pm (All Teams)", "link": ""}]
-                }
-              },
-              {
-                "day1": {
-                  "date": "4/1", "titles": ["Project Proposal Presentation"], "type": 1,
-                  "notes": [{"name": "Individual Team Meeting", "link": ""}],
-                  "dues": [{"name": "RR due by 4/1 (Mon) 11:59pm", "link": ""}]
-                },
-                "day2": {
-                  "date": "4/3", "titles": ["Digital Fringe Projection (1): Pinhole"], "type": 0,
-                  "notes": [{"name": "HW#2 Handout (KLMS)", "link": ""}],
-                  "dues": []
-                }
-              },
-              {
-                "day1": {
-                  "date": "4/8", "titles": ["Topic Presentation #2", "Digital Fringe Projection (2): Phase"], "type": 1,
-                  "notes": [{"name": "Downsampled depth encoding for enhanced 3D range geometry compression, Applied Optics, 2022", "link": ""}],
-                  "dues": []
-                },
-                "day2": {
-                  "date": "4/10", "titles": ["Digital Fringe Projection (3): Phase unwrapping method & 3D reconstruction"], "type": 0,
-                  "notes": [],
-                  "dues": [
-                    {"name": "HW#2 due by 4/10 (Wed) 11:59pm", "link": ""},
-                    {"name": "RR due by 4/11 (Thu) 11:59pm", "link": ""}
+                day2: {
+                  date: "4/10", titles: ["Digital Fringe Projection (3): Phase unwrapping method & 3D reconstruction"], type: 0,
+                  notes: [],
+                  dues: [
+                    { name: "HW#2 due by 4/10 (Thu) 11:59pm", link: "" },
+                    { name: "RR(Group B) due by 4/10 (Thu) 11:59pm", link: "" }
                   ]
                 }
               },
               {
-                "day1": {
-                  "date": "4/15", "titles": ["Digital Fringe Projection (4): 3D Data compression with phase"], "type": 0,
-                  "notes": [], "dues": []
-                },
-                "day2": {
-                  "date": "4/17", "titles": ["No Class"], "type": 2,
-                  "notes": [{"name": "HW#3 Handout (KLMS)", "link": ""}],
-                  "dues": [{"name": "RR due by 4/18 (Thu) 11:59pm", "link": ""}]
+                day1: { date: "4/15", titles: ["Topic Presentation #3", "Digital Fringe Projection (4): 3D Data compression with phase"], 
+                        type: 1, 
+                        notes: [{ name: "Downsampled depth encoding for enhanced 3D range geometry compression, Applied Optics, 2022", link: "https://doi.org/10.1364/AO.445800", reading:true },
+                                { name: "HW#3 Handout (KLMS)", link: "" }
+                        ], 
+                        dues: [] },
+                day2: {
+                  date: "4/17", titles: ["No Class (Midterm)"], type: 2,
+                  notes: [],
+                  dues: [{ name: "RR(Group A) due by 4/17 (Thu) 11:59pm", link: "" }]
                 }
               },
               {
-                "day1": {
-                  "date": "4/22", "titles": ["No Class"], "type": 2,
-                  "notes": [{"name": "Eddy et al. 'A Framework and Call to Action for the Future Development of EMG-Based Input in HCI', CHI 2023", "link": ""}],
-                  "dues": []
+                day1: {
+                  date: "4/22", titles: ["Introduction to Physical Sensing"], type: 0,
+                  notes: [{ name: 'Grosse-Puppendahl et al. "Finding Common Ground: A Survey of Capacitive Sensing in Human-Computer Interaction", CHI 2017', link: "https://doi.org/10.1145/3025453.3025808", reading:true}],
+                  dues: []
                 },
-                "day2": {
-                  "date": "4/24", "titles": ["Introduction to Physical Sensing"], "type": 0,
-                  "notes": [{"name": "Grosse-Puppendahl et al. 'Finding Common Ground: A Survey of Capacitive Sensing in Human-Computer Interaction', CHI 2017", "link": ""}],
-                  "dues": []
+                day2: {
+                  date: "4/24", titles: ["Topic Presentation #4", "Project Progress Q&A	"], type: 1,
+                  notes: [],
+                  dues: [ { name: "HW#3 due by 4/24 (Thu) 11:59pm", link: "" }]
                 }
               },
               {
-                "day1": {
-                  "date": "4/29", "titles": ["Pressure/Touch Sensor I"], "type": 0,
-                  "notes": [{"name": "Presentation Schedule", "link": ""}],
-                  "dues": [
-                    {"name": "Progress Presentation Slides due by 4/28 (Sun) 11:59pm (All Teams)", "link": ""},
-                    {"name": "HW#3 due by 4/28 (Sun) 11:59pm", "link": ""}
-                  ]
+                day1: {
+                  date: "4/29", titles: ["Project Progress Presentation"], type: 1,
+                  notes: [{ name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1q77PmRXISpWT53ripXBx8S2zqSWug_WiRnRxYaFQL84/edit?gid=987640423#gid=987640423" }],
+                  dues: [{ name: "Progress Presentation Slides due by 4/28 (Mon) 11:59pm (All Teams)", link: "" }]
                 },
-                "day2": {
-                  "date": "5/1", "titles": ["Project Progress Q&A"], "type": 1,
-                  "notes": [{"name": "Feedback Schedule", "link": ""}],
-                  "dues": []
+                day2: {
+                  date: "5/1", titles: ["Project Progress Feedback"], type: 1,
+                  notes: [{ name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/1q77PmRXISpWT53ripXBx8S2zqSWug_WiRnRxYaFQL84/edit?gid=987640423#gid=987640423" }],
+                  dues: []
                 }
               },
               {
-                "day1": {
-                  "date": "5/6", "titles": ["No Class"], "type": 2,
-                  "notes": [], "dues": [{"name": "RR due by 5/6 (Mon) 11:59pm", "link": ""}]
-                },
-                "day2": {
-                  "date": "5/8", "titles": ["Project Progress Presentation"], "type": 1,
-                  "notes": [], "dues": []
-                }
+                day1: { date: "5/6", titles: ["No Class (National Holiday)"], type: 2, notes: [], 
+                        dues: [{ name: "RR(Group A & B) due by 5/6 (Mon) 11:59pm", link: "" }] },
+                day2: { date: "5/8", titles: ["Pressure/Touch Sensor I"], type: 0, notes: [{ name: "HW#4 Handout (KLMS)", link: "" }], dues: [{ name: "Progress Report due by 5/11 (Sun) 11:59pm", link: "" }] }
               },
               {
-                "day1": {
-                  "date": "5/13", "titles": ["Project Progress Feedback"], "type": 1,
-                  "notes": [
-                    {"name": "HW#4 Handout (KLMS)", "link": ""},
-                    {"name": "Xu et al. 'Enabling Hand Gesture Customization on Wrist-Worn Devices', CHI 2022", "link": ""}
+                day1: {
+                  date: "5/13", titles: ["Pressure/Touch Sensor II", "Topic Presentation #5"], type: 1,
+                  notes: [
+                    { name: 'Xu et al. "Enabling Hand Gesture Customization on Wrist-Worn Devices", CHI 2022', link: "https://dl.acm.org/doi/10.1145/3491102.3501904", reading:true }
                   ],
-                  "dues": [{"name": "Progress Report due by 5/12 (Sun) 11:59pm", "link": ""}]
+                  dues: []
                 },
-                "day2": {
-                  "date": "5/15", "titles": ["Inertial Measurement Unit Sensor"], "type": 0,
-                  "notes": [], "dues": []
+                day2: { date: "5/15", titles: ["Inertial Measurement Unit Sensor"], type: 0, notes: [], dues: [{ name: "HW#4 due by 5/15 (Thu) 11:59pm", link: "" }, { name: "RR (Group B) due by 5/15 (Thu) 11:59pm", link: "" }] }
+              },
+              {
+                day1: {
+                  date: "5/20", titles: ["No Class (Admission Interview Day)"], type: 2,
+                  notes: [{ name: 'Laput et al. "ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers", UIST 2016', link: "https://doi.org/10.1145/2984511.2984582", reading:true },
+                    { name: "Substitute with CT Scape Participation on 5/30", link: "" }],
+                  dues: []
+                },
+                day2: { date: "5/22", titles: ["Topic Presentation #6","Bioacoustic Sensing"], type: 1, notes: [{ name: 'Eddy et al. "A Framework and Call to Action for the Future Development of EMG-Based Input in HCI", CHI 2023', link: "https://doi.org/10.1145/3544548.3580962", reading:true },
+                  { name: "HW#5 Handout (KLMS)", link: "" }], dues: [{ name: "RR (Group A) due by 5/22 (Thu) 11:59pm", link: "" }] }
+              },
+              {
+                day1: { date: "5/27", titles: ["Topic Presentation #7", "Physiological Sensing"], type: 1, notes: [], dues: [{ name: "RR (Group B) due by 5/27 (Mon) 11:59pm", link: "" }] },
+                day2: { date: "5/29", titles: ["Topic Presentation #8"], type: 1, notes: [], dues: [{ name: "HW#5 due by 5/29 (Thu) 11:59pm", link: "" }] }
+              },
+              {
+                day1: {
+                  date: "6/3", titles: ["Final Presentation Preparation Q&A"], type: 1,
+                  notes: [],
+                  dues: []
+                },
+                day2: {
+                  date: "6/5", titles: ["Final Presentation"], type: 1,
+                  notes: [{ name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1q77PmRXISpWT53ripXBx8S2zqSWug_WiRnRxYaFQL84/edit?gid=987640423#gid=987640423" }],
+                  dues: [{ name: "Final Presentation Slides due by 6/4 (Wed) 11:59pm", link: "" }]
                 }
               },
               {
-                "day1": {
-                  "date": "5/20", "titles": ["Pressure/Touch Sensor II"], "type": 0,
-                  "notes": [
-                    {"name": "Laput et al. 'ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers', UIST 2016", "link": ""}
-                  ],
-                  "dues": [{"name": "RR due by 5/20 (Mon) 11:59pm", "link": ""}]
-                },
-                "day2": {
-                  "date": "5/22", "titles": ["Topic Presentation#5", "Bioacoustic Sensing"], "type": 1,
-                  "notes": [], "dues": []
-                }
-              },
-              {
-                "day1": {
-                  "date": "5/27", "titles": ["Topic Presentation#5"], "type": 1,
-                  "notes": [], "dues": [{"name": "RR due by 5/27 (Mon) 11:59pm", "link": ""}]
-                },
-                "day2": {
-                  "date": "5/29", "titles": ["Topic Presentation#6", "Physiological Sensing"], "type": 1,
-                  "notes": [], "dues": []
-                }
-              },
-              {
-                "day1": {
-                  "date": "6/3", "titles": ["Final Presentation Preparation Q&A"], "type": 1,
-                  "notes": [{"name": "HW#5 Handout (KLMS)", "link": ""}],
-                  "dues": [{"name": "HW#5 due by 6/9 (Sun) 11:59pm", "link": ""}]
-                },
-                "day2": {
-                  "date": "6/5", "titles": ["Final Presentation Preparation"], "type": 1,
-                  "notes": [{"name": "Presentation Schedule", "link": ""}],
-                  "dues": []
-                }
-              },
-              {
-                "day1": {
-                  "date": "6/10", "titles": ["Final Presentation"], "type": 1,
-                  "notes": [], "dues": [{"name": "Final Presentation Slides due by 6/11 (Tue) 11:59pm", "link": ""}]
-                },
-                "day2": {
-                  "date": "6/12", "titles": ["Final Presentation Feedback"], "type": 1,
-                  "notes": [], "dues": [
-                    {"name": "Presentation Audience Evaluation due by 6/12 (Wed) 11:59pm", "link": ""},
-                    {"name": "Final Report & Peer Evaluation due by 6/12 (Wed) 11:59pm", "link": ""},
-                    {"name": "Final Video due by 6/12 (Wed) 11:59pm", "link": ""},
-                    {"name": "Video Audience Evaluation due by 6/14 (Fri) 12pm", "link": ""}
+                day1: { date: "6/10", titles: ["Final Presentation Feedback"], type: 1, notes: [], dues: [] },
+                day2: {
+                  date: "6/12", titles: ["No Class"], type: 2, notes: [], dues: [
+                    { name: "Presentation Audience Evaluation due by 6/12 (Thu) 11:59pm", link: "" },
+                    { name: "Final Report & Peer Evaluation due by 6/12 (Thu) 11:59pm", link: "" },
+                    { name: "Final Video due by 6/12 (Thu) 11:59pm", link: "" },
+                    { name: "Video Audience Evaluation due by 6/16 (Mon) 12pm", link: "" }
                   ]
                 }
               }

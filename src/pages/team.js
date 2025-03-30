@@ -32,16 +32,16 @@ const ProfessorCard = () => {
         <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{paddingBottom: "20px"}}>
           <MemberImage originalImage = "img/Member/Sang.jpg" hoverImage = "main_icon.png" />
         </div>
-        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "left", paddingBottom: "20px"}}>
+        <div className="col-lg-6 col-md-6 col-sm-6 col-12" style={{textAlign: "left", paddingBottom: "20px"}}>
             <b style={{fontSize: "24px"}}>Sang Ho Yoon</b>
-            <br/>Assistant Professor @ <Link href="https://ct.kaist.ac.kr/boards/view/faculty_board/119" target="_blank">Graduate School of Culture Technology</Link>
-            <br/>Joint Professor @ <Link href="https://cs.kaist.ac.kr/people/view?idx=626&kind=faculty&menu=160" target="_blank">School of Computing</Link> & <Link href="https://meta.kaist.ac.kr/" target="_blank">Graduate School of Metaverse</Link>
+            <br/>Associate Professor @ <Link href="https://ct.kaist.ac.kr/boards/view/faculty_board/119" target="_blank">Graduate School of Culture Technology</Link>
+            <br/>Joint Professor @ <Link href="https://cs.kaist.ac.kr/people/view?idx=626&kind=faculty&menu=160" target="_blank">School of Computing</Link><br /> <Link href="https://robots.kaist.ac.kr/" target="_blank">Robotics Program</Link><br /> <Link href="https://meta.kaist.ac.kr/" target="_blank">Graduate School of Metaverse</Link>
             <br/>Member of <Link href="https://hci.kaist.ac.kr/" target="_blank">KAIST HCI Group</Link><br/>
             Office: N5 3F #2327<br/><br/>
             <div className = "contact-box">
               <Link href="https://sanghoy.com/" target="_blank"><i className = "bi bi-house-door-fill"/></Link>
-              {/* <Link href="mailto:ProfessorMail" target="_blank"><i className = "bi bi-envelope-fill"/></Link>
-              <Link href="ProfessorLinkedIn" target="_blank"><i className = "bi bi-linkedin"/></Link> */}
+              <Link href="mailto:sangho@kaist.ac.kr" target="_blank"><i className = "bi bi-envelope-fill"/></Link>
+              <Link href="https://www.linkedin.com/in/sanghoy" target="_blank"><i className = "bi bi-linkedin"/></Link>
             </div>
         </div>
       </div>

@@ -2,6 +2,14 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/award.png",
+        title: "Two Honorable Mention Award for CHI 2025",
+        date: "Mar 28 2025",
+        content: (<>Our papers "ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool" led by Kyungeun & Hyunyoung and "T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input" led by Jina win Honorable Mention Award for <Link href="https://chi2025.acm.org/" target="_blank">CHI 2025</Link>!'</>),
+        images: [],
+        
+    },
+    {
         icon: "img/icon/speaker.png",
         title: "New Lab Logo",
         date: "Feb 20 2025",

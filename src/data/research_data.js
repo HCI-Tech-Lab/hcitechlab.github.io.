@@ -1,8 +1,8 @@
 export const research_temp = {
     "2025": [
         {
-            poster: "research/TVCG/TVCG_01.png",
-            demo: "",
+            poster: "research/2025/TVCG/TVCG_01.png",
+            demo: "research/2025/TVCG/TVCG_01.mp4",
             title: "Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations",
             authors: "Kun-Woo Song, Sang Ho Yoon",
             status: "",
@@ -15,48 +15,48 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highligt: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "research/CHI2025/Choreocraft.png",
-            demo: "",
-            title: "ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool",
-            authors: "Hyunyoung Han*, Kyungeun Jung*, Sang Ho Yoon",
-            status: "ACCEPTED - WILL BE PUBLISED IN ",
-            conference: "CHI2025",
-            conferenceLink: "https://chi2025.acm.org/",
-            award: "Honorable Mentiond Award",
-            website: "https://choreocraft.hcitech.org/",
-            doi: "",
-            video: "",
-            pdf: "",
-            presentation: "",
-            media: "",
-            highligt: false,
-            category: "Preprint"
-        },
-        {
-            poster: "research/CHI2025/T2IRay.png",
+            poster: "research/2025/CHI2025/T2IRay.png",
             demo: "",
             title: "T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input",
             authors: "Jina Kim, Yang Zhang, Sang Ho Yoon",
             status: "ACCEPTED - WILL BE PUBLISED IN",
             conference: "CHI2025",
             conferenceLink: "https://chi2025.acm.org/",
-            award: "Honorable Mentiond Award",
+            award: "Honorable Mention Award",
             website: "https://t2iray.hcitech.org/",
             doi: "",
             video: "",
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highligt: true,
             category: "Preprint"
         },
         {
-            poster: "research/CHI2025/HapticGen.png",
+            poster: "research/2025/CHI2025/Choreocraft.png",
             demo: "",
+            title: "ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool",
+            authors: "Hyunyoung Han*, Kyungeun Jung*, Sang Ho Yoon",
+            status: "ACCEPTED - WILL BE PUBLISED IN ",
+            conference: "CHI2025",
+            conferenceLink: "https://chi2025.acm.org/",
+            award: "Honorable Mention Award",
+            website: "https://choreocraft.hcitech.org/",
+            doi: "",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highligt: true,
+            category: "Preprint"
+        },
+        {
+            poster: "research/2025/CHI2025/HapticGen.png",
+            demo: "research/2025/CHI2025/HapticGen.mp4",
             title: "HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design",
             authors: "Youjin Sung*, Kevin John*, Sang Ho Yoon**, Hasti Seifi**",
             status: "ACCEPTED - WILL BE PUBLISED IN",
@@ -69,11 +69,11 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highligt: true,
             category: "Preprint"
         },
         {
-            poster: "research/CHI2025/VibWalk.png",
+            poster: "research/2025/CHI2025/VibWalk.png",
             demo: "",
             title: "VibWalk: Mapping Lower-limb Haptic Experiences of Everyday Walking",
             authors: "Shih Ying-Lei, Tang Dongxu, Weiming Hu, Sang Ho Yoon, Yitian Shao",
@@ -89,6 +89,60 @@ export const research_temp = {
             media: "",
             highligt: false,
             category: "Preprint"
+        },
+        {
+            poster: "research/",
+            demo: "",
+            title: "IKEA: Instance-wise Knowledge Enhancement for 3D Instance Segmentation",
+            authors: "Wonseok Roh, Hwanhee Jung, Giljoo Nam, , Dong In Lee, Hyeongcheol Park, Sang Ho Yoon, Jungseock Joo, Sangpil Kim",
+            status: "",
+            conference: "CVPR2025",
+            conferenceLink: "https://cvpr.thecvf.com/",
+            award: "",
+            website: "",
+            doi: "",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
+        },
+        {
+            poster: "research/",
+            demo: "",
+            title: "Semantically complex audio to video generation with audio source separation",
+            authors: "Sieun Kim, Jaehwan Jeong, Sumin In, Seung Hyun Lee, Seungryong Kim, Saerom Kim, Wooyeol Baek, Sang Ho Yoon, Eugenio Culurciello, Sangpil Kim",
+            status: "",
+            conference: "Engineering Applications of Artificial Intelligence",
+            conferenceLink: "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence",
+            award: "",
+            website: "",
+            doi: "https://doi.org/10.1016/j.engappai.2025.110457",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
+        },
+        {
+            poster: "research/",
+            demo: "",
+            title: "FPANet: Frequency-based video demoireing using frame-level post alignment",
+            authors: "Gyeongrok Oh, Sungjune Kim, Heon Gu, Sang Ho Yoon, Jinkyu Kim, Sangpil Kim",
+            status: "",
+            conference: "Neural Networks",
+            conferenceLink: "https://www.sciencedirect.com/journal/neural-networks",
+            award: "",
+            website: "",
+            doi: "https://doi.org/10.1016/j.neunet.2024.107021",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
         },
     ],
     "2024": [
@@ -125,7 +179,7 @@ export const research_temp = {
             pdf: "research/IMWUT2024/IMWUT2024.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highligt: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -271,7 +325,7 @@ export const research_temp = {
             pdf: "research/SUI2023/VibAware.pdf",
             presentation: "",
             media: "",
-            highligt: true,
+            highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -289,7 +343,7 @@ export const research_temp = {
             pdf: "research/WHC2023/whc23main-p1050-p.pdf",
             presentation: "",
             media: "",
-            highligt: true,
+            highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -563,7 +617,7 @@ export const research_temp = {
             pdf: "research/Hapsense/Hapsense.pdf",
             presentation: "https://youtu.be/O3i3IaMdbXg",
             media: "",
-            highligt: true,
+            highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -617,7 +671,7 @@ export const research_temp = {
             pdf: "research/iSoft/iSoft.pdf",
             presentation: "https://youtu.be/_YupB3qLikQ",
             media: "https://www.youtube.com/watch?v=7fNbM-lrX-E",
-            highligt: true,
+            highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -671,7 +725,7 @@ export const research_temp = {
             pdf: "research/TRing/TRing.pd",
             presentation: "https://youtu.be/ruhxaCrznWs",
             media: "",
-            highligt: true,
+            highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {

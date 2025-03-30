@@ -24,7 +24,8 @@ export const gct722_data = [
                     titles: ["Introduction & Course Overview"],
                     type: 0,
                     notes: [],
-                    dues: [{ name: "Course Sign Up due by 2/27(Thu) 11:59pm", link: "https://forms.gle/4ULWNEgQxPPShTtu9" }]
+                    dues: [{ name: "Course Sign Up due by 2/27(Thu) 11:59pm", 
+                             link: "https://forms.gle/4ULWNEgQxPPShTtu9" }]
                 },
                 day2: {
                     date: "2/27",
@@ -40,15 +41,19 @@ export const gct722_data = [
                     titles: ["Project Kick-off Workshop"],
                     type: 1,
                     notes: [],
-                    dues: [{ name: "Team Formation Activity Form due by 3/3(Mon) 11:59pm", link: "" }]
+                    dues: [{ name: "Team Formation Activity Form due by 3/3(Mon) 11:59pm", 
+                             link: "" }]
                 },
                 day2: {
                     date: "3/6",
                     titles: ["Tactile Interface II"],
                     type: 0,
                     notes: [
-                        { name: "Reading Group Announcement", link: "https://klms.kaist.ac.kr/" },
-                        { name: "Choi et al. - 'Vibrotactile Display: Perception, Technology, and Applications', Proceedings of the IEEE, 2012", link: "https://doi.org/10.1109/JPROC.2012.2221071" }
+                        { name: "Reading Group Announcement", 
+                          link: "https://klms.kaist.ac.kr/"},
+                        { name: 'Choi et al. "Vibrotactile Display: Perception, Technology, and Applications, Proceedings of the IEEE, 2012', 
+                          link: "https://doi.org/10.1109/JPROC.2012.2221071", 
+                          reading:true }
                     ],
                     dues: [{ name: "Project Team Sign Up due by 3/7(Fri) 12pm", link: "https://forms.gle/CqLLwnsQLpcGHuFS7" }]
                 }
@@ -58,7 +63,8 @@ export const gct722_data = [
                     date: "3/11",
                     titles: ["Tactile Interface III"],
                     type: 0,
-                    notes: [{ name: "Topic Presentation Group Schedule Announcement", link: "" }],
+                    notes: [{ name: "Topic Presentation Group Schedule Announcement", 
+                              link: "" }],
                     dues: []
                 },
                 day2: {
@@ -66,7 +72,9 @@ export const gct722_data = [
                     titles: ["Kinesthetic Interface I"],
                     type: 0,
                     notes: [
-                        { name: "Shen et al. - 'Fluid Reality: High-Resolution, Untethered Haptic Gloves using Electroosmotic Pump Arrays', UIST 2023", link: "https://dl.acm.org/doi/10.1145/3586183.3606771" }
+                        { name: 'Shen et al. "Fluid Reality: High-Resolution, Untethered Haptic Gloves using Electroosmotic Pump Arrays", UIST 2023', 
+                          link: "https://dl.acm.org/doi/10.1145/3586183.3606771",
+                          reading: true}
                     ],
                     dues: [{ name: "Reading Response (RR) due by 3/13(Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }]
                 }
@@ -77,7 +85,7 @@ export const gct722_data = [
                     titles: ["Kinesthetic Interface II"],
                     type: 0,
                     notes: [
-                        { name: "Hinchet et al. - 'DextrES: Wearable Haptic Feedback for Grasping in VR via a Thin Form-Factor Electrostatic Brake', UIST 2019", link: "https://doi.org/10.1145/3242587.3242657" }
+                        { name: "Hinchet et al. - 'DextrES: Wearable Haptic Feedback for Grasping in VR via a Thin Form-Factor Electrostatic Brake', UIST 2019", link: "https://doi.org/10.1145/3242587.3242657", reading:true}
                     ],
                     dues: [{ name: "RR Group A due by 3/17 (Mon) 11:59pm", link: "https://klms.kaist.ac.kr/" }]
                 },
@@ -101,7 +109,7 @@ export const gct722_data = [
                     date: "3/27",
                     titles: ["Project Proposal Presentation"],
                     type: 1,
-                    notes: [{ name: "Proposal Presentation Schedule", link: "" }],
+                    notes: [{ name: "Proposal Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/146vTof47IdHckUuGzdPpk3U_vr6n2Fh5irFTdxeP3q4/edit?usp=sharing" }],
                     dues: []
                 }
             },
@@ -111,17 +119,18 @@ export const gct722_data = [
                     titles: ["Haptic Rendering I"],
                     type: 0,
                     notes: [
-                        { name: "Luo et al. -'Perceptual Localization Performance of the Whole Hand Vibrotactile Funneling Illusion', ToH 2023", link: "https://doi.org/10.1109/TOH.2023.3266432"}
+                        { name: 'Luo et al. "Perceptual Localization Performance of the Whole Hand Vibrotactile Funneling Illusion", ToH 2023', 
+                          link: "https://doi.org/10.1109/TOH.2023.3266432",
+                          reading:true}
                     ],
-                    dues: [{ name: "RR Group A due by 4/3 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }]
+                    dues: [{ name: "RR Group A due by 4/3 (Thu) 11:59pm", 
+                             link: "https://klms.kaist.ac.kr/" }]
                 },
                 day2: {
                     date: "4/3",
                     titles: ["Haptic Rendering II", "Topic Presentation #2"],
                     type: 1,
-                    notes: [
-                        { name: "Shao et al. - 'Spatial patterns of cutaneous vibration during whole-hand haptic interactions', PNAS 2016", link: "https://doi.org/10.1073/pnas.1520866113" }
-                    ],
+                    notes: [],
                     dues: []
                 }
             },
@@ -131,14 +140,17 @@ export const gct722_data = [
                     titles: ["Haptic Perception I"],
                     type: 0,
                     notes: [],
-                    dues: [{ name: "RR Group B due by 4/7 (Mon) 11:59pm", link: "https://klms.kaist.ac.kr/" }]
+                    dues: []
                 },
                 day2: {
                     date: "4/10",
-                    titles: ["Haptic Perception II", "Topic Presentation #4"],
+                    titles: ["Haptic Perception II", "Topic Presentation #3"],
                     type: 1,
-                    notes: [],
-                    dues: []
+                    notes: [
+                        { name: 'Shao et al. "Spatial patterns of cutaneous vibration during whole-hand haptic interactions", PNAS 2016', 
+                          link: "https://doi.org/10.1073/pnas.1520866113",
+                          reading:true }],
+                    dues: [{ name: "RR Group B due by 4/10 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }]
                 }
             },
             {
@@ -153,23 +165,21 @@ export const gct722_data = [
                     date: "4/17",
                     titles: ["No class (Midterms Week)"],
                     type: 2,
-                    notes: [
-                        { name: "Son et al. - 'Upper Body Thermal Referral and Tactile Masking for Localized Feedback', TVCG 2023", link: "https://doi.org/10.1109/TVCG.2023.3247068" }
-                    ],
+                    notes: [],
                     dues: []
                 }
             },
             {
                 day1: {
                     date: "4/22",
-                    titles: ["Haptic Illusions"],
-                    type: 0,
+                    titles: ["Haptic Illusions",  "Topic Presentation #4"],
+                    type: 1,
                     notes: [],
-                    dues: [{ name: "RR Group A due by 4/21 (Mon) 11:59pm", link: "https://klms.kaist.ac.kr/" }]
+                    dues: []
                 },
                 day2: {
                     date: "4/24",
-                    titles: ["Topic Presentation #5", "Project Progress Q&A"],
+                    titles: ["Project Progress Presentation"],
                     type: 1,
                     notes: [],
                     dues: []
@@ -178,9 +188,9 @@ export const gct722_data = [
             {
                 day1: {
                     date: "4/29",
-                    titles: ["Project Progress Presentation"],
-                    type: 1,
-                    notes: [{ name: "Presentation Schedule", link: "" }],
+                    titles: ["No Class (Make-up class will be held)	"],
+                    type: 2,
+                    notes: [{ name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/146vTof47IdHckUuGzdPpk3U_vr6n2Fh5irFTdxeP3q4/edit?usp=sharing" }],
                     dues: [
                         { name: "Progress Presentation Slides due by 4/28 (Mon) 12pm (All Teams)", link: "https://klms.kaist.ac.kr/" }
                     ]
@@ -189,9 +199,14 @@ export const gct722_data = [
                     date: "5/1",
                     titles: ["Project Progress Feedback"],
                     type: 1,
-                    notes: [{ name: "Feedback Schedule", link: "" }],
+                    notes: [{ name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/146vTof47IdHckUuGzdPpk3U_vr6n2Fh5irFTdxeP3q4/edit?usp=sharing" },
+                            { name: 'Jones et al. "Tactile–thermal Interactions: Cooperation and Competition", ToH 2024', 
+                              link: "https://doi.org/10.1109/TOH.2025.3549677",
+                              reading:true}
+                    ],
                     dues: [
                         { name: "Audience Evaluation due by 5/1 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" },
+                        { name: "RR Group A due by 5/1 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" },
                         { name: "Progress Report due by 5/4 (Sun) 11:59pm", link: "https://klms.kaist.ac.kr/" }
                     ]
                 }
@@ -199,77 +214,77 @@ export const gct722_data = [
             {
                 day1: {
                     date: "5/6",
-                    titles: ["Quantitative and Qualitative Study"],
-                    type: 0,
+                    titles: ["No Class (National Holiday)"],
+                    type: 2,
                     notes: [],
                     dues: []
                 },
                 day2: {
                     date: "5/8",
-                    titles: ["Emerging Haptics I"],
-                    type: 0,
+                    titles: ["Topic Presentation #5", "Quantitative and Qualitative Study"],
+                    type: 1,
                     notes: [
-                        { name: "Azmandian et al. - 'Haptic Retargeting: Dynamic Repurposing of Passive Haptics for Enhanced Virtual Reality Experiences', CHI 2016", link: "https://doi.org/10.1145/2858036.2858226" }
+                        { name: 'Azmandian et al. "Haptic Retargeting: Dynamic Repurposing of Passive Haptics for Enhanced Virtual Reality Experiences", CHI 2016', 
+                          link: "https://doi.org/10.1145/2858036.2858226",
+                          reading:true }
                     ],
                     dues: [
-                        { name: "RR Group B due by 5/11 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }
+                        { name: "RR Group A & B due by 5/8 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }
                     ]
                 }
             },
             {
                 day1: {
                     date: "5/13",
-                    titles: ["Emerging Haptics II", "Topic Presentation #6"],
-                    type: 1,
+                    titles: ["Emerging Haptics I"],
+                    type: 0,
                     notes: [],
                     dues: []
                 },
                 day2: {
                     date: "5/15",
-                    titles: ["No class (Admission Interview)"],
-                    type: 2,
+                    titles: ["Emerging Haptics II", "Topic Presentation #6"],
+                    type: 1,
                     notes: [
-                        { name: "Substitute with CT Scape Participation", link: "" },
-                        { name: "Bau et al. - 'TeslaTouch: electrovibration for touch surfaces', UIST 2010", link: "https://doi.org/10.1145/1866029.1866074" }
-                    ],
+                        { name: 'Shen et al. "Mouth Haptics in VR using a Headset Ultrasound Phased Array", CHI 2022', 
+                          link: "https://doi.org/10.1145/3491102.3501960",
+                          reading:true}],
                     dues: [
-                        { name: "RR Group A due by 5/18 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }
+                        { name: "RR Group B due by 5/15 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }
                     ]
                 }
             },
             {
                 day1: {
                     date: "5/20",
-                    titles: ["XR Haptics Design Guidelines", "Topic Presentation #7"],
-                    type: 1,
-                    notes: [],
+                    titles: ["No class (Admission Interview Day)"],
+                    type: 2,
+                    notes: [{ name: "Substitute with CT Scape Participation on 5/30", link: "" },
+                    ],
                     dues: []
                 },
                 day2: {
                     date: "5/22",
-                    titles: ["XR Haptics Design Guidelines (Recorded)"],
-                    type: 0,
-                    notes: [
-                        { name: "Shen et al. - 'Mouth Haptics in VR using a Headset Ultrasound Phased Array', CHI 2022", link: "https://doi.org/10.1145/3491102.3501960" }
-                    ],
-                    dues: [
-                        { name: "RR Group A due by 5/25 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }
-                    ]
+                    titles: ["XR Haptics Design Guidelines", "Topic Presentation #7"],
+                    type: 1,
+                    notes: [],
+                    dues: []
                 }
             },
             {
                 day1: {
                     date: "5/27",
-                    titles: ["No class (National Holiday)"],
-                    type: 2,
+                    titles: ["XR Haptics Design Guidelines", "Applications"],
+                    type: 0,
                     notes: [],
                     dues: []
                 },
                 day2: {
                     date: "5/29",
-                    titles: ["Topic Presentation #8", "Applications"],
+                    titles: ["Final Project Progress Meeting with TAs"],
                     type: 1,
-                    notes: [],
+                    notes: [{ name: "Substitute with CT Scape Participation on 5/30", link: "" },
+                    ],
                     dues: []
                 }
             },
@@ -285,10 +300,10 @@ export const gct722_data = [
                     date: "6/5",
                     titles: ["Final Presentation"],
                     type: 1,
-                    notes: [{ name: "Presentation Schedule", link: "" }],
+                    notes: [{ name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/146vTof47IdHckUuGzdPpk3U_vr6n2Fh5irFTdxeP3q4/edit?usp=sharing" }],
                     dues: [
-                        { name: "Final Presentation Slides due by 6/6 (Tue) 11:59pm", link: "https://klms.kaist.ac.kr/" },
-                        { name: "Presentation Audience Evaluation due by 6/7 (Wed) 11:59pm", link: "https://klms.kaist.ac.kr/" }
+                        { name: "Final Presentation Slides due by 6/4 (Wed) 11:59pm", link: "https://klms.kaist.ac.kr/" },
+                        { name: "Presentation Audience Evaluation due by 6/5 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }
                     ]
                 }
             },
@@ -306,9 +321,9 @@ export const gct722_data = [
                     type: 2,
                     notes: [],
                     dues: [
-                        { name: "Final Report & Peer Evaluation due by 6/14 (Wed) 11:59pm", link: "https://klms.kaist.ac.kr/" },
-                        { name: "Final Video due by 6/14 (Wed) 11:59pm", link: "https://klms.kaist.ac.kr/" },
-                        { name: "Video Audience Evaluation due by 6/16 (Fri) 12pm", link: "https://klms.kaist.ac.kr/" }
+                        { name: "Final Report & Peer Evaluation due by 6/12 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" },
+                        { name: "Final Video due by 6/12 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" },
+                        { name: "Video Audience Evaluation due by 6/16 (Mon) 12pm", link: "https://klms.kaist.ac.kr/" }
                     ]
                 }
             }

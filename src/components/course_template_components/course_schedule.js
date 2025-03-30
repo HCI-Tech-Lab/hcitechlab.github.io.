@@ -45,6 +45,13 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day1.notes.map(
                                                                     (note, index) => (
                                                                         <Fragment key = {index}>
+                                                                            {note.reading && (
+                                                                                <img
+                                                                                src="/img//book-half.svg"
+                                                                                alt="reading"
+                                                                                style={{ width: "18px", height: "18px", marginRight: "5px" }}
+                                                                                />
+                                                                            )}
                                                                             {
                                                                                 note.link == "" 
                                                                                 ? <>{note.name}</> 
@@ -95,12 +102,19 @@ export default function CourseSchedule({schedule}) {
                                                                 week.day2.notes.map(
                                                                     (note, index) => (
                                                                         <Fragment key = {index}>
+                                                                            {note.reading && (
+                                                                                <img
+                                                                                src="/img//book-half.svg"
+                                                                                alt="reading"
+                                                                                style={{ width: "18px", height: "18px", marginRight: "5px" }}
+                                                                                />
+                                                                            )}
                                                                             {
                                                                                 note.link == "" 
                                                                                 ? <>{note.name}</> 
                                                                                 : <Link href = {note.link} target="_blank">{note.name}</Link>
                                                                             }
-                                                                            {index == week.day1.notes.length - 1 ? null : <br />}
+                                                                            {index == week.day2.notes.length - 1 ? null : <br />}
                                                                         </Fragment>
                                                                     )
                                                                 )
@@ -117,7 +131,7 @@ export default function CourseSchedule({schedule}) {
                                                                                 ? <>{due.name}</> 
                                                                                 : <Link href = {due.link} target="_blank">{due.name}</Link>
                                                                             }
-                                                                            {index == week.day1.dues.length - 1 ? null : <br />}
+                                                                            {index == week.day2.dues.length - 1 ? null : <br />}
                                                                         </Fragment>
                                                                     )
                                                                 )

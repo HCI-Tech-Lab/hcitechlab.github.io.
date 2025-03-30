@@ -26,7 +26,7 @@ export const research_temp = {
             status: "ACCEPTED - WILL BE PUBLISED IN ",
             conference: "CHI2025",
             conferenceLink: "https://chi2025.acm.org/",
-            award: "",
+            award: "Honorable Mentiond Award",
             website: "https://choreocraft.hcitech.org/",
             doi: "",
             video: "",
@@ -44,7 +44,7 @@ export const research_temp = {
             status: "ACCEPTED - WILL BE PUBLISED IN",
             conference: "CHI2025",
             conferenceLink: "https://chi2025.acm.org/",
-            award: "",
+            award: "Honorable Mentiond Award",
             website: "https://t2iray.hcitech.org/",
             doi: "",
             video: "",
@@ -63,7 +63,7 @@ export const research_temp = {
             conference: "CHI2025",
             conferenceLink: "https://chi2025.acm.org/",
             award: "",
-            website: "",
+            website: "https://hapticgen.hcitech.org/",
             doi: "",
             video: "",
             pdf: "",
@@ -97,12 +97,12 @@ export const research_temp = {
             demo: "",
             title: "Posture-Informed Muscular Force Learning for Robust Hand Pressure Estimation",
             authors: "Kyungjin Seo*, Junghoon Seo*, Hanseok Jeong, Sangpil Kim, Sang Ho Yoon",
-            status: "ACCEPTED - WILL BE PUBLISED IN ",
+            status: "",
             conference: "NeurIPS 2024",
             conferenceLink: "https://neurips.cc/Conferences/2024",
             award: "",
             website: "https://pimforce.hcitech.org/",
-            doi: "",
+            doi: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/a01e69aa9c3c61fcb40ea378e71fc780-Abstract-Conference.html",
             video: "https://youtu.be/SVgZh5oLrxo",
             pdf: "",
             presentation: "",
@@ -172,7 +172,7 @@ export const research_temp = {
             status: "",
             conference: "ACM CHI 2024 Interactivity",
             conferenceLink: "https://chi2024.acm.org/",
-            award: "",
+            award: "Popular Choice Winner (Interactivity)",
             website: "",
             doi: "https://doi.org/10.1145/3613905.3648652",
             video: "https://www.youtube.com/watch?v=MyzxK1G3914",
@@ -457,7 +457,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
     ],
-    "2021": [
+    "2021 and Before": [
         {
             poster: "research//SoundGuided/Sound-guided.jpg",
             demo: "",
@@ -494,8 +494,6 @@ export const research_temp = {
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
-    ],
-    "2020": [
         {
             poster: "research/Surfaceflow/Surfaceflow.gif",
             demo: "",
@@ -550,8 +548,6 @@ export const research_temp = {
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
-    ],
-    "2019": [
         {
             poster: "research/Hapsense/Hapsense.png",
             demo: "research/Hapsense/Hapsense.mp4",
@@ -588,8 +584,6 @@ export const research_temp = {
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
-    ],
-    "2018": [
         {
             poster: "research/Scenariot/Scenariot.jpg",
             demo: "research/Scenariot/Scenariot.mp4",
@@ -608,8 +602,6 @@ export const research_temp = {
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
-    ],
-    "2017": [
         {
             poster: "research/iSoft/iSoft.jpg",
             demo: "research/iSoft/iSoft.mp4",
@@ -664,8 +656,6 @@ export const research_temp = {
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
-    ],
-    "2016": [
         {
             poster: "research/TRing/TRing.jpg",
             demo: "research/TRing/TRing.mp4",
@@ -720,8 +710,6 @@ export const research_temp = {
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
-    ],
-    "2015": [
         {
             poster: "research/TiMMi/TiMMI.jpg",
             demo: "research/TiMMi/TiMMi.mp4",
@@ -740,8 +728,6 @@ export const research_temp = {
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
         },
-    ],
-    "2014": [
         {
             poster: "research/BendID/BendID.jpg",
             demo: "research/BendID/BendID.mp4",

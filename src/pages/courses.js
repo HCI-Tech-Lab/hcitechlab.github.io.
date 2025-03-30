@@ -15,7 +15,7 @@ export default function Courses() {
                 <h5>This course explores various aspects (interfaces, sensing & haptics, applications) of augmented humans.</h5>
                 {
                   gct565_data.map((item, index) => (
-                    <Link key = {index} href={`/gct565/${item.course_info.code.toLowerCase()}`}>{item.course_info.code}<br/></Link>
+                    <Link key = {index} href={`/gct565/${item.course_info.code.toLowerCase()}`} target="_blank">{item.course_info.code}<br/></Link>
                   )) 
                 }
             </div>
@@ -24,7 +24,7 @@ export default function Courses() {
                 <h5>This course explores core knwoledge relating to augmented reality including augmented interfaces, sensing technology, visualization, and applications.</h5>
                 {
                   ctp445_data.map((item, index) => (
-                    <Link key = {index} href={`/ctp445/${item.course_info.code.toLowerCase()}`}>{item.course_info.code}<br/></Link>
+                    <Link key = {index} href={`/ctp445/${item.course_info.code.toLowerCase()}`} target="_blank">{item.course_info.code}<br/></Link>
                   )) 
                 }
             </div>
@@ -33,7 +33,7 @@ export default function Courses() {
                 <h5>This course will cover interactive haptic technologies for XR/AR/VR, Mobile/Ubiquitous Computing, and Tangible & Object Interface.</h5>
                 {
                   gct722_data.map((item, index) => (
-                    <Link key = {index} href={`/gct722/${item.course_info.code.toLowerCase()}`}>{item.course_info.code}<br/></Link>
+                    <Link key = {index} href={`/gct722/${item.course_info.code.toLowerCase()}`} target="_blank">{item.course_info.code}<br/></Link>
                   )) 
                 }
             </div>
@@ -42,7 +42,7 @@ export default function Courses() {
                 <h5>This course will educate core principles of 3D & Physical sensing adopted for huamn computer interaction.</h5>
                 {
                   gct623_data.map((item, index) => (
-                    <Link key = {index} href={`/gct623/${item.course_info.code.toLowerCase()}`}>{item.course_info.code}<br/></Link>
+                    <Link key = {index} href={`/gct623/${item.course_info.code.toLowerCase()}`} target="_blank">{item.course_info.code}<br/></Link>
                   )) 
                 }
             </div>

@@ -37,7 +37,11 @@ export default function Publications() {
                 {/* Research Publications List */}
                 <div className="col-md-10">
                     {Object.keys(research_temp)
-                    .reverse()
+                    .sort((a, b) => {
+                        if (a === "2021 and Before") return 1;
+                        if (b === "2021 and Before") return -1;
+                        return parseInt(b) - parseInt(a);
+                    })
                     .filter(year => research_temp[year].some(item => selectedCategory === "All" || item.category === selectedCategory)) // Filter out empty years
                     .map(year => (
                         <div key={year} ref={(el) => (yearRefs.current[year] = el)}>
@@ -47,7 +51,7 @@ export default function Publications() {
                                 .map((item, index) => (
                                     <div key={`${year}-${index}`} className="row research_item">
                                         <div className="col-md-4">
-                                            <video className="img-fluid" style={{ height: "200px" }} autoPlay loop muted playsInline poster={item.poster}>
+                                            <video className="img-fluid" style={{ height: "100px" }} autoPlay loop muted playsInline poster={item.poster}>
                                                 {item.demo && <source type="video/mp4" src={item.demo} />}
                                             </video>
                                         </div>
@@ -62,7 +66,13 @@ export default function Publications() {
                                                     </Link>
                                                 )}
                                             </h6>
-                                            {item.award && <h6><b>AWARD:</b> {item.award}</h6>}
+                                            {item.award &&  <h6 className="d-flex align-items-center">
+                                                <img
+                                                    src="/img/icon/award_small.png"
+                                                    alt="award"
+                                                    style={{ width: "20px", height: "20px", marginRight: "5px" }}
+                                                    />
+                                                <b>AWARD:</b> {item.award}</h6>}
                                             {item.website && <Link className="publication-link" href={item.website} target="_blank">Project Website</Link>}
                                             {item.doi && <Link className="publication-link" href={item.doi} target="_blank">DOI</Link>}
                                             {item.video && <Link className="publication-link" href={item.video} target="_blank">VIDEO</Link>}
@@ -81,7 +91,11 @@ export default function Publications() {
                   <div className="sticky-top" style={{ top: "80px", height: "calc(100vh - 80px)", overflowY: "auto" }}>
                       <div className="list-group">
                           <h6>Jump to Year:</h6>
-                          {Object.keys(research_temp).reverse().map(year => (
+                          {Object.keys(research_temp) .sort((a, b) => {
+                                    if (a === "2021 and Before") return 1;
+                                    if (b === "2021 and Before") return -1;
+                                    return parseInt(b) - parseInt(a);
+                                }).map(year => (
                               <button key={year} className="list-group-item list-group-item-action category" onClick={() => scrollToYear(year)}>
                                   {year}
                               </button>

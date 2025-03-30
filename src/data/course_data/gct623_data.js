@@ -1,7 +1,7 @@
 export const gct623_data = [
     {
         course_info: {
-            code: "GCT623 MV623 Spring 2025", 
+            code: "GCT & MV 623 Spring 2025", 
             title: "Interaction Sensing Principle & Application",
             desc: "This course will educate core principles of 3D & Physical sensing adopted for human-computer interaction. We will cover basic optics for 3D sensing and basic knowledge of each component for physical sensing. Also, we will look at applications where 3D & physical sensing is combined to provide interaction.",
         },
@@ -222,7 +222,7 @@ export const gct623_data = [
     },
     {
         course_info: {
-            code: "GCT623 MV623 Spring 2024", 
+            code: "GCT & MV 623 Spring 2024", 
             title: "Interaction Sensing Principle & Application",
             desc: "This course will educate core principles of 3D & Physical sensing adopted for human-computer interaction. We will cover basic optics for 3D sensing and basic knowledge of each component for physical sensing. Also, we will look at applications where 3D & physical sensing is combined to provide interaction.",
         },
@@ -432,7 +432,7 @@ export const gct623_data = [
     },
     {
         course_info: {
-            code: "GCT741 Spring 2023", 
+            code: "GCT & MV 623 Spring 2023", 
             title: "Interaction Sensing Principle & Application",
             desc: "This course will educate core principles of 3D & Physical sensing adopted for human-computer interaction. We will cover basic optics for 3D sensing and basic knowledge of each component for physical sensing. Also, we will look at applications where 3D & physical sensing is combined to provide interaction.",
         },

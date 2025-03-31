@@ -3,14 +3,10 @@ import Link from 'next/link';
 import {news} from '../data/news_data';
 import { research_temp } from "@/data/research_data";
 import { useState } from 'react';
-import GoogleAnalytics from "@/components/googleanalytics";
 
 // MainBody
 export default function Home() {
   return (
-    <>
-      <GoogleAnalytics />
-      
     <div>
       <div className = "container">
         <div className = "row">
@@ -50,7 +46,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 

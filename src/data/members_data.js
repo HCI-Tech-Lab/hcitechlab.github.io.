@@ -25,7 +25,7 @@ export const phdStudents = [
     "note": "",
   },
   {
-    "img": "img/Member/KJ.png",
+    "img": "img/Member/KJ.jpg",
     "hoverImg": "main_icon.png",
     "name": "Kyungeun Jung",
     "title": "Ph.D. Student",

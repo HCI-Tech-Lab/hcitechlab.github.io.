@@ -21,7 +21,7 @@ export const news = [
         title: "2025 Graduation",
         date: "Feb 14 2025",
         content: "Hyung Il, Soyeong, Dongkyu, Min-yung, Junghoon, Kyungeun, Kyungjin, and Nicha graudated. Congrats!",
-        images: ["img/Lab/2502/Grad_1.jpeg", "img/Lab/2502/Grad_2.png", "img/Lab/2502/Grad_3.JPG"],
+        images: ["img/Lab/2502/Grad_1.jpeg", "img/Lab/2502/Grad_2.png", "img/Lab/2502/Grad_3.jpg"],
         
     },
     {

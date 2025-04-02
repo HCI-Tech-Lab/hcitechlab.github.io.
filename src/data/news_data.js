@@ -2,6 +2,13 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/paper2.jpg",
+        title: "A paper accepted to IMWUT (UbiComp 205)",
+        date: "Apr 3 2025",
+        content: <div>Our paper "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs" led by Changhyeon and Yubin is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
+        images: []
+    },
+    {
         icon: "img/icon/award.png",
         title: "Two Honorable Mention Award for CHI 2025",
         date: "Mar 28 2025",

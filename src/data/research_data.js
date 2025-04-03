@@ -1,24 +1,6 @@
 export const research_temp = {
     "2025": [
         {
-            poster: "research/2025/TVCG/TVCG_01.png",
-            demo: "research/2025/TVCG/TVCG_01.mp4",
-            title: "Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations",
-            authors: "Kun-Woo Song, Sang Ho Yoon",
-            status: "",
-            conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
-            conferenceLink: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945",
-            award: "",
-            website: "https://neckgoesvrrr.hcitech.org/",
-            doi: "https://doi.org/10.1109/TVCG.2025.3535942",
-            video: "",
-            pdf: "",
-            presentation: "",
-            media: "",
-            highligt: true,
-            category: "Conference / Journal (peer-reviewed)"
-        },
-        {
             poster: "research/2025/CHI2025/T2IRay.png",
             demo: "",
             title: "T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input",
@@ -73,6 +55,24 @@ export const research_temp = {
             category: "Preprint"
         },
         {
+            poster: "research/2025/TVCG/TVCG_01.png",
+            demo: "research/2025/TVCG/TVCG_01.mp4",
+            title: "Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations",
+            authors: "Kun-Woo Song, Sang Ho Yoon",
+            status: "",
+            conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+            conferenceLink: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945",
+            award: "",
+            website: "https://neckgoesvrrr.hcitech.org/",
+            doi: "https://doi.org/10.1109/TVCG.2025.3535942",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highligt: true,
+            category: "Conference / Journal (peer-reviewed)"
+        },
+        {
             poster: "research/2025/CHI2025/VibWalk.png",
             demo: "",
             title: "VibWalk: Mapping Lower-limb Haptic Experiences of Everyday Walking",
@@ -91,7 +91,25 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-            poster: "research/",
+            poster: "img/icon/preprint.png",
+            demo: "",
+            title: "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs",
+            authors: "Changhyeon Park, Yubin Lee, Sang Ho Yoon",
+            status: "",
+            conference: "ACM IMWUT (UbiComp2025)",
+            conferenceLink: "https://dl.acm.org/journal/imwut",
+            award: "",
+            website: "",
+            doi: "",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highligt: false,
+            category: "Conference / Journal (peer-reviewed)"
+        },
+        {
+            poster: "img/icon/preprint.png",
             demo: "",
             title: "IKEA: Instance-wise Knowledge Enhancement for 3D Instance Segmentation",
             authors: "Wonseok Roh, Hwanhee Jung, Giljoo Nam, , Dong In Lee, Hyeongcheol Park, Sang Ho Yoon, Jungseock Joo, Sangpil Kim",
@@ -109,7 +127,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "research/",
+            poster: "research/2025/Journal/EAAI2025.webp",
             demo: "",
             title: "Semantically complex audio to video generation with audio source separation",
             authors: "Sieun Kim, Jaehwan Jeong, Sumin In, Seung Hyun Lee, Seungryong Kim, Saerom Kim, Wooyeol Baek, Sang Ho Yoon, Eugenio Culurciello, Sangpil Kim",
@@ -127,7 +145,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "research/",
+            poster: "research/2025/Journal/NN2025.webp",
             demo: "",
             title: "FPANet: Frequency-based video demoireing using frame-level post alignment",
             authors: "Gyeongrok Oh, Sungjune Kim, Heon Gu, Sang Ho Yoon, Jinkyu Kim, Sangpil Kim",

@@ -30,11 +30,10 @@ export default function RecruitingGrad() {
             <h2>Potential Projects</h2>
             <h5> You’ll be working on a research project, and closely interacting with me and others. Here are some potential project ideas: </h5>
             <ul style={{marginLeft: "30px"}}>
-                <li><h5>Design/build/evaluate novel sensing techniques (capacitive, magnetic, Ultra wideband, radar, LiDAR, Computer Vision, biosignal) for AR/VR interactions. (Related Projects: <Link href="/publications">VibAware, iSoft, Scenariot, TRing</Link>)</h5></li>
-                <li><h5>Design/build/evaluate wearable haptic experiences for AR/VR interactions. (Related Projects: <Link href="/publications">HapMotion, WriMoucon</Link>)</h5></li>
-                <li><h5>Augmented humans with bio-physiological (e.g., EMG, MMG, ECG, EEG) sensing with applied machine learning to understand user intention and status. (Related Projects: <Link href="/publications">Stress Monitoring using Multimodal Bio-sensing Headset</Link>)</h5></li>
-                <li><h5>Customization & Recommender Toolkit for Sensing/Haptic Interfaces design in AR/VR. (Related Projects: <Link href="/publications">HapticPilot</Link> )</h5></li>
-                <li><h5>Design study (e.g., Elicitation, data capture) on deformable/soft/wearable interfaces. (Related Projects: <Link href="/publications">BikeGesture</Link> )</h5></li>
+                <li><h5>Build/Collect/Design Physical AI data and model</h5></li>
+                <li><h5>Design/build/evaluate novel sensing techniques</h5></li>
+                <li><h5>Design/build/evaluate wearable haptic experiences</h5></li>
+                <li><h5>Creativitiy & Authoring Toolkit for human-centered interactions</h5></li>
                 <li><h5>You can also suggest new ideas!</h5></li>
             </ul>
 
@@ -45,9 +44,9 @@ export default function RecruitingGrad() {
             <ul style={{marginLeft: "30px"}}>
                 <li><h5>We are looking for students who are eager to learn and build physical & digital interactive system.<br />
                         <b>(Looking for students from diverse backgrounds & majors!)</b></h5></li>
-                <li><h5>We are looking for students who are ready for get their hands dirty for prototyping.</h5></li>
-                <li><h5>We are looking for students with responsibility who can actually realize proposed ideas.</h5></li>
-                <li><h5>We are looking for students to have prototyping experience or intro-level HCI knowledge. (Optional, but strongly recommended)</h5></li>
+                <li><h5>We are looking for students who are ready for physical prototyping.</h5></li>
+                <li><h5>We are looking for students with responsibility who can realize their own proposed ideas.</h5></li>
+                <li><h5>We are looking for students to have SW/HW prototyping experience in real research projects. (Optional, but strongly recommended)</h5></li>
             </ul>
 
             <br />
@@ -69,6 +68,7 @@ export default function RecruitingGrad() {
                 <li><h5>For official admission in Graduate School of Culture Technology, please refer to <Link href="https://ct.kaist.ac.kr/pages/sub/sub0601" target="_blank">admission website.</Link></h5></li>
                 <li><h5>For official admission in Graduate School of Metaverse, please refer to <Link href="https://meta.kaist.ac.kr/" target="_blank">admission website.</Link></h5></li>
                 <li><h5>For official admission in School of Computing, please refer to <Link href="https://cs.kaist.ac.kr/content?menu=41" target="_blank">admission website.</Link></h5></li>
+                <li><h5>For official admission in Robotics Program, please refer to <Link href="https://robots.kaist.ac.kr/english" target="_blank">admission website.</Link></h5></li>
             </ul>
 
             <br />

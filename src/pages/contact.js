@@ -27,9 +27,9 @@ export default function Contact() {
           <h4><i><b>**Note: We currently have open positions for M.S./Ph.D.**</b></i></h4>
           <p></p>
           <h4>We are excited to talk to strong candidates whose backgrounds or interests overlap with</h4>
-          <h4 style={{marginLeft: "30px"}}><b>Software engineering: </b> Human-Computer Interaction, Virtual/Augmented Reality, Machine Learning,</h4>
+          <h4 style={{marginLeft: "30px"}}><b>Software engineering: </b> Human-Computer Interaction(HCI), Artificial Intelligence(AI), Extended Reality(XR)</h4>
           <h4 style={{marginLeft: "30px"}}><b>Hardware engineering: </b> Sensors, Embedded systems, Mechanical Design, Signal processing,</h4>
-          <h4 style={{marginLeft: "30px"}}><b>HCI related topics: </b> UX/UI Design, Human Factors, User/Design Study</h4>
+          <h4 style={{marginLeft: "30px"}}><b>HCI related topics: </b> UX/UI Design, Creativity Toolkit, Human Factors/Perception</h4>
           <p></p>
           <h4>For M.S./Ph.D. students, please check below.</h4>
           <p></p>

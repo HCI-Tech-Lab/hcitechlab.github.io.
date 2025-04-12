@@ -106,7 +106,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
-            category: "Conference / Journal (peer-reviewed)"
+            category: "Preprint"
         },
         {
             poster: "img/icon/preprint.png",
@@ -124,7 +124,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highligt: false,
-            category: "Conference / Journal (peer-reviewed)"
+            category: "Preprint"
         },
         {
             poster: "research/2025/Journal/EAAI2025.webp",

@@ -27,7 +27,8 @@ export default function Publications() {
         "Conference / Journal (peer-reviewed)",
         "Poster / Demo / Workshop",
         "Domestic Conference / Journal",
-        "Preprint"
+        "Preprint",
+        "Submitted"
     ];
 
     return (

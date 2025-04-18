@@ -3,7 +3,14 @@ import Link from 'next/link';
 export const news = [
     {
         icon: "img/icon/paper2.jpg",
-        title: "A paper accepted to IMWUT (UbiComp 205)",
+        title: "A paper accepted to WHC 2025",
+        date: "Apr 18 2025",
+        content: <div>Our paper "3D Shape Perception through Spatiotemporal Vibrotactile Patterns with Kinesthetic Feedback" led by Hojeong and Eun Ho is accepted to <Link href="https://2025.worldhaptics.org/" target="_blank">IEEE World Haptics Conference (WHC)</Link>.</div>,
+        images: []
+    },
+    {
+        icon: "img/icon/paper2.jpg",
+        title: "A paper accepted to IMWUT (UbiComp 2025)",
         date: "Apr 3 2025",
         content: <div>Our paper "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs" led by Changhyeon and Yubin is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
         images: []

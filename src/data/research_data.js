@@ -91,6 +91,24 @@ export const research_temp = {
             category: "Preprint"
         },
         {
+        poster: "img/icon/preprint.png",
+        demo: "",
+        title: "3D Shape Perception through Spatiotemporal Vibrotactile Patterns with Kinesthetic Feedback",
+        authors: "Hojeong Lee, Eun Ho Kim, Sang Ho Yoon",
+        status: "",
+        conference: "WHC2025",
+        conferenceLink: "https://2025.worldhaptics.org/",
+        award: "",
+        website: "",
+        doi: "",
+        video: "",
+        pdf: "",
+        presentation: "",
+        media: "",
+        highligt: false,
+        category: "Preprint"
+        },
+        {
             poster: "img/icon/preprint.png",
             demo: "",
             title: "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs",

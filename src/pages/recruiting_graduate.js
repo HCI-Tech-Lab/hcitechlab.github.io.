@@ -33,7 +33,7 @@ export default function RecruitingGrad() {
                 <li><h5>Build/Collect/Design Physical AI data and model</h5></li>
                 <li><h5>Design/build/evaluate novel sensing techniques</h5></li>
                 <li><h5>Design/build/evaluate wearable haptic experiences</h5></li>
-                <li><h5>Creativitiy & Authoring Toolkit for human-centered interactions</h5></li>
+                <li><h5>Creativity & Authoring Toolkit for human-centered interactions</h5></li>
                 <li><h5>You can also suggest new ideas!</h5></li>
             </ul>
 

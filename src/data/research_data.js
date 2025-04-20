@@ -15,7 +15,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: true,
+            highlight: true,
             category: "Preprint"
         },
         {
@@ -33,7 +33,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: true,
+            highlight: true,
             category: "Preprint"
         },
         {
@@ -51,7 +51,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: true,
+            highlight: true,
             category: "Preprint"
         },
         {
@@ -69,7 +69,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: true,
+            highlight: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -87,7 +87,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Preprint"
         },
         {
@@ -105,7 +105,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Preprint"
         },
         {
@@ -123,7 +123,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Preprint"
         },
         {
@@ -141,7 +141,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Preprint"
         },
         {
@@ -159,7 +159,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -177,7 +177,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
     ],
@@ -197,7 +197,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -215,7 +215,7 @@ export const research_temp = {
             pdf: "research/IMWUT2024/IMWUT2024.pdf",
             presentation: "",
             media: "",
-            highligt: true,
+            highlight: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -233,7 +233,7 @@ export const research_temp = {
             pdf: "research/ISMAR2024/ismar2024.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -251,7 +251,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -269,7 +269,7 @@ export const research_temp = {
             pdf: "research/CHI2024/Interactivity_HCITech.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -287,7 +287,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: true,
+            highlight: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -305,7 +305,7 @@ export const research_temp = {
             pdf: "https://rdcu.be/dvA5W",
             presentation: "",
             media: "",
-            highligt: true,
+            highlight: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -323,7 +323,7 @@ export const research_temp = {
             pdf: "https://arxiv.org/abs/2208.14114",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -341,7 +341,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
     ],
@@ -361,7 +361,7 @@ export const research_temp = {
             pdf: "research/SUI2023/VibAware.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -379,7 +379,7 @@ export const research_temp = {
             pdf: "research/WHC2023/whc23main-p1050-p.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -397,7 +397,7 @@ export const research_temp = {
             pdf: "research/UIST2023/Mo2Hap.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -415,7 +415,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Poster / Demo / Workshop"
         },
         {
@@ -433,7 +433,7 @@ export const research_temp = {
             pdf: "research/VR2023/Mo2Hap.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Poster / Demo / Workshop"
         },
         {
@@ -451,7 +451,7 @@ export const research_temp = {
             pdf: "research/VR2023/Lightweight.pd",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Poster / Demo / Workshop"
         },
     ],
@@ -471,7 +471,7 @@ export const research_temp = {
             pdf: "research/VRST2022/handposture.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Poster / Demo / Workshop"
         },
         {
@@ -489,7 +489,7 @@ export const research_temp = {
             pdf: "research/VRST2022/GuideRing.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Poster / Demo / Workshop"
         },
         {
@@ -507,7 +507,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -525,7 +525,7 @@ export const research_temp = {
             pdf: "research/Embodiment/Embodiment.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -543,7 +543,7 @@ export const research_temp = {
             pdf: "research/SoundGuided/sound_cvpr.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
     ],
@@ -563,7 +563,7 @@ export const research_temp = {
             pdf: "research/SoundGuided/sound_cvpr.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },/*
         {
@@ -581,7 +581,7 @@ export const research_temp = {
             pdf: "research/AudioArt/AudioGuided.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -599,7 +599,7 @@ export const research_temp = {
             pdf: "research/Surfaceflow/Surfaceflow.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -617,7 +617,7 @@ export const research_temp = {
             pdf: "research/iMold/iMold.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         }, 
         {
@@ -635,7 +635,7 @@ export const research_temp = {
             pdf: "research/StressMonitoring/StressMonitoring.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -653,7 +653,7 @@ export const research_temp = {
             pdf: "research/Hapsense/Hapsense.pdf",
             presentation: "https://youtu.be/O3i3IaMdbXg",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -671,7 +671,7 @@ export const research_temp = {
             pdf: "research/MultiSoft/MultiSoft.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -689,7 +689,7 @@ export const research_temp = {
             pdf: "research/Scenariot/Scenariot.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -707,7 +707,7 @@ export const research_temp = {
             pdf: "research/iSoft/iSoft.pdf",
             presentation: "https://youtu.be/_YupB3qLikQ",
             media: "https://www.youtube.com/watch?v=7fNbM-lrX-E",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -725,7 +725,7 @@ export const research_temp = {
             pdf: "research/BikeGesture/BikeGesture.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -743,7 +743,7 @@ export const research_temp = {
             pdf: "research/RobustHand/RobustHand.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -761,7 +761,7 @@ export const research_temp = {
             pdf: "research/TRing/TRing.pd",
             presentation: "https://youtu.be/ruhxaCrznWs",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -779,7 +779,7 @@ export const research_temp = {
             pdf: "research/TMotion/TMotion.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Poster / Demo / Workshop"
         },
         {
@@ -797,7 +797,7 @@ export const research_temp = {
             pdf: "research/WearableTextileInput/WearableTextileInput.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -815,7 +815,7 @@ export const research_temp = {
             pdf: "research/TiMMi/TiMMi.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -833,7 +833,7 @@ export const research_temp = {
             pdf: "research/BendID/BendID.pdf",
             presentation: "",
             media: "",
-            highligt: false,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },*/
     ],

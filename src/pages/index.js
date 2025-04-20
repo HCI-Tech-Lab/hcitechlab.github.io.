@@ -169,7 +169,7 @@ const HighlightedPublicatons = () => {
               {
                 Object.keys(research_temp).reverse().map((year, index) => (
                   research_temp[year].map((item, index) => (
-                    item["highligt"] == false ? null : (
+                    item["highlight"] == false ? null : (
                       <div key = {index} className = "row research_item">
                         <div className = "col-md-3">
                             <video  className="img-fluid" autoPlay loop muted playsInline poster={item["poster"]}>
@@ -177,14 +177,29 @@ const HighlightedPublicatons = () => {
                             </video>
                         </div>
                         <div className="col-md-9">
-                            <h4><b>{item['title']}</b></h4>
-                            <h6><b>AUTHORS</b> {item['authors']}</h6>
-                            <h6><Link className="link-success" href={item['conferenceLink']} target="_blank"> {item['conference']}</Link></h6>
-                            {item['doi'] == "" ? null : <Link className="publication-link"  href={item['doi']} target="_blank">DOI</Link>}
-                            {item['video'] == "" ? null : <Link className="publication-link"  href={item['video']} target="_blank">VIDEO</Link>}
-                            {item['pdf'] == "" ? null : <Link className="publication-link"  href={item['pdf']} target="_blank">PDF</Link>}
-                            {item['presentation'] == "" ? null : <Link className="publication-link"  href={item['presentation']} target="_blank">PRESENTATION</Link>}
-                            {item['media'] == "" ? null : <Link className="publication-link"  href={item['media']} target="_blank">MEDIA</Link>}
+                            <h4><b>{item.title}</b></h4>
+                            <h6><b>AUTHORS:</b> {item.authors}</h6>
+                            <h6>
+                                {item.status}
+                                {item.conferenceLink && (
+                                    <Link className="link-success" href={item.conferenceLink} target="_blank">
+                                        {" "}{item.conference}
+                                    </Link>
+                                )}
+                            </h6>
+                            {item.award &&  <h6 className="d-flex align-items-center">
+                                <img
+                                    src="/img/icon/award_small.png"
+                                    alt="award"
+                                    style={{ width: "20px", height: "20px", marginRight: "5px" }}
+                                    />
+                                <b>AWARD:&nbsp;</b> {item.award}</h6>}
+                            {item.website && <Link className="publication-link" href={item.website} target="_blank">Project Website</Link>}
+                            {item.doi && <Link className="publication-link" href={item.doi} target="_blank">DOI</Link>}
+                            {item.video && <Link className="publication-link" href={item.video} target="_blank">VIDEO</Link>}
+                            {item.pdf && <Link className="publication-link" href={item.pdf} target="_blank">PDF</Link>}
+                            {item.presentation && <Link className="publication-link" href={item.presentation} target="_blank">PRESENTATION</Link>}
+                            {item.media && <Link className="publication-link" href={item.media} target="_blank">MEDIA</Link>}
                         </div>
                       </div>
                     )

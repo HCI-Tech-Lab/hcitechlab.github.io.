@@ -126,7 +126,7 @@
     pdf: "research/2025/TVCG/TVCG_01.pdf",
     presentation: "file or link",
     media: "media link",
-    highligt: false, // Whether the publication appears on the main page (keep as false when adding)
+    highlight: false, // Whether the publication appears on the main page (keep as false when adding)
     category: "Conference / Journal (peer-reviewed)" 
     // Options:
     // "Conference / Journal (peer-reviewed)"

@@ -91,22 +91,22 @@ export const research_temp = {
             category: "Preprint"
         },
         {
-        poster: "img/icon/preprint.png",
-        demo: "",
-        title: "3D Shape Perception through Spatiotemporal Vibrotactile Patterns with Kinesthetic Feedback",
-        authors: "Hojeong Lee, Eun Ho Kim, Sang Ho Yoon",
-        status: "",
-        conference: "WHC2025",
-        conferenceLink: "https://2025.worldhaptics.org/",
-        award: "",
-        website: "",
-        doi: "",
-        video: "",
-        pdf: "",
-        presentation: "",
-        media: "",
-        highligt: false,
-        category: "Preprint"
+            poster: "img/icon/preprint.png",
+            demo: "",
+            title: "3D Shape Perception through Spatiotemporal Vibrotactile Patterns with Kinesthetic Feedback",
+            authors: "Hojeong Lee, Eun Ho Kim, Sang Ho Yoon",
+            status: "",
+            conference: "WHC2025",
+            conferenceLink: "https://2025.worldhaptics.org/",
+            award: "",
+            website: "",
+            doi: "",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highligt: false,
+            category: "Preprint"
         },
         {
             poster: "img/icon/preprint.png",
@@ -565,7 +565,7 @@ export const research_temp = {
             media: "",
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
-        },
+        },/*
         {
             poster: "research/AudioArt/AudioArt.JPG",
             demo: "",
@@ -835,6 +835,6 @@ export const research_temp = {
             media: "",
             highligt: false,
             category: "Conference / Journal (peer-reviewed)"
-        },
+        },*/
     ],
 }

@@ -98,8 +98,7 @@ export const gct623_data = [
               {
                 day1: { date: "4/15", titles: ["Topic Presentation #3", "Digital Fringe Projection (4): 3D Data compression with phase"], 
                         type: 1, 
-                        notes: [{ name: "Downsampled depth encoding for enhanced 3D range geometry compression, Applied Optics, 2022", link: "https://doi.org/10.1364/AO.445800", reading:true },
-                                { name: "HW#3 Handout (KLMS)", link: "" }
+                        notes: [{ name: "Downsampled depth encoding for enhanced 3D range geometry compression, Applied Optics, 2022", link: "https://doi.org/10.1364/AO.445800", reading:true }
                         ], 
                         dues: [] },
                 day2: {
@@ -110,14 +109,14 @@ export const gct623_data = [
               },
               {
                 day1: {
-                  date: "4/22", titles: ["Introduction to Physical Sensing"], type: 0,
+                  date: "4/22", titles: ["No Class"], type: 2,
                   notes: [{ name: 'Grosse-Puppendahl et al. "Finding Common Ground: A Survey of Capacitive Sensing in Human-Computer Interaction", CHI 2017', link: "https://doi.org/10.1145/3025453.3025808", reading:true}],
                   dues: []
                 },
                 day2: {
-                  date: "4/24", titles: ["Topic Presentation #4", "Project Progress Q&A	"], type: 1,
+                  date: "4/24", titles: ["Topic Presentation #4", "Introduction to Physical Sensing"], type: 1,
                   notes: [],
-                  dues: [ { name: "HW#3 due by 4/24 (Thu) 11:59pm", link: "" }]
+                  dues: []
                 }
               },
               {
@@ -135,7 +134,7 @@ export const gct623_data = [
               {
                 day1: { date: "5/6", titles: ["No Class (National Holiday)"], type: 2, notes: [], 
                         dues: [{ name: "RR(Group A & B) due by 5/6 (Mon) 11:59pm", link: "" }] },
-                day2: { date: "5/8", titles: ["Pressure/Touch Sensor I"], type: 0, notes: [{ name: "HW#4 Handout (KLMS)", link: "" }], dues: [{ name: "Progress Report due by 5/11 (Sun) 11:59pm", link: "" }] }
+                day2: { date: "5/8", titles: ["Pressure/Touch Sensor I"], type: 0, notes: [{ name: "HW#3 Handout (KLMS)", link: "" }], dues: [{ name: "Progress Report due by 5/11 (Sun) 11:59pm", link: "" }] }
               },
               {
                 day1: {
@@ -145,7 +144,7 @@ export const gct623_data = [
                   ],
                   dues: []
                 },
-                day2: { date: "5/15", titles: ["Inertial Measurement Unit Sensor"], type: 0, notes: [], dues: [{ name: "HW#4 due by 5/15 (Thu) 11:59pm", link: "" }, { name: "RR (Group B) due by 5/15 (Thu) 11:59pm", link: "" }] }
+                day2: { date: "5/15", titles: ["Inertial Measurement Unit Sensor"], type: 0, notes: [], dues: [{ name: "HW#3 due by 5/15 (Thu) 11:59pm", link: "" }, { name: "RR (Group B) due by 5/15 (Thu) 11:59pm", link: "" }] }
               },
               {
                 day1: {
@@ -155,11 +154,11 @@ export const gct623_data = [
                   dues: []
                 },
                 day2: { date: "5/22", titles: ["Topic Presentation #6","Bioacoustic Sensing"], type: 1, notes: [{ name: 'Eddy et al. "A Framework and Call to Action for the Future Development of EMG-Based Input in HCI", CHI 2023', link: "https://doi.org/10.1145/3544548.3580962", reading:true },
-                  { name: "HW#5 Handout (KLMS)", link: "" }], dues: [{ name: "RR (Group A) due by 5/22 (Thu) 11:59pm", link: "" }] }
+                  { name: "HW#4 Handout (KLMS)", link: "" }], dues: [{ name: "RR (Group A) due by 5/22 (Thu) 11:59pm", link: "" }] }
               },
               {
                 day1: { date: "5/27", titles: ["Topic Presentation #7", "Physiological Sensing"], type: 1, notes: [], dues: [{ name: "RR (Group B) due by 5/27 (Mon) 11:59pm", link: "" }] },
-                day2: { date: "5/29", titles: ["Topic Presentation #8"], type: 1, notes: [], dues: [{ name: "HW#5 due by 5/29 (Thu) 11:59pm", link: "" }] }
+                day2: { date: "5/29", titles: ["Topic Presentation #8"], type: 1, notes: [], dues: [{ name: "HW#4 due by 5/29 (Thu) 11:59pm", link: "" }] }
               },
               {
                 day1: {

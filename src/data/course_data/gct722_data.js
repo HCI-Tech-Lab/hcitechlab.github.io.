@@ -181,8 +181,10 @@ export const gct722_data = [
                     date: "4/24",
                     titles: ["Project Progress Presentation"],
                     type: 1,
-                    notes: [],
-                    dues: []
+                    notes: [{ name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/146vTof47IdHckUuGzdPpk3U_vr6n2Fh5irFTdxeP3q4/edit?usp=sharing" }],
+                    dues: [{ name: "Progress Presentation Slides due by 4/24 (Thu) 10am (All Teams)", link: "https://klms.kaist.ac.kr/" },
+                           { name: "Audience Evaluation due by 4/25 (Fri) 12pm", link: "https://klms.kaist.ac.kr/" }
+                    ]
                 }
             },
             {
@@ -190,10 +192,8 @@ export const gct722_data = [
                     date: "4/29",
                     titles: ["No Class (Make-up class will be held)	"],
                     type: 2,
-                    notes: [{ name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/146vTof47IdHckUuGzdPpk3U_vr6n2Fh5irFTdxeP3q4/edit?usp=sharing" }],
-                    dues: [
-                        { name: "Progress Presentation Slides due by 4/28 (Mon) 12pm (All Teams)", link: "https://klms.kaist.ac.kr/" }
-                    ]
+                    notes: [],
+                    dues: []
                 },
                 day2: {
                     date: "5/1",
@@ -205,7 +205,6 @@ export const gct722_data = [
                               reading:true}
                     ],
                     dues: [
-                        { name: "Audience Evaluation due by 5/1 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" },
                         { name: "RR Group A due by 5/1 (Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" },
                         { name: "Progress Report due by 5/4 (Sun) 11:59pm", link: "https://klms.kaist.ac.kr/" }
                     ]

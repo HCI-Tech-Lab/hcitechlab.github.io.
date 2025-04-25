@@ -61,8 +61,7 @@ const PhdStudents = () => {
                 <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style = {{textAlign: "center"}}>
                   <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
                   <b style={{fontSize: "24px"}}>{member['name']} </b><br/>
-                  <span style={{fontSize: "14px"}}>{member['title']}</span><br/>
-                  <span style={{fontSize: "14px"}}>{member['interest']}</span><br/>
+                  <span style={{fontSize: "14px"}}>{member['interest'] == "Research Interest" ? "" : member['interest']}</span><br/>
                   <br/>
                   <div className = "contact-box">
                     {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
@@ -92,8 +91,7 @@ const MasterStudents = () => {
                 <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style = {{textAlign: "center"}}>
                   <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
                   <b style={{fontSize: "24px"}}>{member['name']} </b><br/>
-                  <span style={{fontSize: "14px"}}>{member['title']}</span><br/>
-                  <span style={{fontSize: "14px"}}>{member['interest']}</span><br/>
+                  <span style={{fontSize: "14px"}}>{member['interest'] == "Research Interest" ? "" : member['interest']}</span><br/>
                   <br/>
                   <div className = "contact-box">
                     {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}

@@ -2,16 +2,16 @@ import SectionContainer from "@/components/section_container";
 import Link from "next/link";
 
 const recruitingData = {
-    "period": "Winter 2025",
-    "formLink": "#",
-    "documentLink": "#",
+    "period": "Summer 2025",
+    "formLink": "https://forms.gle/6V7e331vYT3ZgJeN6",
+    "documentLink": "https://docs.google.com/document/d/1nebcVGTHORlKqCRzeUUXHxs2sNktJyPCsH_bRyVitkc/edit?usp=sharing",
     "projectTitles": [
-        "Hand Force Estimation based on Multimodal Data from the Wrist",
-        "Dance Motion Simplification for Novice Learners",
-        "Wearable Haptic Device for Multi-Phalanx Pseudo Force Feedback",
-        "Multimodal Haptic Feedback Embedding to VR Scenes with LLMs",
+        "Build/Collect/Design Physical AI data and model for hand interaction ",
+        "Multimodal Interaction Framework for gaze-based selection",
+        "Wearable Haptic Device for Multi-Phalanx Pseudo Force FeedbackHand Pose Reconstruction using Ultrasonic Beamforming",
+        "How can novices learn dance more easily and effectively?",
     ],
-    "deadline": "Nov 22, 2024 (Fri)",
+    "deadline": "May 7, 2025 (Wed)",
 }
 
 export default function RecruitingUnder() {

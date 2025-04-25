@@ -8,7 +8,7 @@ const recruitingData = {
     "projectTitles": [
         "Build/Collect/Design Physical AI data and model for hand interaction ",
         "Multimodal Interaction Framework for gaze-based selection",
-        "Wearable Haptic Device for Multi-Phalanx Pseudo Force FeedbackHand Pose Reconstruction using Ultrasonic Beamforming",
+        "Hand Pose Reconstruction using Ultrasonic Beamforming",
         "How can novices learn dance more easily and effectively?",
     ],
     "deadline": "May 7, 2025 (Wed)",

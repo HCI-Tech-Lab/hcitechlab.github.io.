@@ -2,6 +2,41 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/conf.png",
+        title: "HCI Tech Lab members and papers at CHI 2025",
+        date: "Apr 28 2025",
+        content: <div>4 full papers and 1 workshop got accepted to <Link href="https://chi2025.acm.org/" target="_blank">CHI 2025</Link>.</div>,
+        images: [],
+        extraContent: (
+            <>
+                <div className = "row research_item">
+                    <div className="col-md-12">
+                        <h4>ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool</h4>
+                        <h6><b>AUTHORS</b> Hyunyoung Han*, Kyungeun Jung*, Sang Ho Yoon</h6>
+                    </div>
+                </div>
+                <div className = "row research_item">
+                    <div className="col-md-12">
+                        <h4>T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input</h4>
+                        <h6><b>AUTHORS</b> Jina Kim, Yang Zhang, Sang Ho Yoon</h6>
+                    </div>
+                </div>
+                <div className = "row research_item">
+                    <div className="col-md-12">
+                        <h4>HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design</h4>
+                        <h6><b>AUTHORS</b> Youjin Sung*, Kevin John*, Sang Ho Yoon**, Hasti Seifi**</h6>
+                    </div>
+                </div>
+                <div className = "row research_item">
+                    <div className="col-md-12">
+                        <h4>VibWalk: Mapping Lower-limb Haptic Experiences of Everyday Walking</h4>
+                        <h6><b>AUTHORS</b> Shih Ying-Lei, Tang Dongxu, Weiming Hu, Sang Ho Yoon, Yitian Shao</h6>
+                    </div>
+                </div>  
+            </>
+        )
+    },
+    {
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to WHC 2025",
         date: "Apr 18 2025",

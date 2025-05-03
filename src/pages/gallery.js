@@ -19,6 +19,28 @@ export default function Gallery() {
   }
 
 const galleries = {
+  "May, 2025 (CHI)": [
+    "img/Lab/2504/Pic6.jpg",
+    "img/Lab/2504/Pic2.jpg",
+    "img/Lab/2504/Pic1.jpg",
+    "img/Lab/2504/Pic0.jpg",
+    "img/Lab/2504/Pic3.jpg",
+    "img/Lab/2504/Pic4.jpg",
+    "img/Lab/2504/Pic5.jpg",
+
+  ],
+  "Apr, 2025 (CHI Workshop)": [
+    "img/Lab/2504/Workshop1.jpg",
+    "img/Lab/2504/Workshop2.jpg",
+    "img/Lab/2504/Workshop3.jpg",
+    "img/Lab/2504/Workshop4.jpg",
+    "img/Lab/2504/Workshop5.jpg",
+  ],
+  "Mar, 2025": [
+    "img/Lab/2503/2503_3.jpg",
+    "img/Lab/2503/2503_2.jpg",
+    "img/Lab/2503/2503_1.jpg",
+  ],
   "February, 2025 (Graduation)": [
     "img/Lab/2502/Grad_1.jpeg",
     "img/Lab/2502/Grad_2.png",

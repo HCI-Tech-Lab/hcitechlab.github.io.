@@ -3,6 +3,20 @@ import Link from 'next/link';
 export const news = [
     {
         icon: "img/icon/conf.png",
+        title: "CHI 2025 Participation",
+        date: "May 1 2025",
+        content: <div>Our lab participated in CHI'25 in Yokohama. Jina, Kyungeun, Youjin & Hyunyoung presented their papers!"</div>,
+        images: ["img/Lab/2504/Pic1.jpg", "img/Lab/2504/Pic3.jpg"]
+    },
+    {
+        icon: "img/icon/conf.png",
+        title: "CHI 2025 Workshop",
+        date: "Apr 28 2025",
+        content: <div>We had a successful 1st <Link href="https://sites.google.com/view/xr-phy-2025" target="_blank">XR-PHY</Link> workshop at CHI'25. Thanks Jina & Soyeong for volunteering as assistants. </div>,
+        images: ["img/Lab/2504/Workshop1.jpg"]
+    },
+    {
+        icon: "img/icon/conf.png",
         title: "HCI Tech Lab members and papers at CHI 2025",
         date: "Apr 28 2025",
         content: <div>4 full papers and 1 workshop got accepted to <Link href="https://chi2025.acm.org/" target="_blank">CHI 2025</Link>.</div>,
@@ -56,6 +70,13 @@ export const news = [
         date: "Apr 3 2025",
         content: <div>Our paper "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs" led by Changhyeon and Yubin is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
         images: []
+    },
+    {
+        icon: "img/icon/speaker.png",
+        title: "Lab Activity (KAIST Strawberry Party)",
+        date: "Mar 31 2025",
+        content: "Lab Gathering at the KAIST Strawberry Party.",
+        images: ["img/Lab/2503/2503_4.jpg"]
     },
     {
         icon: "img/icon/award.png",

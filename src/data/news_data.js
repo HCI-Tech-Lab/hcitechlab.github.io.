@@ -5,8 +5,8 @@ export const news = [
         icon: "img/icon/conf.png",
         title: "CHI 2025 Participation",
         date: "May 1 2025",
-        content: <div>Our lab participated in CHI'25 in Yokohama. Jina, Kyungeun, Youjin & Hyunyoung presented their papers!"</div>,
-        images: ["img/Lab/2504/Pic1.jpg", "img/Lab/2504/Pic3.jpg"]
+        content: <div>Our lab participated in CHI'25 in Yokohama. Jina, Kyungeun, Youjin & Hyunyoung presented their papers with 2 Honorable Mention Awards!</div>,
+        images: ["img/Lab/2504/Pic1.jpg", "img/Lab/2504/Pic7.jpg", "img/Lab/2504/Pic8.jpg"]
     },
     {
         icon: "img/icon/conf.png",

@@ -57,7 +57,7 @@ export default function RecruitingUnder() {
 
             <h2>How to Apply</h2>
             <ul style={{marginLeft: "30px"}}>
-                <li><h5>Apply through Google Form</h5></li>
+                <li><h5>Apply through <Link href = {recruitingData['formLink']}> Google Form </Link> </h5></li>
                 <li><h5>Application Deadline: <b>{recruitingData['deadline']}</b></h5></li>
             </ul>
 

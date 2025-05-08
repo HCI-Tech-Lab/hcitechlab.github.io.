@@ -134,17 +134,17 @@ export const gct623_data = [
               {
                 day1: { date: "5/6", titles: ["No Class (National Holiday)"], type: 2, notes: [], 
                         dues: [{ name: "RR(Group A & B) due by 5/6 (Mon) 11:59pm", link: "" }] },
-                day2: { date: "5/8", titles: ["Pressure/Touch Sensor I"], type: 0, notes: [{ name: "HW#3 Handout (KLMS)", link: "" }], dues: [{ name: "Progress Report due by 5/11 (Sun) 11:59pm", link: "" }] }
+                day2: { date: "5/8", titles: ["Pressure/Touch Sensor I"], type: 0, notes: [], dues: [{ name: "Progress Report & Peer Evaluation due by 5/11 (Sun) 11:59pm", link: "" }] }
               },
               {
                 day1: {
                   date: "5/13", titles: ["Pressure/Touch Sensor II", "Topic Presentation #5"], type: 1,
                   notes: [
-                    { name: 'Xu et al. "Enabling Hand Gesture Customization on Wrist-Worn Devices", CHI 2022', link: "https://dl.acm.org/doi/10.1145/3491102.3501904", reading:true }
+                    { name: 'Xu et al. "Enabling Hand Gesture Customization on Wrist-Worn Devices", CHI 2022', link: "https://dl.acm.org/doi/10.1145/3491102.3501904", reading:true }, [{ name: "HW#3 Handout (KLMS)"}]
                   ],
                   dues: []
                 },
-                day2: { date: "5/15", titles: ["Inertial Measurement Unit Sensor"], type: 0, notes: [], dues: [{ name: "HW#3 due by 5/15 (Thu) 11:59pm", link: "" }, { name: "RR (Group B) due by 5/15 (Thu) 11:59pm", link: "" }] }
+                day2: { date: "5/15", titles: ["Inertial Measurement Unit Sensor"], type: 0, notes: [], dues: [{ name: "RR (Group B) due by 5/15 (Thu) 11:59pm", link: "" }, { name: "HW#3 due by 5/20 (Tue) 11:59pm", link: "" }] }
               },
               {
                 day1: {

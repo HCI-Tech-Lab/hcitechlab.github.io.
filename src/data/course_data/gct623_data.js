@@ -140,18 +140,18 @@ export const gct623_data = [
                 day1: {
                   date: "5/13", titles: ["Pressure/Touch Sensor II", "Topic Presentation #5"], type: 1,
                   notes: [
-                    { name: 'Xu et al. "Enabling Hand Gesture Customization on Wrist-Worn Devices", CHI 2022', link: "https://dl.acm.org/doi/10.1145/3491102.3501904", reading:true }, [{ name: "HW#3 Handout (KLMS)"}]
+                    { name: 'Xu et al. "Enabling Hand Gesture Customization on Wrist-Worn Devices", CHI 2022', link: "https://dl.acm.org/doi/10.1145/3491102.3501904", reading:true }, { name: "HW#3 Handout (KLMS)", link:""}
                   ],
                   dues: []
                 },
-                day2: { date: "5/15", titles: ["Inertial Measurement Unit Sensor"], type: 0, notes: [], dues: [{ name: "RR (Group B) due by 5/15 (Thu) 11:59pm", link: "" }, { name: "HW#3 due by 5/20 (Tue) 11:59pm", link: "" }] }
+                day2: { date: "5/15", titles: ["Inertial Measurement Unit Sensor"], type: 0, notes: [], dues: [{ name: "RR (Group B) due by 5/15 (Thu) 11:59pm", link: "" }] }
               },
               {
                 day1: {
                   date: "5/20", titles: ["No Class (Admission Interview Day)"], type: 2,
                   notes: [{ name: 'Laput et al. "ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers", UIST 2016', link: "https://doi.org/10.1145/2984511.2984582", reading:true },
                     { name: "Substitute with CT Scape Participation on 5/30", link: "" }],
-                  dues: []
+                  dues: [{ name: "HW#3 due by 5/20 (Tue) 11:59pm", link: "" }]
                 },
                 day2: { date: "5/22", titles: ["Topic Presentation #6","Bioacoustic Sensing"], type: 1, notes: [{ name: 'Eddy et al. "A Framework and Call to Action for the Future Development of EMG-Based Input in HCI", CHI 2023', link: "https://doi.org/10.1145/3544548.3580962", reading:true },
                   { name: "HW#4 Handout (KLMS)", link: "" }], dues: [{ name: "RR (Group A) due by 5/22 (Thu) 11:59pm", link: "" }] }

@@ -247,6 +247,17 @@ export const msStudents = [
       "linkedin": "https://www.linkedin.com/in/murad-eynizada/",
       "note": "",
     },
+    {
+      "img": "img/Member/YRK.jpg",
+      "hoverImg": "main_icon.png",
+      "name": "Youngrae Kim",
+      "title": "M.S. Student",
+      "interest": "Research Interest",
+      "link": "#",
+      "mail": "dufo7070@kaist.ac.kr",
+      "linkedin": "https://www.linkedin.com/in/youngrae-kim-59a47a139/",
+      "note": "",
+    },
   ];
 
 export const interns = [

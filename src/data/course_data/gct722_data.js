@@ -264,7 +264,7 @@ export const gct722_data = [
                 },
                 day2: {
                     date: "5/22",
-                    titles: ["XR Haptics Design Guidelines", "Topic Presentation #7"],
+                    titles: ["Project Progress Meeting with Project TAs"],
                     type: 1,
                     notes: [],
                     dues: []
@@ -273,24 +273,23 @@ export const gct722_data = [
             {
                 day1: {
                     date: "5/27",
-                    titles: ["XR Haptics Design Guidelines", "Applications"],
+                    titles: ["Topic Presentation #7", "XR Haptics Design Guidelines"],
                     type: 0,
                     notes: [],
                     dues: []
                 },
                 day2: {
                     date: "5/29",
-                    titles: ["Final Project Progress Meeting with TAs"],
+                    titles: [ "XR Haptics Design Guidelines", "Applications"],
                     type: 1,
-                    notes: [{ name: "Substitute with CT Scape Participation on 5/30", link: "" },
-                    ],
+                    notes: [],
                     dues: []
                 }
             },
             {
                 day1: {
                     date: "6/3",
-                    titles: ["Final Presentation Preparation"],
+                    titles: ["Final Project Progress Meeting with TAs", "Final Presentation Preparation"],
                     type: 1,
                     notes: [{ name: "Final Project Q&A", link: "" }],
                     dues: []

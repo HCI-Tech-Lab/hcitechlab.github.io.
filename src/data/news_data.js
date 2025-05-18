@@ -54,7 +54,7 @@ export const news = [
         icon: "img/icon/speaker.png",
         title: "Summer 2025 Undergraduate Research Internship",
         date: "Apr 27 2025",
-        content: <div>We are looking for research interns (including URP) for 2025 Summer. <Link href="/recruiting_under">Application</Link> deadline is May 7th.</div>,
+        content: <div>We are looking for research interns (including URP) for 2025 Summer. Application deadline is May 7th.</div>,
         images: []
     },
     {

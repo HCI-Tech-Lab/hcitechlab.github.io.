@@ -180,6 +180,24 @@ export const research_temp = {
             highlight: false,
             category: "Preprint"
         },
+        {
+            poster: "img/icon/preprint.png",
+            demo: "",
+            title: "IKEA: Instance-wise Knowledge Enhancement for 3D Instance Segmentation",
+            authors: "Wonseok Roh, Hwanhee Jung, Giljoo Nam, , Dong In Lee, Hyeongcheol Park, Sang Ho Yoon, Jungseock Joo, Sangpil Kim",
+            status: "ACCEPTED - WILL BE PUBLISED IN",
+            conference: "CVPR2025",
+            conferenceLink: "https://cvpr.thecvf.com/",
+            award: "",
+            website: "",
+            doi: "",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highlight: false,
+            category: "Preprint"
+        },
     ],
     "2024": [
         {

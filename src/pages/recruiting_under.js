@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const recruitingData = {
     "period": "Summer 2025",
-    "formLink": "https://forms.gle/6V7e331vYT3ZgJeN6",
-    "documentLink": "https://docs.google.com/document/d/1nebcVGTHORlKqCRzeUUXHxs2sNktJyPCsH_bRyVitkc/edit?usp=sharing",
+    "formLink": "",
+    "documentLink": "",
     "projectTitles": [
         "Build/Collect/Design Physical AI data and model for hand interaction ",
         "Multimodal Interaction Framework for gaze-based selection",

@@ -151,14 +151,14 @@ export const gct623_data = [
                   date: "5/20", titles: ["No Class (Admission Interview Day)"], type: 2,
                   notes: [{ name: 'Laput et al. "ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers", UIST 2016', link: "https://doi.org/10.1145/2984511.2984582", reading:true },
                     { name: "Substitute with CT Scape Participation on 5/30", link: "" }],
-                  dues: [{ name: "HW#3 due by 5/20 (Tue) 11:59pm", link: "" }]
+                  dues: []
                 },
-                day2: { date: "5/22", titles: ["Topic Presentation #6","Bioacoustic Sensing"], type: 1, notes: [{ name: 'Eddy et al. "A Framework and Call to Action for the Future Development of EMG-Based Input in HCI", CHI 2023', link: "https://doi.org/10.1145/3544548.3580962", reading:true },
-                  { name: "HW#4 Handout (KLMS)", link: "" }], dues: [{ name: "RR (Group A) due by 5/22 (Thu) 11:59pm", link: "" }] }
+                day2: { date: "5/22", titles: ["Topic Presentation #6","Bioacoustic Sensing"], type: 1, notes: [{ name: 'Eddy et al. "A Framework and Call to Action for the Future Development of EMG-Based Input in HCI", CHI 2023', link: "https://doi.org/10.1145/3544548.3580962", reading:true }],
+                dues: [{ name: "RR (Group A) due by 5/22 (Thu) 11:59pm", link: "" }, { name: "HW#3 due by 5/23 (Fri) 11:59pm", link: "" }] }
               },
               {
-                day1: { date: "5/27", titles: ["Topic Presentation #7", "Physiological Sensing"], type: 1, notes: [], dues: [{ name: "RR (Group B) due by 5/27 (Mon) 11:59pm", link: "" }] },
-                day2: { date: "5/29", titles: ["Topic Presentation #8"], type: 1, notes: [], dues: [{ name: "HW#4 due by 5/29 (Thu) 11:59pm", link: "" }] }
+                day1: { date: "5/27", titles: ["Topic Presentation #7", "Physiological Sensing"], type: 1, notes: [{ name: "HW#4 Handout (KLMS)", link: "" }], dues: [{ name: "RR (Group B) due by 5/27 (Mon) 11:59pm", link: "" }] },
+                day2: { date: "5/29", titles: ["Topic Presentation #8"], type: 1, notes: [], dues: [{ name: "HW#4 due by 6/1 (Sun) 11:59pm", link: "" }] }
               },
               {
                 day1: {

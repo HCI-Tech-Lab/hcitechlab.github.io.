@@ -19,15 +19,19 @@ export default function Gallery() {
   }
 
 const galleries = {
+  "May, 2025 (Teacher's Day)": [
+    "img/Lab/2505/Teacher1.jpg",
+    "img/Lab/2505/Teacher2.jpg",
+    "img/Lab/2505/Teacher3.jpg",
+  ],
   "May, 2025 (CHI)": [
-    "img/Lab/2504/Pic6.jpg",
     "img/Lab/2504/Pic2.jpg",
+    "img/Lab/2504/Pic6.jpg",
     "img/Lab/2504/Pic1.jpg",
     "img/Lab/2504/Pic0.jpg",
     "img/Lab/2504/Pic3.jpg",
     "img/Lab/2504/Pic4.jpg",
     "img/Lab/2504/Pic5.jpg",
-
   ],
   "Apr, 2025 (CHI Workshop)": [
     "img/Lab/2504/Workshop1.jpg",
@@ -35,6 +39,13 @@ const galleries = {
     "img/Lab/2504/Workshop3.jpg",
     "img/Lab/2504/Workshop4.jpg",
     "img/Lab/2504/Workshop5.jpg",
+  ],
+  "Apr, 2025 (ITRC)": [
+    "img/Lab/2504/ITRC1.jpg",
+    "img/Lab/2504/ITRC2.jpg",
+    "img/Lab/2504/ITRC3.jpg",
+    "img/Lab/2504/ITRC4.jpg",
+    "img/Lab/2504/ITRC5.jpg",
   ],
   "Mar, 2025": [
     "img/Lab/2503/2503_3.jpg",

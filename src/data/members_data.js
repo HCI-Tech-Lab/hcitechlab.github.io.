@@ -197,10 +197,10 @@ export const msStudents = [
       "hoverImg": "main_icon.png",
       "name": "Changhyeon Park",
       "title": "M.S. Student",
-      "interest": "Research Interest",
+      "interest": "Sensing & Haptics Interaction",
       "link": "https://sac7160.github.io/",
-      "mail": "#",
-      "linkedin": "#",
+      "mail": "sac7160@kaist.ac.kr",
+      "linkedin": "https://www.linkedin.com/in/changhyeon-park-17a072338",
       "note": "",
     },
     {

@@ -23,15 +23,16 @@ const galleries = {
     "img/Lab/2505/Teacher1.jpg",
     "img/Lab/2505/Teacher2.jpg",
     "img/Lab/2505/Teacher3.jpg",
+    "img/Lab/2505/Teacher4.jpg",
   ],
   "May, 2025 (CHI)": [
     "img/Lab/2504/Pic2.jpg",
-    "img/Lab/2504/Pic6.jpg",
+    "img/Lab/2504/Pic6.JPG",
     "img/Lab/2504/Pic1.jpg",
     "img/Lab/2504/Pic0.jpg",
     "img/Lab/2504/Pic3.jpg",
     "img/Lab/2504/Pic4.jpg",
-    "img/Lab/2504/Pic5.jpg",
+    "img/Lab/2504/Pic5.JPG",
   ],
   "Apr, 2025 (CHI Workshop)": [
     "img/Lab/2504/Workshop1.jpg",

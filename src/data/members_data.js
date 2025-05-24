@@ -392,7 +392,7 @@ export const internAlumni = [
     "nameLink": "#",
     "title": "Undergraduate Intern (Yonsei)",
     "period": "Summer 2024, Winter 2025",
-    "current": "(now M.S. Student @ GSCT, KAIST)",
+    "current": "(now M.S. Student @ HCI Tech Lab, KAIST)",
   },
   {
     "name": "Yujin Bae",

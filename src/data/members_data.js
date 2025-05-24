@@ -258,6 +258,17 @@ export const msStudents = [
       "linkedin": "https://www.linkedin.com/in/youngrae-kim-59a47a139/",
       "note": "",
     },
+    {
+      "img": "img/Member/EK.jpg",
+      "hoverImg": "main_icon.png",
+      "name": "Eun Ho Kim",
+      "title": "M.S. Student",
+      "interest": "",
+      "link": "#",
+      "mail": "ehlkim0215@kaist.ac.kr",
+      "linkedin": "https://www.linkedin.com/in/eunho-kim-54059126a",
+      "note": "",
+    },
   ];
 
 export const interns = [
